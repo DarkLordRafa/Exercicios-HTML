@@ -1,0 +1,42 @@
+*{
+	padding: 5px;
+	margin: 0;
+	}
+	
+label{
+	margin-bottom: 20px;
+	}
+
+input{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+	
+fieldset{
+	margin-bottom: 30px;
+	border: 2px solid Brown;
+	}
+	
+.Center{
+	text-align: center;
+	}
+	
+#Confirmar{
+	margin-top: -20px;
+	}
+	
+legend{
+	background-color: Brown;
+	color: white;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

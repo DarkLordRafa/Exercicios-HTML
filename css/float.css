@@ -1,0 +1,26 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+#bloco1, #bloco2, #bloco3{
+font-size: 20px;
+color: white;
+position: relative;
+border: 5px solid black;
+height: 100px;
+width: 100px;
+float: left;
+}
+
+#bloco1{
+background-color: red;
+}
+
+#bloco2{
+background-color: blue;
+}
+
+#bloco3{
+background-color: green;
+}

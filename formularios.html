@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+	<head>
+		<title>Formulários</title>
+		<meta charset ="utf-8">
+		<meta name ="viewport" content="width=device-width, initial-scale= 1.0">
+		<link rel ="stylesheet" type ="text/css" href ="css/formularios.css">
+		<link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Playfair+Display&display=swap" rel="stylesheet">
+	</head>
+	<body>
+	
+	<h1>Formulários</h1>
+	
+		<form action="login.html" method="GET">
+	<label>
+		<h2>Login</h2>
+		<input type= "text" name="user" value="Digite seu usuário">
+	</label>
+	<label>
+		<h2>Senha</h2>
+		<input type="password" name="password" value="Senha">
+	</label>
+			
+		<div class="line">
+			<h2>Sexo</h2>
+				<label>
+					<input type="radio" name="sexo" value="masculino">
+					Masculino
+				</label>
+				<label>
+					<input class="maisespaco" type="radio" name="sexo" value="feminino">
+					Feminino
+			</label>
+		</div>
+		
+		<div class="center">
+			<label>
+				<h3>Insira sua data de nascimento</h3>
+				<input class="menosespaco" type="date" name="data">
+			</label>
+			
+			<select name="receiveemail">
+				<option value="yes">
+					Quero receber emails de ofertas
+				</option>
+				<option value="no">
+					Não quero receber emails de ofertas
+				</option>
+			</select>
+		</div>
+		
+		<div class="line" id="termos">
+			<label>
+				<input type="checkbox" name="termos">
+				<h4>Eu li e concordo com os termos do site</h4>
+			</label>
+		</div>
+		
+		<div class="center">
+			<input type="submit" name="envio" value="Confirmar">
+		</div>
+	</form>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+</html>

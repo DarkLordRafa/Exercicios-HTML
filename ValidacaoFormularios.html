@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+	<head>
+		<title>Validação de formulários</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/ValidacaoFormularios.css">
+	</head>
+	<body>
+	
+	<form action="login.html" method="POST">
+	
+		<fieldset>
+			<legend>Dados do usuário</legend>
+				<label>
+					Nome
+					<br>
+					<input required minlength="4" maxlength="12" type="text" name="nome">*
+				</label>
+				<br>
+				<label>
+					Senha
+					<br>
+					<input required minlength="6" maxlength="15" type="password" name="senha">*
+			</label>
+				<br>
+			<label>
+				Idade
+				<br>
+				<input required min="18" max="120" type="number" name="idade">*
+			</label>
+				<br>
+			<label>
+				Informe seu email
+				<br>
+				<input required type="text" name="email" pattern="(^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]+$)" title="Endereço de email">*
+			</label>
+				<br>
+			<label>
+				Informe seu número de telefone
+				<br>
+				<input id="numero" required value ="+55" minlength ="2" maxlength="3" type="text" name="prefix">
+				<input required type="number" name="numero">*
+			</label>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Dados da empresa</legend>
+					<label>
+					Nome da empresa
+					<br>
+					<input type="text" name="empresa">
+				</label>
+				<br>
+					<label>
+					Cargo
+					<br>
+					<input type="text" name="cargo">
+				</label>
+		</fieldset>
+		
+		<br>
+		<div class="Center">
+		<input id="Confirmar" type="submit" value="Confirmar">
+		</div>
+	</form>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+</html>

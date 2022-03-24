@@ -1,0 +1,51 @@
+*{
+	padding: 5px;
+	margin: 0;
+	}
+	
+label{
+	margin-bottom: 20px;
+	}
+
+input{
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	}
+	
+#numero{
+	width: 20%;
+	margin-right: 0;
+	}
+	
+input, input:hover{
+	outline: 0;
+	}
+	
+fieldset{
+	margin-bottom: 30px;
+	border: 2px solid Brown;
+	}
+	
+.Center{
+	text-align: center;
+	}
+	
+#Confirmar{
+	margin-top: -20px;
+	}
+	
+legend{
+	background-color: Brown;
+	color: white;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

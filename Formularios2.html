@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+	<head>
+		<title>Formulários 2</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/Formularios2.css">
+	</head>
+	<body>
+	
+	<form action="login.html" method="POST" enctype="multipart/form-data">
+	
+		<fieldset>
+			<legend>Dados do usuário</legend>
+				<label>
+					Nome
+				<br>
+				<input type="text" name="nome" value="Nome de usuário" onfocus="this.value=''">
+				</label>
+				<br>
+	
+			<label>
+				Senha
+				<br>
+				<input type="password" name="senha" value="Senha" onfocus="this.value=''">
+			</label>
+			<br>
+			<label>
+				Envie uma foto sua
+				<br>
+				<input type="file" name="photo" accept="image/*">
+			</label>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Dados da empresa</legend>
+					<label>
+					Nome da empresa
+					<br>
+					<input type="text" name="empresa">
+					</label>
+					<br>
+					<label>
+					Cargo
+					<br>
+					<input type="text" name="cargo">
+				</label>
+		</fieldset>
+		
+		<br>
+		<div class="Center">
+		<input id="Confirmar" type="submit" value="Confirmar">
+		</div>
+	</form>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+</html>
