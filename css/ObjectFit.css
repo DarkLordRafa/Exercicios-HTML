@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	}
+	
+body{
+	text-align: center;
+	}
+	
+h1{
+	margin-bottom: 60px;
+	}
+	
+img{
+	height: 200px;
+	width: 200px;
+	object-fit: fill;
+	margin-bottom: 40px;
+	}
+	
+#ex2{
+	objct-fit: contain;
+	}
+	
+#ex3{
+	object-fit: cover;
+	}
+	
+#ex4{
+	object-fit: none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
