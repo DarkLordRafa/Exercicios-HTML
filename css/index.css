@@ -3,12 +3,12 @@
 	}
 	
 @font-face{
-	font-family: Secular;
-	src: url(secular.ttf);
+	font-family: "Secular";
+	src: local("secular.ttf"), local("Secular"), url("secular.ttf");
 	}
 
 @font-face{
-	font-family: Teko;
+	font-family: "Teko";
 	src: url(teko.ttf);
 	}
 	
