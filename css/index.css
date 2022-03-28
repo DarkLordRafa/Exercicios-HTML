@@ -6,11 +6,6 @@
 	font-family: "Secular";
 	src: local("Secular.ttf"), local("Secular"), url("Secular.ttf") format("truetype");
 	}
-
-@font-face{
-	font-family: "Teko";
-	src: local("Teko.ttf"), local("Teko"), url("Teko.ttf") format("truetype");
-	}
 	
 body{
 	font-family: "Secular";
@@ -21,15 +16,14 @@ body{
 #ImageBlock{
 	height: 60px;
 	width: 60px;
-	position: fixed;
-	right: 2vw;
+	margin-left: 82vw;
 	}
 	
 #ImageBlock:hover{
 	height: 80px;
 	width: 80px;
-	position: fixed;
-	right: 2vw;
+	margin-left: 77vw;
+	margin-bottom: -3vh;
 	}
 	
 #Rafael{
@@ -59,6 +53,7 @@ body{
 #links li:hover{
 	border-bottom: 2px solid white;
 	margin-bottom: 0;
+	margin-right: 16%;
 	font-size: 9vw;
 	}
 	
