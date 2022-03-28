@@ -27,7 +27,14 @@ body{
 	height: 60px;
 	width: 60px;
 	position: fixed;
-	right: 5px;
+	right: 2vw;
+	}
+	
+#ImageBlock:hover{
+	height: 80px;
+	width: 80px;
+	position: fixed;
+	right: 2vw;
 	}
 	
 #Rafael{
