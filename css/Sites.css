@@ -3,8 +3,8 @@
 	}
 	
 @font-face{
-	font-family: Secular;
-	src: url(secular.ttf);
+	font-family: "Secular";
+	src: local("Secular.ttf"), local("Secular"), url("Secular.ttf") format("truetype");
 	}
 	
 body{
