@@ -4,7 +4,7 @@
 	
 @font-face{
 	font-family: "Secular";
-	src: local("secular.ttf"), local("Secular"), url("secular.ttf");
+	src: local("secular.ttf"), local("Secular"), url("secular.ttf") format("truetype");
 	}
 
 @font-face{
