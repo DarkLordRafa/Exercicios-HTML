@@ -4,12 +4,12 @@
 	
 @font-face{
 	font-family: "Secular";
-	src: local("secular.ttf"), local("Secular"), url("secular.ttf") format("truetype");
+	src: local("Secular.ttf"), local("Secular"), url("Secular.ttf") format("truetype");
 	}
 
 @font-face{
 	font-family: "Teko";
-	src: url(teko.ttf);
+	src: local("Teko.ttf"), local("Teko"), url("Teko.ttf") format("truetype");
 	}
 	
 body{
