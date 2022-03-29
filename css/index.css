@@ -141,15 +141,15 @@ body{
 
 @media all and (min-width: 1201px) and (max-width: 1600px){
 	#ImageBlock{
-	height: 200px;
-	width: 200px;
-	margin-left: 82vw;
+	height: 180px;
+	width: 180px;
+	margin-left: 83vw;
 	}
 	
 	#ImageBlock:hover{
-	height: 220px;
-	width: 220px;
-	margin-left: 80vw;
+	height: 200px;
+	width: 200px;
+	margin-left: 81vw;
 	margin-bottom: -2vh;
 	}
 	
@@ -160,6 +160,8 @@ body{
 	#links{
 	font-size: 5vw;
 	text-align: center;
+	margin-top: 5vh;
+	margin-left: -5vw;
 	}
 	
 	#links li{
