@@ -89,14 +89,14 @@ body{
 	
 	#links li{
 	display: inline-block;
-	margin-right: 30%;
+	margin-right: 25%;
 	margin-bottom: 10%;
 	}
 	
 	#links li:hover{
 	border-bottom: 4px solid white;
 	margin-bottom: 0;
-	margin-right: 25%;
+	margin-right: 22%;
 	font-size: 8vw;
 	}
 }
