@@ -23,7 +23,6 @@ body{
 	height: 80px;
 	width: 80px;
 	margin-left: 77vw;
-	margin-bottom: -3vh;
 	}
 	
 #Rafael{
@@ -37,8 +36,8 @@ body{
 	}
 	
 #links{
+	list-style-type: none;
 	font-size: 8vw;
-	position: absolute;
 	text-align: center;
 	margin-top: 20vh;
 	width: 88vw;
@@ -78,12 +77,11 @@ body{
 	#ImageBlock:hover{
 	height: 120px;
 	width: 120px;
-	margin-left: 78vw;
+	margin-left: 82vw;
 	}
 	
 	#links{
 	font-size: 7vw;
-	position: absolute;
 	text-align: center;
 	margin-top: 15vh;
 	width: 88vw;
@@ -91,14 +89,14 @@ body{
 	
 	#links li{
 	display: inline-block;
-	margin-right: 22%;
+	margin-right: 30%;
 	margin-bottom: 10%;
 	}
 	
 	#links li:hover{
 	border-bottom: 4px solid white;
 	margin-bottom: 0;
-	margin-right: 20%;
+	margin-right: 25%;
 	font-size: 8vw;
 	}
 }
