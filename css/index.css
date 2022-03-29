@@ -45,7 +45,7 @@ body{
 	list-style-type: none;
 	font-size: 8vw;
 	text-align: center;
-	margin-top: 20vh;
+	margin-top: 15vh;
 	width: 75vw;
 	}
 	
@@ -74,7 +74,7 @@ body{
 	#ImageBlock{
 	height: 100px;
 	width: 100px;
-	margin-left: 85vw;
+	margin-left: 82vw;
 	}
 	
 	#ImageBlock:hover{
@@ -91,8 +91,7 @@ body{
 	#links{
 	font-size: 7vw;
 	text-align: center;
-	margin-top: 15vh;
-	width: 70vw;
+	width: 85vw;
 	}
 	
 	#links li{
