@@ -135,12 +135,42 @@ body{
 	
 	#links li:hover{
 	border-bottom: 3px solid white;
-	font-size: 7vw;
+	font-size: 6.5vw;
 	}
 }
 
 @media all and (min-width: 1201px) and (max-width: 1600px){
+	#ImageBlock{
+	height: 200px;
+	width: 200px;
+	margin-left: 82vw;
+	}
 	
+	#ImageBlock:hover{
+	height: 220px;
+	width: 220px;
+	margin-left: 80vw;
+	margin-bottom: -2vh;
+	}
+	
+	#Rafael{
+	border: 5px solid #1F51FF;
+	}
+	
+	#links{
+	font-size: 5vw;
+	text-align: center;
+	}
+	
+	#links li{
+	display: inline-block;
+	margin-bottom: 5vh;
+	}
+	
+	#links li:hover{
+	border-bottom: 4px solid white;
+	font-size: 4.5vw;
+	}
 }
 	
 @media all and (min-width: 1601px){
