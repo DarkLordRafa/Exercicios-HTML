@@ -88,10 +88,13 @@ body{
 	border: 3px solid #1F51FF;
 	}
 	
+	#flex{
+	justify-content: space-around;
+	}
+	
 	#links{
 	font-size: 7vw;
 	text-align: center;
-	width: 80vw;
 	}
 	
 	#links li{
