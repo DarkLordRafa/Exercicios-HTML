@@ -78,6 +78,7 @@ body{
 	height: 120px;
 	width: 120px;
 	margin-left: 82vw;
+	margin-bottom: -1vh;
 	}
 	
 	#links{
@@ -89,14 +90,14 @@ body{
 	
 	#links li{
 	display: inline-block;
-	margin-right: 25%;
+	margin-right: 22%;
 	margin-bottom: 10%;
 	}
 	
 	#links li:hover{
 	border-bottom: 4px solid white;
 	margin-bottom: 0;
-	margin-right: 22%;
+	margin-right: 20%;
 	font-size: 8vw;
 	}
 }
