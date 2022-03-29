@@ -81,8 +81,8 @@ body{
 	#ImageBlock:hover{
 	height: 120px;
 	width: 120px;
-	margin-left: 81vw;
-	margin-bottom: -3vh;
+	margin-left: 80vw;
+	margin-bottom: -2vh;
 	}
 	
 	#Rafael{
@@ -106,7 +106,37 @@ body{
 }
 
 @media all and (min-width: 781px) and (max-width: 1200px){
+	#ImageBlock{
+	height: 230px;
+	width: 230px;
+	margin-left: 83vw;
+	}
 	
+	#ImageBlock:hover{
+	height: 250px;
+	width: 250px;
+	margin-left: 78vw;
+	margin-bottom: -2vh;
+	}
+	
+	#Rafael{
+	border: 4px solid #1F51FF;
+	}
+	
+	#links{
+	font-size: 6vw;
+	text-align: center;
+	}
+	
+	#links li{
+	display: inline-block;
+	margin-bottom: 5vh;
+	}
+	
+	#links li:hover{
+	border-bottom: 3px solid white;
+	font-size: 7vw;
+	}
 }
 
 @media all and (min-width: 1201px) and (max-width: 1600px){
