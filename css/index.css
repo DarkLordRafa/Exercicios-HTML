@@ -38,7 +38,7 @@ body{
 #flex{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	}
 	
 #links{
@@ -46,7 +46,7 @@ body{
 	font-size: 8vw;
 	text-align: center;
 	margin-top: 15vh;
-	width: 75vw;
+	margin-left: -10vw;
 	}
 	
 #links li{
@@ -74,13 +74,13 @@ body{
 	#ImageBlock{
 	height: 100px;
 	width: 100px;
-	margin-left: 82vw;
+	margin-left: 84vw;
 	}
 	
 	#ImageBlock:hover{
 	height: 120px;
 	width: 120px;
-	margin-left: 80vw;
+	margin-left: 82vw;
 	margin-bottom: -1vh;
 	}
 	
