@@ -108,13 +108,13 @@ body{
 	#ImageBlock{
 	height: 130px;
 	width: 130px;
-	margin-left: 82vw;
+	margin-left: 83vw;
 	}
 	
 	#ImageBlock:hover{
 	height: 150px;
 	width: 150px;
-	margin-left: 80vw;
+	margin-left: 81vw;
 	margin-bottom: -2vh;
 	}
 	
@@ -125,6 +125,8 @@ body{
 	#links{
 	font-size: 6vw;
 	text-align: center;
+	margin-top: 5vh;
+	margin-left: -5vw;
 	}
 	
 	#links li{
