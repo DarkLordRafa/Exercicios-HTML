@@ -23,6 +23,7 @@ body{
 	height: 80px;
 	width: 80px;
 	margin-left: 77vw;
+	margin-bottom: -3vh;
 	}
 	
 #Rafael{
@@ -74,22 +75,18 @@ body{
 	#ImageBlock{
 	height: 100px;
 	width: 100px;
-	margin-left: 84vw;
+	margin-left: 83vw;
 	}
 	
 	#ImageBlock:hover{
 	height: 120px;
 	width: 120px;
-	margin-left: 82vw;
-	margin-bottom: -1vh;
+	margin-left: 81vw;
+	margin-bottom: -3vh;
 	}
 	
 	#Rafael{
 	border: 3px solid #1F51FF;
-	}
-	
-	#flex{
-	justify-content: space-around;
 	}
 	
 	#links{
