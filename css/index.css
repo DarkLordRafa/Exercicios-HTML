@@ -95,7 +95,6 @@ body{
 	}
 	
 	#links li{
-	display: inline-block;
 	margin-bottom: 5vh;
 	}
 	
@@ -165,7 +164,6 @@ body{
 	}
 	
 	#links li{
-	display: inline-block;
 	margin-bottom: 5vh;
 	}
 	
@@ -176,7 +174,38 @@ body{
 }
 	
 @media all and (min-width: 1601px){
+	#ImageBlock{
+	height: 220px;
+	width: 220px;
+	margin-left: 85vw;
+	}
 	
+	#ImageBlock:hover{
+	height: 240px;
+	width: 240px;
+	margin-left: 83vw;
+	margin-bottom: -2vh;
+	}
+	
+	#Rafael{
+	border: 6px solid #1F51FF;
+	}
+	
+	#links{
+	font-size: 5vw;
+	text-align: center;
+	margin-top: 5vh;
+	margin-left: -5vw;
+	}
+	
+	#links li{
+	margin-bottom: 5vh;
+	}
+	
+	#links li:hover{
+	border-bottom: 4px solid white;
+	font-size: 4.5vw;
+	}
 }
 	
 	
