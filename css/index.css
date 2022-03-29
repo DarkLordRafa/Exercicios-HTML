@@ -143,13 +143,13 @@ body{
 	#ImageBlock{
 	height: 180px;
 	width: 180px;
-	margin-left: 83vw;
+	margin-left: 85vw;
 	}
 	
 	#ImageBlock:hover{
 	height: 200px;
 	width: 200px;
-	margin-left: 81vw;
+	margin-left: 83vw;
 	margin-bottom: -2vh;
 	}
 	
