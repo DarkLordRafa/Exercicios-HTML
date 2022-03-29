@@ -72,13 +72,34 @@ body{
 	#ImageBlock{
 	height: 100px;
 	width: 100px;
-	margin-left: 82vw;
+	margin-left: 85vw;
 	}
 	
 	#ImageBlock:hover{
 	height: 120px;
 	width: 120px;
-	margin-left: 80vw;
+	margin-left: 78vw;
+	}
+	
+	#links{
+	font-size: 7vw;
+	position: absolute;
+	text-align: center;
+	margin-top: 15vh;
+	width: 88vw;
+	}
+	
+	#links li{
+	display: inline-block;
+	margin-right: 22%;
+	margin-bottom: 10%;
+	}
+	
+	#links li:hover{
+	border-bottom: 4px solid white;
+	margin-bottom: 0;
+	margin-right: 20%;
+	font-size: 8vw;
 	}
 }
 
