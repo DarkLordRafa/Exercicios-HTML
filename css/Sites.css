@@ -164,6 +164,16 @@ body{
 	margin-bottom: -2vh;
 	}
 	
+	#back{
+	position: absolute;
+	width: 10vw;
+	left: 2vw;
+	}
+	
+	#back:hover{
+	width: 12vw;
+	}
+	
 	#Rafael{
 	border: 5px solid #1F51FF;
 	}
@@ -197,6 +207,16 @@ body{
 	width: 250px;
 	margin-left: 85vw;
 	margin-bottom: -2vh;
+	}
+	
+	#back{
+	position: absolute;
+	width: 10vw;
+	left: 2vw;
+	}
+	
+	#back:hover{
+	width: 12vw;
 	}
 	
 	#Rafael{
