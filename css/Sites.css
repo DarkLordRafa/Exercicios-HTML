@@ -30,10 +30,10 @@ body{
 	}
 	
 #ImageBlock:hover{
-	height: 80px;
-	width: 80px;
+	height: 70px;
+	width: 70px;
 	margin-left: 77vw;
-	margin-bottom: -3vh;
+	margin-bottom: -1vh;
 	}
 	
 #Rafael{
@@ -46,25 +46,28 @@ body{
 	border-radius: 50%;
 	}
 	
+#flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	}
+	
 #links{
+	list-style-type: none;
 	font-size: 6vw;
-	position: absolute;
 	text-align: center;
-	margin-top: 20vh;
-	width: 88vw;
+	margin-top: 15vh;
+	margin-left: -10vw;
 	}
 	
 #links li{
 	display: inline-block;
-	margin-right: 10%;
-	margin-bottom: 10%;
+	margin-bottom: 5vh;
 	}
 	
 #links li:hover{
 	border-bottom: 2px solid white;
-	margin-bottom: 0;
 	font-size: 7vw;
-	margin-right: 2%
 	}
 	
 #links li a{
@@ -76,6 +79,146 @@ body{
 	color: yellow;
 	}
 
+	
+	
+@media all and (min-width: 481px) and (max-width: 780px){
+	#ImageBlock{
+	height: 100px;
+	width: 100px;
+	margin-left: 83vw;
+	}
+	
+	#ImageBlock:hover{
+	height: 120px;
+	width: 120px;
+	margin-left: 80vw;
+	margin-bottom: -2vh;
+	}
+	
+	#Rafael{
+	border: 3px solid #1F51FF;
+	}
+	
+	#links{
+	font-size: 7vw;
+	text-align: center;
+	}
+	
+	#links li{
+	margin-bottom: 5vh;
+	}
+	
+	#links li:hover{
+	border-bottom: 3px solid white;
+	font-size: 8vw;
+	}
+}
+
+@media all and (min-width: 781px) and (max-width: 1200px){
+	#ImageBlock{
+	height: 130px;
+	width: 130px;
+	margin-left: 83vw;
+	}
+	
+	#ImageBlock:hover{
+	height: 150px;
+	width: 150px;
+	margin-left: 81vw;
+	margin-bottom: -2vh;
+	}
+	
+	#Rafael{
+	border: 4px solid #1F51FF;
+	}
+	
+	#links{
+	font-size: 6vw;
+	text-align: center;
+	margin-top: 5vh;
+	margin-left: -5vw;
+	}
+	
+	#links li{
+	display: inline-block;
+	margin-bottom: 5vh;
+	}
+	
+	#links li:hover{
+	border-bottom: 3px solid white;
+	font-size: 6.5vw;
+	}
+}
+
+@media all and (min-width: 1201px) and (max-width: 1600px){
+	#ImageBlock{
+	height: 170px;
+	width: 170px;
+	margin-left: 87vw;
+	}
+	
+	#ImageBlock:hover{
+	height: 190px;
+	width: 190px;
+	margin-left: 85vw;
+	margin-bottom: -2vh;
+	}
+	
+	#Rafael{
+	border: 5px solid #1F51FF;
+	}
+	
+	#links{
+	font-size: 5vw;
+	text-align: center;
+	margin-top: 5vh;
+	margin-left: -5vw;
+	}
+	
+	#links li{
+	margin-bottom: 5vh;
+	}
+	
+	#links li:hover{
+	border-bottom: 4px solid white;
+	font-size: 4.5vw;
+	}
+}
+	
+@media all and (min-width: 1601px){
+	#ImageBlock{
+	height: 230px;
+	width: 230px;
+	margin-left: 86vw;
+	}
+	
+	#ImageBlock:hover{
+	height: 250px;
+	width: 250px;
+	margin-left: 85vw;
+	margin-bottom: -2vh;
+	}
+	
+	#Rafael{
+	border: 6px solid #1F51FF;
+	}
+	
+	#links{
+	font-size: 5vw;
+	text-align: center;
+	margin-top: 5vh;
+	margin-left: -5vw;
+	}
+	
+	#links li{
+	margin-bottom: 5vh;
+	}
+	
+	#links li:hover{
+	border-bottom: 4px solid white;
+	font-size: 4.5vw;
+	}
+}
 	
 	
 	
