@@ -107,15 +107,15 @@ body{
 
 @media all and (min-width: 781px) and (max-width: 1200px){
 	#ImageBlock{
-	height: 150px;
-	width: 150px;
-	margin-left: 83vw;
+	height: 140px;
+	width: 140px;
+	margin-left: 82vw;
 	}
 	
 	#ImageBlock:hover{
-	height: 170px;
-	width: 170px;
-	margin-left: 78vw;
+	height: 160px;
+	width: 160px;
+	margin-left: 80vw;
 	margin-bottom: -2vh;
 	}
 	
