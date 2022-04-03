@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	}
+	
+h1, h2{
+	text-align: center;
+	}
+	
+#PortraitText, #LandscapeText{
+	display: none;
+	font-size: 30px;
+	}
+	
+#container{
+	border: 5px solid blue;
+	display: flex;
+	background-color: #EEE;
+	margin-top: 20px;
+	}
+	
+#box1, #box2, #box3{
+	height: 50%;
+	border: 2px solid black;
+	margin: 5px;
+	}
+	
+#box1{
+	background-color: yellow;
+	}
+	
+#box2{
+	background-color: green;
+	}
+	
+#box3{
+	background-color: orange;
+	}
+
+@media (orientation: portrait){
+	#PortraitText{
+		display: block;
+	}
+	
+	#container{
+		flex-direction: column;
+		height: 50vh;
+		width: 30vw;
+	}
+}
+
+@media (orientation: landscape){
+	#LandscapeText{
+		display: block;
+	}
+	
+	#container{
+		height: 30vh;
+		width: 50vw;
+		flex-direction: row;
+		border-color: red;
+		background-color: DarkGrey;
+	}
+	
+	#box1, #box2, #box3{
+		height: 90%;
+		width: 90%;
+	}
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
