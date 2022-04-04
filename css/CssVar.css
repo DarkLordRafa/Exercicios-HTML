@@ -4,8 +4,8 @@
 	
 :root{
 	--Border: 5px solid black;
-	--BackBlue: blue;
-	--BackRed: red;
+	--Background1: blue;
+	--Background2: red;
 	--Size1: 15px;
 	--Size2: 20px;
 	--BoxWidth: 20vw;
@@ -14,7 +14,7 @@
 	
 .box1{
 	border: var(--Border);
-	background-color: var(--BackBlue);
+	background-color: var(--Background2);
 	font-size: var(--Size1);
 	height: var(--BoxHeight);
 	width: var(--BoxWidth);
@@ -30,17 +30,40 @@
 	
 #Column{
 	flex-direction: column;
+	margin-right: 5px;
 	}
 	
 .box2{
 	border: var(--Border);
-	background-color: var(--BackRed);
+	background-color: var(--Background1);
 	font-size: var(--Size2);
 	height: var(--BoxHeight);
 	width: var(--BoxWidth);
 	}
+	
+.type3, .type4{
+	display: none;
+	}
+	
+	
 
-
+@media (min-width: 481px){
+	:root{
+		--Background1: green;
+		--Background2: orange;
+		--Border: 5px solid grey;
+		--BoxWidth: 10vw;
+		--BoxHeight: 20vh;
+	}
+	
+.type1, .type2{
+	display: none;
+	}
+	
+.type3, .type4{
+	display: inline;
+	}
+}
 	
 	
 	
