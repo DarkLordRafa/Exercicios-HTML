@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	}
+	
+:root{
+	--Border: 5px solid black;
+	--BackBlue: blue;
+	--BackRed: red;
+	--Size1: 15px;
+	--Size2: 20px;
+	--BoxWidth: 20vw;
+	--BoxHeight: 10vh;
+	}
+	
+.box1{
+	border: var(--Border);
+	background-color: var(--BackBlue);
+	font-size: var(--Size1);
+	height: var(--BoxHeight);
+	width: var(--BoxWidth);
+	}
+	
+#FlexArea{
+	display: flex;
+	}
+	
+#Column, #Row{
+	display: flex;
+	}
+	
+#Column{
+	flex-direction: column;
+	}
+	
+.box2{
+	border: var(--Border);
+	background-color: var(--BackRed);
+	font-size: var(--Size2);
+	height: var(--BoxHeight);
+	width: var(--BoxWidth);
+	}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
