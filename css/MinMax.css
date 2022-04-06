@@ -1,0 +1,12 @@
+*{
+	margin: 0;
+	}
+	
+body{
+	text-align: center;
+	}
+	
+#logo{
+	width: min(50vw, 300px);
+	margin-top: min(5vw, 20px);
+	}
