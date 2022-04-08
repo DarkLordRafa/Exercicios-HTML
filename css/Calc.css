@@ -24,7 +24,7 @@ h1{
 	margin: auto;
 	}
 	
-@media(max-width: 480px){
+@media(max-width: 800px){
 	h1{
 	font-size: max(7vw, 40px);
 	}
