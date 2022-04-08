@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	}
+	
+h1{
+	font-size: min(8vw, 100px);
+	text-align: center;
+	}
+	
+#Bloco{
+	background-color: #DDD;
+	width: min(30vw, 800px);
+	height: min(40vw, 1000px);
+	margin: auto;
+	margin-top: min(4vh, 100px);
+	margin-bottom: min(4vh, 100px);
+	padding-top: 20px;
+	}
+	
+#Bloco2{
+	background-color: black;
+	width: calc(100% - 40px);
+	height: calc(100% - 20px);
+	margin: auto;
+	}
+	
+@media(max-width: 480px){
+	h1{
+	font-size: max(7vw, 40px);
+	}
+	
+	#Bloco{
+	width: min(40vw, 300px);
+	height: min(50vw, 600px);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
