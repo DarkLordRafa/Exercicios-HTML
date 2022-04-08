@@ -10,7 +10,7 @@ h1{
 #Bloco{
 	background-color: #DDD;
 	width: min(30vw, 800px);
-	height: min(40vw, 1000px);
+	height: min(70vh, 1000px);
 	margin: auto;
 	margin-top: min(4vh, 100px);
 	margin-bottom: min(4vh, 100px);
@@ -31,7 +31,7 @@ h1{
 	
 	#Bloco{
 	width: min(40vw, 300px);
-	height: min(50vw, 600px);
+	height: min(30vh, 600px);
 	}
 }
 
