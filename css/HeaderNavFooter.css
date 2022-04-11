@@ -5,11 +5,12 @@
 	text-decoration: none;
 	color: black;
 	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
 	}
 	
 header{
 	height: 50px;
-	background-color: LightGreen;
+	background-color: LimeGreen;
 	}
 	
 header ul{
@@ -20,17 +21,30 @@ header ul{
 	}
 	
 header li{
-	maargin-left: -5vw;
-	maargin-right: -5vw;
+	height: 100%;
 	font-weight: bold;
+	display: flex;
+	align-items: center;
+	border-bottom: 5px solid transparent;
 	}
 	
-heaader li a{
-	display: inline;
-	padding-top: 25%;
+header li:hover{
+	border-bottom: 5px solid black;
+	border-radius: 10% 10% 0% 0%;
+	background-color: #228B22;
 	}
+
+/*
+Alterar a cor do link quando passar o mouse na li:
+
+header li:hover a{
+	color: white;
+	}
+	
+*/
 	
 #content{
+	margin-top: 5vh;
 	border: 5px solid black;
 	height: 100%;
 	}
