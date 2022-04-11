@@ -22,6 +22,7 @@ header ul{
 	
 header li{
 	height: 100%;
+	font-size: 20px;
 	font-weight: bold;
 	display: flex;
 	align-items: center;
