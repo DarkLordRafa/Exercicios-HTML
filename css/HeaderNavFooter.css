@@ -27,6 +27,7 @@ header li{
 	display: flex;
 	align-items: center;
 	border-bottom: 5px solid transparent;
+	transition: ease 0.3s;
 	}
 	
 header li:hover{
