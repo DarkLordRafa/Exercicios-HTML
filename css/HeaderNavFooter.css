@@ -56,6 +56,49 @@ header li:hover a{
 	font-weight: bold;
 	}
 	
+footer{
+	height: 30vh;
+	}
+	
+#Contato{
+	height: 50%;
+	font-weight: bold;
+	font-size: max(3vw, 30px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+	
+footer p{
+	border-bottom: 3px solid black;
+	}
+	
+footer ul{
+	height: 50%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	}
+	
+footer a{
+	display: flex;
+	justify-content: space-evenly;
+	align-itens: flex-start;
+	padding-bottom: 25%;
+	}
+	
+footer img{
+	height: max(20%, 30px);
+	width: max(10%, 40px);
+	border-bottom: 3px solid transparent;
+	padding-bottom: 10%;
+	transition: ease-out 0.3s;
+	}
+	
+footer img:hover{
+	border-bottom: 3px solid black;
+	}
+	
 	
 	
 	
