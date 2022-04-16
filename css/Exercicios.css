@@ -112,7 +112,7 @@ p{
 	#TopButton{
 	height: 50px;
 	width: 50px;
-	right: 10px;
+	right: 20px;
 	}
 	
 	#ImageBlock{
@@ -212,8 +212,8 @@ p{
 
 @media all and (min-width: 1201px) and (max-width: 1600px){
 	#TopButton{
-	height: 120px;
-	width: 120px;
+	height: 100px;
+	width: 100px;
 	right: 40px;
 	}
 	
