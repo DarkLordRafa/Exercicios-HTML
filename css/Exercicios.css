@@ -13,6 +13,10 @@
 	src: local("Teko.ttf"), local("Teko"), url("Teko.ttf") format("truetype");
 	}
 	
+html{
+	scroll-behavior: smooth;
+	}
+	
 body{
 	font-family: "Secular";
 	color: white;
@@ -56,6 +60,14 @@ body{
 	
 #Rafael:hover{
 	box-shadow: 0px 0px 20px 7px blue;
+	}
+	
+#TopButton{
+	height: 40px;
+	width: 40px;
+	position: fixed;
+	right: 10px;
+	top: 50vh;
 	}
 	
 p{

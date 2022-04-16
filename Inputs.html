@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+	<head>
+		<title>Tipos de input</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/Inputs.css">
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+	</head>
+	<body>
+	
+	<form action="login.html" method="POST">
+		<label>
+			Informe seu nome
+			<input required type="text" minlength="4" maxlength="12" name="name" value="Seu nome" onfocus="this.value=''">
+		</label>
+		<label>
+			Informe seu email
+			<input required type="email" name="email" value="Seu email" onfocus="this.value=''">
+		</label>
+		<label>
+			Informe sua senha
+			<input required type="password" name="password" value="Senha" onfocus="this.value=''">
+		</label>
+		<label>
+			Informe seu número de telefone
+			<input required type="tel" name="phone" value="Seu telefone" onfocus="this.value=''">
+		</label>
+		<label>
+			Informe sua data de nascimento
+			<input required type="date" name="date">
+		</label>
+		<label>
+			Informe a hora
+			<input required type="time" name="time">
+		</label>
+		<label>
+			Informe a data e hora
+			<input required type="datetime-local" name="datetime">
+		</label>
+		<label>
+			Informe o mês
+			<input required type="month" name="month">
+		</label>
+		<label>
+			Informe a semana
+			<input required type="week" name="name"
+		</label>
+		<label>
+			Escolha um tamanho
+			<input required type="range" min="20" max="100" name="range">
+		</label>
+		<label>
+			Escolha uma cor
+			<input required type="color" name="color">
+		</label>
+		<label>
+			Pesquise algo
+			<input required type="search" name="search" value="Pesquisar" onfocus="this.value=''">
+		</label>
+		<label>
+			Informe uma URL
+			<input required type="url" name="url" value="Insira a URL" onfocus="this.value=''">
+		</label>
+		<div id ="inline">
+		<input id="submit" type="submit" value="Confirmar">
+		<input id="reset" type="reset" valeu="Redefinir">
+		</div>
+	</form>
+	
+	
+	
+	
+	
+	</body>
+</html>
