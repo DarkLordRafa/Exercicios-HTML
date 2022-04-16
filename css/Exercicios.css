@@ -110,8 +110,8 @@ p{
 	
 @media all and (min-width: 481px) and (max-width: 780px){
 	#TopButton{
-	height: 50px;
-	width: 50px;
+	height: 60px;
+	width: 60px;
 	right: 20px;
 	}
 	
@@ -156,8 +156,8 @@ p{
 
 @media all and (min-width: 781px) and (max-width: 1200px){
 	#TopButton{
-	height: 80px;
-	width: 80px;
+	height: 70px;
+	width: 70px;
 	right: 30px;
 	}
 	
@@ -212,8 +212,8 @@ p{
 
 @media all and (min-width: 1201px) and (max-width: 1600px){
 	#TopButton{
-	height: 100px;
-	width: 100px;
+	height: 90px;
+	width: 90px;
 	right: 40px;
 	}
 	
@@ -268,8 +268,8 @@ p{
 	
 @media all and (min-width: 1601px){
 	#TopButton{
-	height: 150px;
-	width: 150px;
+	height: 120px;
+	width: 120px;
 	right: 50px;
 	}
 	
