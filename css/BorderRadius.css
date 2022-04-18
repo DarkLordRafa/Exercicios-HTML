@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	}
+	
+h1{
+	font-size: max(5vw, 40px);
+	text-align:center;
+	}
+	
+ButtonBlock{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 80%;
+	justify-content: space-evenly;
+	}
+	
+button{
+	height: 50px;
+	width: 100px;
+	border: 2px solid black;
+	transition: border-radius ease 1s;
+	}
+	
+button:hover{
+	background-color: green;
+	color: white;
+	}
+	
+button:active{
+	border-style: outset;
+	}
+	
+#b2:hover{
+	border-radius: 10%;
+	}
+	
+#b3:hover{
+	border-radius: 0 100% 100% 0;
+	}
+	
+#b4:hover{
+	border-radius: 100%;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -30,6 +30,10 @@ input{
 	margin-right: 5px;
 	}
 	
+input:focus::placeholder{
+	color: transparent;
+	}
+	
 	
 	
 
