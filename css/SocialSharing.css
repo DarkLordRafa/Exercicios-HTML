@@ -1,0 +1,12 @@
+*{
+	margin: 0;
+	}
+	
+body{
+	text-align: center;
+	}
+	
+p{
+	margin-top: 10vh;
+	font-size: max(5vw, 30px);
+	}
