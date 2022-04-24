@@ -1,0 +1,23 @@
+*{
+	padding: 0;
+	}
+	
+body{
+	margin: auto;
+	}
+	
+h1{
+	font-size: max(5vw, 30px);
+	text-align: center;
+	}
+	
+dl{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 10vh;
+	}
+	
+#list1 dt, dd{
+	margin-bottom: 10px;
+	}

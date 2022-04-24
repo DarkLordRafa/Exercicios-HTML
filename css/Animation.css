@@ -25,6 +25,7 @@
 	
 *{
 	margin: 0;
+	padding: 0;
 	}
 	
 #BlockAnimation{
@@ -39,6 +40,7 @@
 	}
 	
 .block{
+	box-sizing: border-box;
 	height: 33%;
 	width: 33%;
 	background-color: red;
@@ -83,7 +85,7 @@
 #ball{
 	position: relative;
 	background-color: grey;
-	border-radius: 100%;
+	border-radius: 50%;
 	height: 50px;
 	width: 50px;
 	animation-name: ball;

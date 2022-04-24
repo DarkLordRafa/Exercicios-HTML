@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	}
+	
+div{
+	display: flex;
+	height: 80%;
+	}
+	
+aside{
+	width: 40%;
+	background-color: Grey;
+	}
+	
+main{
+	flex: 1;
+	background-color: #DDD;
+	}
+	
+header, footer{
+	height: 10vh;
+	background-color: #36454F;
+	}
