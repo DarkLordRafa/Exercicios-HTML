@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	}
+	
+.container{
+	display: flex;
+	background-color: #DDD;
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	height: 200px;
+	width: 200px;
+	}
+	
+.container div{
+	background-color: red;
+	height: 30px;
+	width: 30px;
+	margin: 5px;
+	border: 1px solid yellow;
+	}
+	
+
+#div1{
+	}
+	
+#div2 div{
+	flex: 1;
+	}
+	
+/*O valor de "flex" determina a largura de um elemento
+em relação à largura padrão. Por exemplo, um elemento
+com "flex: 2" terá 2x a largura padrão atribuída
+aos outros elementos.*/
+	
+#div3{
+	flex-direction: column;
+	}
+	
+#div4{
+	justify-content: center;
+	}
+	
+#div5{
+	justify-content: center;
+	align-items: center;
+	}
+	
+#div6{
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	}
+	
+#div7{
+	justify-content: space-between;
+	}
+	
+.container .green{
+	background-color: green;
+	}
+	
+.container .blue{
+	background-color: blue;
+	}
+	
+#div8{
+	justify-content: center;
+	align-items: center;
+	}
+	
+#div9{
+	justify-content: center;
+	align-items: center;
+	}
+	
+#g1{
+	order: -1;
+	}
+	
+#div10{
+	justify-content: center;
+	align-items: center;
+	}
+	
+#b2{
+	align-self: flex-start;
+	}
+	
+	
+
+	
+	
+	
+	
+	

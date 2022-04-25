@@ -1,0 +1,25 @@
+*{
+	padding: 0;
+	list-style-type: none;
+	}
+	
+img{
+	height: 200px;
+	width: 150px;
+	}
+	
+body{
+	margin: 0;
+	}
+	
+figure{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 3px;
+	border: 2px solid black;
+	}
+	
+figcaption{
+	background-color: DarkGrey;
+	padding: 3px;
+	}

@@ -4,6 +4,23 @@
 	list-style-type: none;
 	}
 	
+body{
+	background-color: #36454F;
+	}
+	
+address{
+	padding-bottom: 20px;
+	color: white;
+	}
+	
+address a{
+	color: #1F51FF;
+	}
+	
+#w{
+	color: LimeGreen;
+	}
+	
 div{
 	display: flex;
 	height: 80%;
@@ -23,3 +40,4 @@ header, footer{
 	height: 10vh;
 	background-color: #36454F;
 	}
+	
