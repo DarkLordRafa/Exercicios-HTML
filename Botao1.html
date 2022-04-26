@@ -14,11 +14,11 @@
 	<script type="text/javascript">
 		window.onload = function(){
 			document.querySelector("#MenuButton").addEventListener("click", function(){
-			if (document.querySelector("#menu nav ul").style.display == 'flex') {
-				document.querySelector("#menu nav ul").style.display = 'none';
+			if (document.querySelector("#menu nav ul").style.width == '100%') {
+				document.querySelector("#menu nav ul").style.width = '0%';
 				}
 			else {
-				document.querySelector("#menu nav ul").style.display = 'flex';
+				document.querySelector("#menu nav ul").style.width = '100%';
 			}
 				});
 		};

@@ -43,10 +43,13 @@ h1{
 #menu ul{
 	background-color: #888888;
 	height: 100%;
-	display: none;
+	width: 0%;
+	overflow: hidden;
+	display: flex;
 	flex-direction: column;
 	padding-top: 30px;
 	margin-top: 10px;
+	transition: linear 0.5s;
 	}
 	
 #menu ul li{
