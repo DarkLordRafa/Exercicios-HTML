@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+	<head>
+		<title>Botão de menu 2</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href=
+		"css/Botao2.css">
+	</head>
+	<body>
+	
+	<!--<script type="text/javascript">
+		window.onload = function(){
+			document.querySelector("#MenuButton").addEventListener("click", function(){
+			if (document.querySelector("#menu nav ul").style.width == '100%') {
+				document.querySelector("#menu nav ul").style.width = '0%';
+				}
+			else {
+				document.querySelector("#menu nav ul").style.width = '100%';
+			}
+				});
+		};
+	</script>-->
+	
+	<script>
+		function OpenMenu(){
+			document.getElementById("menu").style.width = '70%';
+		};
+	</script>
+	
+	<script>
+		function CloseMenu(){
+				document.getElementById("menu").style.width = '0px';
+			};
+	</script>
+	
+	<div id="MenuButton" onclick="OpenMenu()">
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+	<div id="menu">
+		<div id="CloseButton" onclick="CloseMenu()">
+			x
+		</div>
+		<nav>
+			<ul>
+				<li>Serviços</li>
+				<li>Parceiros</li>
+				<li>Promoções</li>
+				<li> Sobre</li>
+			</ul>
+		</nav>
+	</div>
+	
+	<div id="title">
+	<h1>Clique no botão ao lado</h1>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+</html>
