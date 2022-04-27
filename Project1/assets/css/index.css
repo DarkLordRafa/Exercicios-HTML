@@ -138,8 +138,11 @@ header{
 	padding-left: 15px;
 	padding-top: 10px;
 	color: #4169E1;
+	text-shadow: -1px -1px 0px DarkBlue;
 	text-transform: uppercase;
 	}
+	
+/* Talvez um sub-menu abaixo do banner */
 	
 	
 	
