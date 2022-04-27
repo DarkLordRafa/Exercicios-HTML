@@ -1,0 +1,157 @@
+/* Resets */
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	box-sizing: border-box;
+	/* Removendo efeito de click nos links*/
+	-webkit-tap-highlight-color: transparent;
+	}
+	
+body{
+	font-family: Arial, Sans-Serif;
+	}
+	
+#menu{
+	font-family: Arial, Sans-Serif;
+	text-transform: uppercase;
+	font-size: 22px;
+	/* Fixando menu no topo. O fixed será removido em 
+	telas maiores para o menu ficar ao lado da logo*/
+	position: fixed;
+	height: 70%;
+	width: 60%;
+	}
+	
+#MenuButton{
+	/* Aplicando  flex nas divs do botão para parecerem
+	barras */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 50px;
+	margin-left: 5px;
+	}
+	
+#MenuButton div{
+	height: 4px;
+	width: 30px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	background-color: black;
+	border-radius: 25%;
+	}
+	
+#menu ul{
+	/* width 0% e overflow hidden para esconder a lista
+	completamente */
+	width: 0%;
+	overflow: hidden;
+	height: 100%;
+	padding-top: 15%;
+	background-color: #0096FF;
+	transition: linear 0.5s;
+	/* Prevenindo quebra de linha do texto das opções. 
+	( Por puro perfeccionismo kkkk) */
+	white-space: nowrap;
+	}
+	
+#menu ul a{
+	/* display block nas tags a para selecionar as opções e
+	para a animação das barras funcionar mesmo se o 
+	usuário não clicar exatamente no item da lista */
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	}
+	
+#menu ul a li{
+	/* display inline-block nos items da lista para a barra
+	animada ficar do tamanho do texto */
+	display: inline-block;
+	margin-left: 10%;
+	margin-bottom: 20px;
+	}
+	
+#menu ul a:hover{
+	/* Mudando cor do texto quando se passa o mouse */
+	color: white;
+	transition: 0.5s;
+	}
+	
+#menu ul a li div{
+	/* Configurando  e escondendo as barras abaixo do texto */
+	height: 3px;
+	width: 0%;
+	background-color: white;
+	transition: linear 0.3s;
+	}
+	
+#menu a:hover > li div{
+	/* Animando as barras abaixo do texto quando o
+	usuário passar o mouse */
+	width: 100%;
+	}
+
+header{
+	display: flex;
+	height: 110px;
+	/* Borda para testes
+	border: 1px solid black;
+	*/
+	}
+	
+#LogoArea, #menu{
+	/* Fazendo as duas divs área da logo e do menu 
+	ocuparem o mesmo tamanho no header em telas
+	maiores */
+	flex: 1;
+	}
+	
+#logoArea{
+	/* Centralizando a logo no header em telas menores */
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	}
+	
+#LogoArea img{
+	width: 150px;
+	/* Borda para teste
+	border: 1px solid black;
+	*/
+	}
+	
+#banner{
+	height: 160px;
+	background-image: url("banner.jpg");
+	background-repeat: no-repeat;
+	/* Fazendo a imagem se ajustar ao tamanho da div */
+	background-size: 100%;
+	}
+	
+#banner h1{
+	font-size: max(4vw, 25px);
+	width: 50%;
+	padding-left: 15px;
+	padding-top: 10px;
+	color: #4169E1;
+	text-transform: uppercase;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
