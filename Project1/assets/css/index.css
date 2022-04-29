@@ -35,8 +35,7 @@ body{
 	telas maiores para o menu ficar ao lado da logo*/
 	position: fixed;
 	width: 0%;
-	height: 70%;
-	transition: linear 0.5s;
+	transition: linear 0.4s;
 	z-index: 98;
 	}
 	
@@ -75,7 +74,7 @@ body{
 	/* Prevenindo quebra de linha do texto das opções. 
 	( Por puro perfeccionismo kkkk) */
 	white-space: nowrap;
-	border-radius: 0% 5% 5% 0%;
+	border-radius: 0% 50% 50% 0%;
 	margin-top: 10px;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -202,8 +201,10 @@ dela ou o padding-top*/
 	color: white;
 	font-weight: bold;
 	background-color: #4169E1;
-	boorder-right: 1px solid black;
-	boorder-left: 1 px solid black;
+	/* Bordas opcionais
+	border-right: 1px solid black;
+	border-left: 1 px solid black;
+	*/
 	}
 	
 #BannerMenu a:hover{
@@ -212,8 +213,9 @@ dela ou o padding-top*/
 	
 #Container{
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
-	margin-top: 50px;
+	margin-top: 30px;
 	}
 	
 #Container .ContainerBox{
@@ -221,7 +223,9 @@ dela ou o padding-top*/
 	min-height: 400px;
 	display: flex;
 	flex-direction: column;
+	/* Borda de teste 
 	border: 1px solid black;
+	*/
 	}
 	
 .ContainerBox h2{
@@ -235,7 +239,9 @@ dela ou o padding-top*/
 .ContainerBox .ImageArea{
 	position: relative;
 	width: 100%;
+	/* Borda de teste
 	border: 1px solid black;
+	*/
 	margin-bottom: 30px;
 	}
 	
@@ -259,6 +265,9 @@ dela ou o padding-top*/
 	text-decoration: none;
 	color: white;
 	}
+	
+/* Talvez tirar o "Sobre nós do menu e colocar abaixo das
+imagens/*
 
 
 
