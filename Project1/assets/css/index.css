@@ -8,6 +8,21 @@
 	-webkit-tap-highlight-color: transparent;
 	}
 	
+@font-face{
+	font-family: "MsMadi";
+	src: local("MsMadi.ttf"), local("MsMadi"), url("MsMadi.ttf") format("truetype");
+	}
+	
+a{
+	text-decoration: none;
+	}
+	
+/* Animação do avião */
+@keyframes plane{
+	0% {left: -100px; visibility: visible;}
+	100% {left: 130vw; visibility: hidden;}
+	}
+	
 body{
 	font-family: Arial, Sans-Serif;
 	}
@@ -19,8 +34,10 @@ body{
 	/* Fixando menu no topo. O fixed será removido em 
 	telas maiores para o menu ficar ao lado da logo*/
 	position: fixed;
+	width: 0%;
 	height: 70%;
-	width: 60%;
+	transition: linear 0.5s;
+	z-index: 99;
 	}
 	
 #MenuButton{
@@ -33,6 +50,9 @@ body{
 	height: 50px;
 	width: 50px;
 	margin-left: 5px;
+	margin-top: 5px;
+	background-color:white;
+	border-radius: 10%;
 	}
 	
 #MenuButton div{
@@ -45,17 +65,20 @@ body{
 	}
 	
 #menu ul{
-	/* width 0% e overflow hidden para esconder a lista
+	/* Overflow hidden para esconder a lista
 	completamente */
-	width: 0%;
 	overflow: hidden;
-	height: 100%;
-	padding-top: 15%;
+	background-color: #6495ED;
+	/* Uma cor mais clara para o menu
 	background-color: #0096FF;
-	transition: linear 0.5s;
+	*/
 	/* Prevenindo quebra de linha do texto das opções. 
 	( Por puro perfeccionismo kkkk) */
 	white-space: nowrap;
+	border-radius: 0% 5% 5% 0%;
+	margin-top: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	}
 	
 #menu ul a{
@@ -63,7 +86,6 @@ body{
 	para a animação das barras funcionar mesmo se o 
 	usuário não clicar exatamente no item da lista */
 	display: block;
-	text-decoration: none;
 	color: inherit;
 	}
 	
@@ -117,15 +139,29 @@ header{
 	align-items: flex-start;
 	}
 	
-#LogoArea img{
+#LogoArea #logo{
 	width: 150px;
 	/* Borda para teste
 	border: 1px solid black;
 	*/
 	}
 	
+#LogoArea #plane{
+	width: 100px;
+	position: absolute;
+	z-index: 99;
+	right: 0vw;
+	animation-name: plane;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	visibility: hidden;
+	}
+	
 #banner{
 	height: 160px;
+	/* Efeito degradê no banner:
+	background-image: linear-gradient( to bottom, white, transparent 30%), url("banner.jpg");
+	*/
 	background-image: url("banner.jpg");
 	background-repeat: no-repeat;
 	/* Fazendo a imagem se ajustar ao tamanho da div */
@@ -142,12 +178,92 @@ header{
 	text-transform: uppercase;
 	}
 	
-/* Talvez um sub-menu abaixo do banner */
 /* Talvez fazer uma caixa de texto que sobe quando 
 passa o mouse na div da imagem, com a frase "comprar
 passagem". Talvez funcione se colocar a imagem como
-background e aumentar o padding-bottom da div*/
+background e aumentar o padding-bottom da div, ou
+colocando outra div dentro e aumentando o tamanho
+dela ou o padding-top*/
+
+#BannerMenu{
+	height: 60px;
+	}
+#BannerMenu ul{
+	height: 100%;
+	display: flex;
+	}
 	
+#BannerMenu a{
+	text-transform: uppercase;
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	background-color: #4169E1;
+	boorder-right: 1px solid black;
+	boorder-left: 1 px solid black;
+	}
+	
+#BannerMenu a:hover{
+	background-color: #0096FF;
+	}
+	
+#Container{
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	}
+	
+#Container .ContainerBox{
+	text-align: center;
+	min-height: 400px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	}
+	
+.ContainerBox h2{
+	font-family: "MsMadi";
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #0047AB;
+	font-size: max(5vw, 45px);
+	}
+	
+.ContainerBox .ImageArea{
+	position: relative;
+	width: 100%;
+	border: 1px solid black;
+	margin-bottom: 30px;
+	}
+	
+.ContainerBox #InlineImages{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	}
+	
+#inlineImages img{
+	width: 100%;
+	height: 100px;
+	flex: 1;
+	}
+	
+.ContainerBox .buy{
+	position: absolute;
+	bottom: 10%;
+	padding: 5px;
+	background-color: green;
+	text-decoration: none;
+	color: white;
+	}
+
+
+
+
+
 	
 	
 	

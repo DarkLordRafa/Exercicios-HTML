@@ -14,11 +14,11 @@
 	<script>
 		window.onload = function(){
 			document.querySelector("#MenuButton").addEventListener("click", function(){
-			if (document.querySelector("#Menu ul").style.width == '100%'){
-				document.querySelector("#Menu ul").style.width = '0%';
+			if (document.querySelector("#Menu").style.width == '60%'){
+				document.querySelector("#Menu").style.width = '0%';
 				}
 			else {
-				document.querySelector("#Menu ul").style.width = '100%';
+				document.querySelector("#Menu").style.width = '60%';
 						}
 					});
 				};
@@ -26,11 +26,12 @@
 	
 	<header>
 		<div id="LogoArea">
-			<img src="assets/imagens/logo.jpg">
+			<img id="logo" src="assets/imagens/logo.jpg">
+			<img id="plane" src="assets/imagens/plane1.png">
 		</div>
 		<div id="menu">
 			<div id="MenuButton">
-			<!-- Divs para fazer as barras do botão. -->
+				<!-- Divs para fazer as barras do botão. -->
 				<div></div>
 				<div></div>
 				<div></div>
@@ -81,7 +82,69 @@
 		<h1>Nossa Prioridade sempre será você</h1>
 	</div>
 	
+	<div id="BannerMenu">
+			<ul>
+				<a href ="#">
+					<li>Notícias</li>
+				</a>
+				<a href ="#">
+					<li>Reservar<br>Passagem</li>
+				</a>
+				<a href ="#">
+					<li>Voos</li>
+				</a>
+			</ul>
+	</div>
 	
+	<div id ="Container">
+		<div class="ContainerBox">
+		<div class="ImageArea">
+			<h2>Conheça um mundo incrível</h2>
+			<div id="InlineImages">
+			<img src="assets/imagens/Container1_image1.jpg">
+			<img src="assets/imagens/">
+			<img src="assets/imagens/">
+			<a href="#"class="buy">Comprar Passagem</a>
+			</div>
+		</div>
+			<div class="description">
+				Lorem Ipsum is simply dummy text of the printing 
+				and typesetting industry. Lorem Ipsum has been 
+				the industry's standard dummy text ever since the 
+				1500s, when an unknown printer took a galley of 
+				type and scrambled it to make a type specimen 
+				book.
+			</div>
+		</div>
+		<div class="ContainerBox">
+			<h2></h2>
+			<img src="assets/imagens/">
+			<div class="description">
+			
+			</div>
+		</div>
+		<div class="ContainerBox">
+			<h2></h2>
+			<img src="assets/imagens/">
+			<div class="description">
+			
+			</div>
+		</div>
+		<div class="ContainerBox">
+			<h2></h2>
+			<img src="assets/imagens/">
+			<div class="description">
+			
+			</div>
+		</div>
+		<div class="ContainerBox">
+			<h2></h2>
+			<img src="assets/imagens/">
+			<div class="description">
+			
+			</div>
+		</div>
+	</div>
 	
 	
 	
