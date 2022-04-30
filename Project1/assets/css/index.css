@@ -306,8 +306,11 @@ header{
 	}
 	
 main h2{
-	font-size: max(3vw, 22px);
+	font-size: max(3vw, 18px);
 	font-weight: normal;
+	text-align: leeft;
+	max-width: 80%;
+	margin: auto;
 	}
 	
 #BottomBanner{
