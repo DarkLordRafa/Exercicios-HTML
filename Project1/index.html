@@ -12,8 +12,8 @@
 	<body>
 	
 	<script>
-		window.onload = function(){
-			document.querySelector("#MenuButton").addEventListener("click", function(){
+		window.onload = function(open_close){
+			document.querySelector("#MenuButton").addEventListener("click", function(open_close){
 			if (document.querySelector("#Menu").style.width == '60%'){
 				document.querySelector("#Menu").style.width = '0%';
 				}
@@ -38,40 +38,47 @@
 			</div>
 			<ul>
 				<a href="#">
-					<li>Passagens
-				<!-- Divs para fazer as barras abaixo das opções que
-						serão animadas -->
-					<div></div>
+					<li>
+						Início
+						<!-- Divs para fazer as barras abaixo das opções 
+								que serão animadas -->
+						<div></div>
 					</li>
 				</a>
 				<a href="#">
-					<li>Horários
-					<div></div>
+					<li>
+						Passagens
+						<div></div>
 					</li>
 				</a>
 				<a href="#">
-					<li>Planos
-					<div></div>
+					<li>
+						Horários
+						<div></div>
 					</li>
 				</a>
 				<a href="#">
-					<li>Consultoria
-					<div></div>
+					<li>
+						Planos
+						<div></div>
 					</li>
 				</a>
 				<a href="#">
-					<li>Carrinho
-					<div></div>
+					<li>
+						Consultoria
+						<div></div>
 					</li>
 				</a>
 				<a href="#">
-					<li>Encontre-nos
-					<div></div>
+					<li>
+						Carrinho
+						<div></div>
 					</li>
 				</a>
 				<a href="#">
-					<li>Sobre nós
-					<div></div>
+					<li>
+						Encontre-nos
+						<div></div>
 					</li>
 				</a>
 			</ul>
@@ -96,14 +103,13 @@
 			</ul>
 	</div>
 	
-	<div id ="Container">
-		<div class="ContainerBox">
+	<div class="ContainerBox" id="main">
 		<div class="ImageArea">
 			<h2>Conheça um mundo incrível</h2>
 			<div id="InlineImages">
 			<img src="assets/imagens/Container1_image1.jpg">
-			<img src="assets/imagens/">
-			<img src="assets/imagens/">
+			<img src="assets/imagens/Container1_image2.jpg">
+			<img src="assets/imagens/Container1_image3.jpg">
 			<a href="#"class="buy">Comprar Passagem</a>
 			</div>
 		</div>
@@ -116,34 +122,77 @@
 				book.
 			</div>
 		</div>
+	
+	<div id ="Container">
 		<div class="ContainerBox">
-			<h2></h2>
-			<img src="assets/imagens/">
+			<div class="ImageArea">
+			<h2>Prezamos por sua segurança</h2>
+			<img src="assets/imagens/Container2_image.jpg">
+			<a href="#"class="buy">Comprar Passagem</a>
+			</div>
 			<div class="description">
-			
+				Lorem Ipsum is simply dummy text of the printing 
+				and typesetting industry. Lorem Ipsum has been 
+				the industry's standard dummy text ever since the 
+				1500s, when an unknown printer took a galley of 
+				type and scrambled it to make a type specimen 
+				book.
+				Lorem Ipsum is simply dummy text of the printing 
+				and typesetting industry. Lorem Ipsum has been 
+				the industry's standard dummy text ever since the 
+				1500s, when an unknown printer took a galley of 
+				type and scrambled it to make a type specimen 
+				book.
 			</div>
 		</div>
-		<div class="ContainerBox">
-			<h2></h2>
-			<img src="assets/imagens/">
-			<div class="description">
 			
+		<div class="ContainerBox">
+			<div class="ImageArea">
+			<h2>Uma equipe de primeira</h2>
+			<img src="assets/imagens/Container3_image.jpg">
+			<a href="#"class="buy">Comprar Passagem</a>
+			</div>
+			<div class="description">
+				Lorem Ipsum is simply dummy text of the printing 
+				and typesetting industry. Lorem Ipsum has been 
+				the industry's standard dummy text ever since the 
+				1500s, when an unknown printer took a galley of 
+				type and scrambled it to make a type specimen 
+				book.
 			</div>
 		</div>
+		
 		<div class="ContainerBox">
-			<h2></h2>
-			<img src="assets/imagens/">
+			<div class="ImageArea">
+			<h2>Viaje com conforto</h2>
+			<img src="assets/imagens/Container4_image.jpg">
+			<a href="#"class="buy">Comprar Passagem</a>
+			</div>
 			<div class="description">
-			
+				Lorem Ipsum is simply dummy text of the printing 
+				and typesetting industry. Lorem Ipsum has been 
+				the industry's standard dummy text ever since the 
+				1500s, when an unknown printer took a galley of 
+				type and scrambled it to make a type specimen 
+				book.
 			</div>
 		</div>
+		
 		<div class="ContainerBox">
-			<h2></h2>
-			<img src="assets/imagens/">
-			<div class="description">
-			
+			<div class="ImageArea">
+			<h2>Reserve a janela</h2>
+			<img src="assets/imagens/Container5_image.jpg">
+			<a href="#"class="buy">Comprar Passagem</a>
 			</div>
-		</div>
+			<div class="description">
+				Lorem Ipsum is simply dummy text of the printing 
+				and typesetting industry. Lorem Ipsum has been 
+				the industry's standard dummy text ever since the 
+				1500s, when an unknown printer took a galley of 
+				type and scrambled it to make a type specimen 
+				book.
+			</div>
+			</div>
 	</div>
 	
 	

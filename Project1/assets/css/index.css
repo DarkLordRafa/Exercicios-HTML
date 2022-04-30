@@ -25,6 +25,7 @@ a{
 	
 body{
 	font-family: Arial, Sans-Serif;
+	overflow-x: hidden;
 	}
 	
 #menu{
@@ -74,7 +75,7 @@ body{
 	/* Prevenindo quebra de linha do texto das opções. 
 	( Por puro perfeccionismo kkkk) */
 	white-space: nowrap;
-	border-radius: 0% 50% 50% 0%;
+	border-radius: 0% 5% 5% 0%;
 	margin-top: 10px;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -107,7 +108,7 @@ body{
 	height: 3px;
 	width: 0%;
 	background-color: white;
-	transition: linear 0.3s;
+	transition: linear 0.2s;
 	}
 	
 #menu a:hover > li div{
@@ -152,6 +153,7 @@ header{
 	right: 0vw;
 	animation-name: plane;
 	animation-duration: 3s;
+	animation-delay: 1s;
 	animation-timing-function: linear;
 	visibility: hidden;
 	}
@@ -176,13 +178,6 @@ header{
 	text-shadow: -1px -1px 0px DarkBlue;
 	text-transform: uppercase;
 	}
-	
-/* Talvez fazer uma caixa de texto que sobe quando 
-passa o mouse na div da imagem, com a frase "comprar
-passagem". Talvez funcione se colocar a imagem como
-background e aumentar o padding-bottom da div, ou
-colocando outra div dentro e aumentando o tamanho
-dela ou o padding-top*/
 
 #BannerMenu{
 	height: 60px;
@@ -218,7 +213,12 @@ dela ou o padding-top*/
 	margin-top: 30px;
 	}
 	
-#Container .ContainerBox{
+#main{
+	margin-top: 50px;
+	}
+	
+.ContainerBox{
+	position: relative;
 	text-align: center;
 	min-height: 400px;
 	display: flex;
@@ -230,7 +230,7 @@ dela ou o padding-top*/
 	
 .ContainerBox h2{
 	font-family: "MsMadi";
-	margin-top: 30px;
+	margin-top: 80px;
 	margin-bottom: 30px;
 	color: #0047AB;
 	font-size: max(5vw, 45px);
@@ -239,47 +239,72 @@ dela ou o padding-top*/
 .ContainerBox .ImageArea{
 	position: relative;
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
 	/* Borda de teste
 	border: 1px solid black;
 	*/
-	margin-bottom: 30px;
+	}
+	
+.ContainerBox img{
+	width: 100%;
 	}
 	
 .ContainerBox #InlineImages{
 	display: flex;
 	justify-content: center;
 	position: relative;
+	width: 100%;
 	}
 	
-#inlineImages img{
-	width: 100%;
-	height: 100px;
+#InlineImages img{
+	height: 120px;
+	width: 33%;
 	flex: 1;
 	}
 	
-.ContainerBox .buy{
+#InlineImages:hover img{
+	filter: brightness(50%);
+	}
+	
+.ContainerBox .ImageArea .buy{
 	position: absolute;
 	bottom: 10%;
 	padding: 5px;
-	background-color: green;
+	background-color: #808080;
 	text-decoration: none;
 	color: white;
 	}
+	
+.ContainerBox .buy:hover{
+	background-color: DarkBlue;
+	}
+	
+.description{
+	font-size: max(3vw, 18px);
+}
+	
+
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
 	
 /* Talvez tirar o "Sobre nós do menu e colocar abaixo das
 imagens/*
 
 
 
-
-
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
