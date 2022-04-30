@@ -51,7 +51,7 @@ body{
 	width: 50px;
 	margin-left: 5px;
 	margin-top: 5px;
-	background-color:white;
+	background-color:#1434A4;
 	border-radius: 10%;
 	}
 	
@@ -60,7 +60,7 @@ body{
 	width: 30px;
 	margin-top: 2px;
 	margin-bottom: 2px;
-	background-color: black;
+	background-color: white;
 	border-radius: 25%;
 	}
 	
@@ -213,10 +213,6 @@ header{
 	margin-top: 30px;
 	}
 	
-#main{
-	margin-top: 50px;
-	}
-	
 .ContainerBox{
 	position: relative;
 	text-align: center;
@@ -228,10 +224,10 @@ header{
 	*/
 	}
 	
-.ContainerBox h2{
+.ContainerBox h1{
 	font-family: "MsMadi";
 	margin-top: 80px;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	color: #0047AB;
 	font-size: max(5vw, 45px);
 	}
@@ -285,8 +281,89 @@ header{
 	
 .description{
 	font-size: max(3vw, 18px);
-}
+	}
 	
+#TopLine{
+	width: 90%;
+	margin: auto;
+	margin-top: 150px;
+	margin-bottom: 100px;
+	height: 2px;
+	background-color: black;
+	}
+	
+#main{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 150px;
+	}
+	
+#main h1{
+	font-family: "MsMadi";
+	font-size: max(5vw, 50px);
+	color: #0047AB;
+	margin-bottom: 50px;
+	}
+	
+main h2{
+	font-size: max(3vw, 22px);
+	font-weight: normal;
+	}
+	
+#BottomBanner{
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-image: url("bottom_banner.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/* Borda para testes
+	border: 1px solid black;
+	*/
+	margin-bottom: 150px;
+	}
+	
+#BottomBanner #button{
+	color: white;
+	font-weight: bold;
+	margin-bottom: 30%;
+	top: 50%;
+	font-size: 20px;
+	height: 60px;
+	width: 140px;
+	text-align: center;
+	background-color: green;
+	border: none;
+	border-radius: 10px;
+	border-bottom: 4px solid black;
+	border-right: 2px solid black;
+	}
+	
+#BottomBanner #button:active{
+	border: none;
+	border-top: 3px solid black;
+	border-left: 2px solid black;
+	}
+	
+#BottomBanner #button:hover{
+	box-shadow: 0px 0px 20px 10px white;
+	}
+	
+#FooterImages{
+	height: 100px;
+	display: flex;
+	}
+	
+#FooterImages img{
+	flex: 1;
+	width: 33%;
+	}
+	
+footer{
+	height: 300px;
+	background-color: #888888;
+	}
 
 	
 	
