@@ -31,7 +31,6 @@ a{
 body{
 	font-family: Arial, Sans-Serif;
 	overflow-x: hidden;
-	transition: linear 0.3s;
 	}
 	
 #menu{
@@ -44,6 +43,7 @@ body{
 	width: 0%;
 	transition: ease 0.5s;
 	z-index: 98;
+	height: 70%;
 	}
 	
 #MenuButton{
@@ -85,6 +85,7 @@ body{
 	margin-top: 10px;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	height: 100%;
 	}
 	
 #menu ul a{
@@ -298,20 +299,20 @@ header{
 	background-color: black;
 	}
 	
-#main{
+#about{
 	text-align: center;
 	margin-top: 50px;
 	margin-bottom: 150px;
 	}
 	
-#main h1{
+#about h1{
 	font-family: "MsMadi";
 	font-size: max(5vw, 50px);
 	color: #0047AB;
 	margin-bottom: 50px;
 	}
 	
-main h2{
+#about h2{
 	font-size: max(3vw, 18px);
 	font-weight: normal;
 	text-align: leeft;
@@ -360,7 +361,7 @@ main h2{
 	}
 	
 #FooterImages{
-	height: 100px;
+	height: 90px;
 	display: flex;
 	}
 	
@@ -429,6 +430,10 @@ footer a{
 	
 #FooterBlock3 a{
 	color: inherit;
+	}
+	
+address{
+	font-style: normal;
 	}
 	
 #CopyrightArea {
