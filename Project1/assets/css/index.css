@@ -31,6 +31,7 @@ a{
 body{
 	font-family: Arial, Sans-Serif;
 	overflow-x: hidden;
+	transition: linear 0.3s;
 	}
 	
 #menu{
