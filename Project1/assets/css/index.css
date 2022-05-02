@@ -769,7 +769,7 @@ address{
 	display: flex;
 	justify-content: space-evenly;
 	overflow: visible;
-	background-color: white;
+	background-color: inherit;
 	border-radius: 0px;
 	margin-top: 0px;
 	padding-top: 0px;
