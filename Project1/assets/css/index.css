@@ -825,8 +825,9 @@ address{
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	fleex: 1;
+	flex: 1;
 	width: 40vw;
+	min-height: 300px;
 	}
 	
 	.ContainerBox .ImageArea{
