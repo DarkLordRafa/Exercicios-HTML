@@ -829,7 +829,7 @@ address{
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	width: 40vw;
+	width: 30vw;
 	}
 	
 	.ContainerBox .ImageArea{
