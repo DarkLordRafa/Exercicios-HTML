@@ -824,7 +824,7 @@ address{
 	.ContainerBox{
 	display: flex;
 	flex-direction: column;
-	flex: 1 auto;
+	flex: 1;
 	width: 40%;
 	border: 2px solid black;
 	}
