@@ -592,7 +592,145 @@ address{
 	
 }
 	
+
+@media (min-width: 481px) and (max-width: 768px){
+	#menu{
+		font-size: 22px;
+	}
 	
+	#MenuButton{
+		height: 60px;
+		width: 60px;
+	}
+	
+	#MenuButton div{
+	height: 3px;
+	width: 40px;
+	}
+	
+	#menu ul{
+	margin-top: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	}
+	
+	#menu ul a li{
+	margin-bottom: 20px;
+	}
+	
+	header{
+	height: 140px;
+	}
+	
+	#LogoArea #logo{
+	width: 170px;
+	}
+	
+	#LogoArea #plane{
+	width: 100px;
+	}
+	
+	#banner{
+	height: 180px;
+	}
+	
+	#banner h1{
+	font-size: 30px;
+	padding-left: 15px;
+	padding-top: 10px;
+	}
+	
+	#BannerMenu{
+	height: 70px;
+	}
+	
+	#Container{
+	margin-top: 30px;
+	}
+	
+	.ContainerBox{
+	min-height: 350px;
+	}
+	
+	.ContainerBox h1{
+	margin-top: 80px;
+	margin-bottom: 40px;
+	font-size: 50px;
+	}
+	
+	.ContainerBox .ImageArea{
+	margin-bottom: 30px;
+	}
+	
+	#InlineImages img{
+	height: 150px;
+	}
+	
+	.ContainerBox .ImageArea .buy{
+	font-size: 18px;
+	}
+	
+	.description{
+	font-size: 18px;
+	}
+	
+	#TopLine{
+	margin-top: 150px;
+	margin-bottom: 100px;
+	}
+	
+	#about{
+	margin-top: 50px;
+	margin-bottom: 150px;
+	}
+	
+	#about h1{
+	font-size: 55px;
+	margin-bottom: 50px;
+	}
+	
+	#about h2{
+	font-size: 18px;
+	}
+	
+	#BottomBanner{
+	height: 280px;
+	margin-bottom: 150px;
+	}
+	
+	#BottomBanner #button{
+	font-size: 25px;
+	height: 70px;
+	width: 150px;
+	}
+	
+	#FooterImages{
+	height: 100px;
+	}
+	
+	footer{
+	min-height: 450px;
+	}
+	
+	#FooterArea{
+	padding-top: 50px;
+	}
+	
+	#FooterBlock1 ul li{
+	margin-left: 10px;
+	margin-bottom: 20px;
+	}
+	
+	#FooterBlock2{
+	margin-bottom: 40px;
+	}
+	
+	#FooterBlock2 img{
+	height: 60px;
+	width: 60px;
+	}
+	
+}
 	
 
 	
