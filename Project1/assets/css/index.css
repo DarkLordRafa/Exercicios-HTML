@@ -457,13 +457,13 @@ address{
 	}
 	
 	#MenuButton{
-		height: 30px;
-		width: 30px;
+		height: 40px;
+		width: 40px;
 	}
 	
 	#MenuButton div{
 	height: 3px;
-	width: 20px;
+	width: 30px;
 	}
 	
 	#menu ul{
@@ -477,7 +477,7 @@ address{
 	}
 	
 	header{
-	height: 90px;
+	height: 100px;
 	}
 	
 	#LogoArea #logo{
@@ -489,7 +489,7 @@ address{
 	}
 	
 	#banner{
-	height: 120px;
+	height: 140px;
 	}
 	
 	#banner h1{
@@ -523,6 +523,10 @@ address{
 	
 	#InlineImages img{
 	height: 100px;
+	}
+	
+	.ContainerBox .ImageArea .buy{
+	font-size: 14px;
 	}
 	
 	.description{
