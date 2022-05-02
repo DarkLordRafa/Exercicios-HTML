@@ -778,6 +778,7 @@ address{
 	
 	#menu ul{
 	display: flex;
+	width: 100%;
 	justify-content: space-evenly;
 	overflow: visible;
 	background-color: inherit;
@@ -785,8 +786,6 @@ address{
 	margin-top: 0px;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	height: 100%;
-	width: 100%;
 	}
 	
 #menu ul a{
