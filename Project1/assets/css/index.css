@@ -754,9 +754,18 @@ address{
 		display: none;
 	}
 	
+	#LogoArea, #menu{
+	flex: 1;
+	}
+	
+#logoArea{
+	display: flex;
+	align-items: flex-start;
+	}
+	
 	#menu{
 	position: static;
-	width: 100%;
+	width: 50%;
 	transition: none;
 	z-index: 1;
 	height: 100%;
