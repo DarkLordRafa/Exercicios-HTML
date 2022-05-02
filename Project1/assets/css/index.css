@@ -569,6 +569,10 @@ address{
 	
 	footer{
 	min-height: 300px;
+	
+	}
+	
+#TopLinkDiv, #FooterBlock1, #FooterBlock3{
 	font-size: 14px;
 	}
 	
@@ -711,7 +715,10 @@ address{
 	
 	footer{
 	min-height: 450px;
-	font-size: 10px;
+	}
+	
+	#TopLinkDiv, #FooterBlock1, #FooterBlock3{
+	font-size: 18px;
 	}
 	
 	#FooterArea{
