@@ -869,7 +869,12 @@ address{
 	
 	#Container{
 	margin-top: 90px;
-	height: 500px;
+	}
+	
+	.ContainerBox{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	}
 	
 	.ContainerBoxTitle{
