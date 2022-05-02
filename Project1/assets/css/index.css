@@ -756,19 +756,18 @@ address{
 	
 	#menu{
 	font-size: 30px;
-	/* Fixando menu no topo. O fixed será removido em 
-	telas maiores para o menu ficar ao lado da logo*/
 	position: static;
 	width: 100%;
 	transition: none;
 	z-index: 1;
 	height: 100%;
 	display: flex;
-	justify-content: space-evenly;
 	align-items: flex-end;
 	}
 	
 	#menu ul{
+	display: flex;
+	justify-content: space-evenly;
 	overflow: visible;
 	background-color: white;
 	border-radius: 0px;
@@ -793,7 +792,6 @@ address{
 	}
 	
 #menu ul a li div{
-	/* Configurando  e escondendo as barras abaixo do texto */
 	height: 5px;
 	width: 0%;
 	background-color: blue;
@@ -816,8 +814,6 @@ address{
 	}
 	
 }
-
-
 
 
 @media (min-width: 769px) and (max-width: 1024px){
