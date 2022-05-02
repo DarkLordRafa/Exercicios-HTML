@@ -749,6 +749,8 @@ address{
 
 
 	
+	/* Desfazendo layout mobile */
+	
 @media (min-width: 769px){
 	#MenuButton{
 		display: none;
@@ -760,7 +762,7 @@ address{
 	
 #logoArea{
 	display: flex;
-	align-items: flex-start;
+	justify-content: flex-start;
 	}
 	
 	#menu{
@@ -806,9 +808,13 @@ address{
 	background-color: blue;
 	transition: linear 0.2s;
 	}
+	#banner, #BottomBanner{
+	background-size: cover;
+	}
 	
 	#Container{
 	display: flex;
+	justify-content: space-evenly;
 	flex-wrap: nowrap;
 	flex-direction: row;
 	}
@@ -819,7 +825,11 @@ address{
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	width: 50vw;
+	width: 40vw;
+	}
+	
+	.ContainerBox #spotlight{
+	width: 100%;
 	}
 	
 }
@@ -827,29 +837,7 @@ address{
 
 @media (min-width: 769px) and (max-width: 1024px){
 	#menu{
-	font-size: 30px;
-	}
-	
-	#MenuButton{
-	height: 100px;
-	width: 100px;
-	margin-left: 15px;
-	margin-top: 15px;
-	}
-	
-	#MenuButton div{
-	height: 8px;
-	width: 60px;
-	}
-	
-	#menu ul{
-	margin-top: 50px;
-	padding-top: 50px;
-	padding-bottom: 70px;
-	}
-	
-	#menu ul a li{
-	margin-bottom: 40px;
+	font-size: 25px;
 	}
 	
 	header{
@@ -857,15 +845,15 @@ address{
 	}
 	
 	#LogoArea #logo{
-	width: 230px;
+	width: 400px;
 	}
 	
 	#LogoArea #plane{
-	width: 180px;
+	width: 250px;
 	}
 	
 	#banner{
-	height: 350px;
+	height: 300px;
 	}
 	
 	#banner h1{
@@ -875,22 +863,22 @@ address{
 	}
 	
 	#BannerMenu{
-	height: 140px;
+	height: 120px;
 	font-size: 40px;
 	}
 	
 	#Container{
-	margin-top: 70px;
+	margin-top: 90px;
 	}
 	
 	.ContainerBox{
-	min-height: 420px;
+	min-height: 350px;
 	}
 	
 	.ContainerBox h1{
 	margin-top: 110px;
 	margin-bottom: 70px;
-	font-size: 90px;
+	font-size: 80px;
 	}
 	
 	.ContainerBox .ImageArea{
