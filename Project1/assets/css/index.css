@@ -871,14 +871,8 @@ address{
 	margin-top: 90px;
 	}
 	
-	.ContainerBox{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	}
-	
 	.ContainerBoxTitle{
-	height: 400px;
+	min-height: 400px;
 	}
 	
 	.ContainerBox h1{
