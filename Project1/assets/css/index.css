@@ -755,7 +755,6 @@ address{
 	}
 	
 	#menu{
-	font-size: 30px;
 	position: static;
 	width: 100%;
 	transition: none;
@@ -768,6 +767,7 @@ address{
 	#menu ul{
 	display: flex;
 	justify-content: space-evenly;
+	align-items: flex-end;
 	overflow: visible;
 	background-color: inherit;
 	border-radius: 0px;
@@ -818,7 +818,7 @@ address{
 
 @media (min-width: 769px) and (max-width: 1024px){
 	#menu{
-	font-size: 60px;
+	font-size: 30px;
 	}
 	
 	#MenuButton{
