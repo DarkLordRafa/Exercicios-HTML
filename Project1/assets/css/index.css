@@ -189,6 +189,7 @@ header{
 #BannerMenu{
 	height: 60px;
 	}
+	
 #BannerMenu ul{
 	height: 100%;
 	display: flex;
@@ -214,10 +215,10 @@ header{
 	}
 	
 #Container{
+	margin-top: 30px;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	margin-top: 30px;
 	}
 	
 .ContainerBox{
@@ -446,9 +447,145 @@ address{
 	color: gold;
 	text-decoration: underline;
 	}
-
 	
 	
+/* Media Queries */
+	
+@media (max-width 320){
+	#menu{
+		font-size: 18px;
+	}
+	
+	#MenuButton{
+		height: 30px;
+		width: 30px;
+	}
+	
+	#MenuButton div{
+	height: 3px;
+	width: 20px;
+	}
+	
+	#menu ul{
+	margin-top: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	}
+	
+	#menu ul a li{
+	margin-bottom: 15px;
+	}
+	
+	header{
+	height: 90px;
+	}
+	
+	#LogoArea #logo{
+	width: 120px;
+	}
+	
+	#LogoArea #plane{
+	width: 80px;
+	}
+	
+	#banner{
+	height: 120px;
+	}
+	
+	#banner h1{
+	font-size: 20px;
+	width: 50%;
+	padding-left: 12px;
+	padding-top: 8px;
+	}
+	
+	#BannerMenu{
+	height: 45px;
+	}
+	
+	#Container{
+	margin-top: 20px;
+	}
+	
+	.ContainerBox{
+	min-height: 250px;
+	}
+	
+	.ContainerBox h1{
+	margin-top: 60px;
+	margin-bottom: 20px;
+	font-size: 40px;
+	}
+	
+	.ContainerBox .ImageArea{
+	margin-bottom: 25px;
+	}
+	
+	#InlineImages img{
+	height: 100px;
+	}
+	
+	.description{
+	font-size: 16px;
+	}
+	
+	#TopLine{
+	margin-top: 100px;
+	margin-bottom: 80px;
+	}
+	
+	#about{
+	margin-top: 30px;
+	margin-bottom: 100px;
+	}
+	
+	#about h1{
+	font-size: 40px;
+	margin-bottom: 40px;
+	}
+	
+	#about h2{
+	font-size: 16px;
+	}
+	
+	#BottomBanner{
+	height: 200px;
+	margin-bottom: 100px;
+	}
+	
+	#BottomBanner #button{
+	font-size: 18px;
+	height: 50px;
+	width: 120px;
+	}
+	
+	#FooterImages{
+	height: 70px;
+	}
+	
+	footer{
+	min-height: 300px;
+	}
+	
+	#FooterArea{
+	padding-top: 40px;
+	}
+	
+	#FooterBlock1 ul li{
+	margin-left: 8px;
+	margin-bottom: 16px;
+	}
+	
+	#FooterBlock2{
+	margin-bottom: 30px;
+	}
+	
+	#FooterBlock2 img{
+	height: 35px;
+	width: 35px;
+	}
+	
+}
 	
 	
 	
