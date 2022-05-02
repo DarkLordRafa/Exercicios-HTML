@@ -142,11 +142,10 @@ header{
 	/* Fazendo as duas divs área da logo e do menu 
 	ocuparem o mesmo tamanho no header em telas
 	maiores */
-	height: 100%;
 	flex: 1;
 	}
 	
-#logoArea{
+#LogoArea{
 	/* Centralizando a logo no header em telas menores */
 	display: flex;
 	justify-content: center;
@@ -231,7 +230,6 @@ header{
 .ContainerBox{
 	position: relative;
 	text-align: center;
-	min-height: 400px;
 	display: flex;
 	flex-direction: column;
 	/* Borda de teste 
@@ -757,9 +755,13 @@ address{
 		display: none;
 	}
 	
-#logoArea{
+#LogoArea{
 	display: flex;
 	justify-content: flex-start;
+	}
+	
+	#LogoArea, #menu{
+	height: 100%;
 	}
 	
 	#menu{
