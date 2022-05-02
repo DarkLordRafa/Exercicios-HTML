@@ -869,15 +869,15 @@ address{
 	
 	#Container{
 	margin-top: 90px;
-	}
-	
-	.ContainerBox{
 	position: relative;
 	}
 	
-	.ContainerBoxTitle{
+	.ContainerBox{
 	position: absolute;
-	min-height: 400px;
+	}
+	
+	.ContainerBoxTitle{
+	min-height: 300px;
 	}
 	
 	.ContainerBox h1{
