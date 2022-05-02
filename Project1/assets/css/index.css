@@ -871,8 +871,12 @@ address{
 	margin-top: 90px;
 	}
 	
-	.ContainerBoxTitle{
+	.ContainerBox{
 	position: relative;
+	}
+	
+	.ContainerBoxTitle{
+	position: absolute;
 	min-height: 400px;
 	}
 	
@@ -880,7 +884,6 @@ address{
 	margin-top: 110px;
 	margin-bottom: 70px;
 	font-size: 70px;
-	position: absolute;
 	}
 	
 	.ContainerBox .ImageArea{
