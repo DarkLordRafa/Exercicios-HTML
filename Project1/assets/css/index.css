@@ -827,7 +827,6 @@ address{
 	flex-direction: column;
 	flex: 1;
 	width: 35vw;
-	min-height: 300px
 	}
 	
 	.CoontainerBox .ImageArea{
