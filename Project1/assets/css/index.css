@@ -759,7 +759,7 @@ address{
 	
 @media (min-width: 769px){
 	#MenuButton{
-		display: none;
+	display: none;
 	}
 	
 #LogoArea{
@@ -794,22 +794,22 @@ address{
 	padding-bottom: 0px;
 	}
 	
-#menu ul a{
+	#menu ul a{
 	display: inline;
 	color: black;
 	}
 	
-#menu ul a li{
+	#menu ul a li{
 	display: inline;
 	flex: 1;
 	}
 	
-#menu ul a:hover{
+	#menu ul a:hover{
 	color: blue;
 	transition: 0.5s;
 	}
 	
-#menu ul a li div{
+	#menu ul a li div{
 	height: 5px;
 	width: 0%;
 	background-color: blue;
@@ -827,19 +827,10 @@ address{
 	}
 	
 	.ContainerBox{
-	display: flex;
-	flex-direction: column;
 	flex: 1;
-	width: 40%;
+	width: 40vw;
 	}
 	
-	.ContainerBox .ImageArea{
-	text-align: center;
-	}
-	
-	#spotlight{
-	width: 100%;
-	}
 	
 }
 
