@@ -50,7 +50,7 @@ body{
 	transition: ease 0.5s;
 	z-index: 98;
 	height: 70%;
-	border: 5px solid black;
+	border: 2px solid black;
 	}
 	
 #MenuButton{
@@ -93,7 +93,7 @@ body{
 	padding-top: 30px;
 	padding-bottom: 30px;
 	height: 100%;
-	border: 5px solid black;
+	border: 2px solid black;
 	}
 	
 #menu ul a{
@@ -110,6 +110,7 @@ body{
 	display: inline-block;
 	margin-left: 10%;
 	margin-bottom: 20px;
+	border: 2px solid black;
 	}
 	
 #menu ul a:hover{
@@ -818,7 +819,7 @@ address{
 	
 	#Container{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-direction: row;
 	}
 	
