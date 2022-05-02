@@ -816,7 +816,6 @@ address{
 	#Container{
 	display: flex;
 	justify-content: space-evenly;
-	flex-wrap: nowrap;
 	flex-direction: row;
 	}
 	
@@ -826,7 +825,7 @@ address{
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	width: 400px;
+	width: 40vw;
 	}
 	
 	#spotlight{
@@ -838,7 +837,7 @@ address{
 
 @media (min-width: 769px) and (max-width: 1024px){
 	#menu{
-	font-size: 25px;
+	font-size: 20px;
 	}
 	
 	header{
@@ -850,11 +849,11 @@ address{
 	}
 	
 	#LogoArea #plane{
-	width: 220px;
+	width: 200px;
 	}
 	
 	#banner{
-	height: 300px;
+	height: 350px;
 	}
 	
 	#banner h1{
@@ -891,7 +890,7 @@ address{
 	}
 	
 	.ContainerBox .ImageArea .buy{
-	font-size: 50px;
+	font-size: 45px;
 	}
 	
 	.description{
@@ -918,7 +917,7 @@ address{
 	}
 	
 	#BottomBanner{
-	height: 400px;
+	height: 350px;
 	margin-bottom: 180px;
 	}
 	
