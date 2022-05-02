@@ -786,6 +786,7 @@ address{
 	padding-top: 0px;
 	padding-bottom: 0px;
 	height: 100%;
+	width: 100%;
 	}
 	
 #menu ul a{
@@ -826,11 +827,10 @@ address{
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	width: 50vw;
+	width: 35vw;
 	}
 	
 	.ContainerBox .ImageArea{
-	width: 35%;
 	}
 	
 	#spotlight{
