@@ -649,7 +649,7 @@ address{
 	
 	#BannerMenu{
 	height: 120px;
-	font-size: 30px;
+	font-size: 35px;
 	}
 	
 	#Container{
@@ -675,11 +675,11 @@ address{
 	}
 	
 	.ContainerBox .ImageArea .buy{
-	font-size: 45px;
+	font-size: 40px;
 	}
 	
 	.description{
-	font-size: 25px;
+	font-size: 30px;
 	}
 	
 	#TopLine{
@@ -689,7 +689,7 @@ address{
 	
 	#about{
 	margin-top: 60px;
-	margin-bottom: 170px;
+	margin-bottom: 190px;
 	}
 	
 	#about h1{
@@ -698,7 +698,7 @@ address{
 	}
 	
 	#about h2{
-	font-size: 25px;
+	font-size: 30px;
 	}
 	
 	#BottomBanner{
@@ -718,11 +718,15 @@ address{
 	
 	footer{
 	min-height: 450px;
-	font-size: 22px;
+	font-size: 25px;
+	}
+	
+	TopLinkDiv{
+	padding-top: 40px;
 	}
 	
 	#FooterArea{
-	padding-top: 70px;
+	padding-top: 60px;
 	}
 	
 	#FooterBlock1 ul li{
