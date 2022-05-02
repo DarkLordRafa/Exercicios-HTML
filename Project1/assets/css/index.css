@@ -231,7 +231,6 @@ header{
 	}
 	
 .ContainerBox{
-	position: relative;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -823,12 +822,10 @@ address{
 	}
 	
 	.ContainerBox{
-	position: static;
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	width: 40vw;
-	min-height: 300px;
+	width: 50%;
 	border: 2px solid black;
 	}
 	
