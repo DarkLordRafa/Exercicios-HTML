@@ -823,7 +823,7 @@ address{
 	}
 	
 	.ContainerBox{
-	position: relative;
+	position: static;
 	display: flex;
 	flex-direction: column;
 	flex: 1;
