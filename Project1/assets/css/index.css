@@ -323,7 +323,6 @@ header{
 #about h2{
 	font-size: max(3vw, 18px);
 	font-weight: normal;
-	text-align: leeft;
 	max-width: 80%;
 	margin: auto;
 	}
@@ -824,8 +823,7 @@ address{
 	
 	.ContainerBox{
 	position: relative;
-	text-align: left;
-	display: flex;
+	display: fleex;
 	flex-direction: column;
 	flex: 1;
 	width: 40vw;
