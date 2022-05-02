@@ -818,7 +818,7 @@ address{
 	
 	#Container{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	flex-direction: row;
 	}
 	
@@ -828,7 +828,7 @@ address{
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	width: 30vw;
+	width: 35vw;
 	}
 	
 	.ContainerBox .ImageArea{
