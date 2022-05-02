@@ -757,10 +757,6 @@ address{
 		display: none;
 	}
 	
-	#LogoArea, #menu{
-	flex: 1;
-	}
-	
 #logoArea{
 	display: flex;
 	justify-content: flex-start;
@@ -771,7 +767,6 @@ address{
 	width: 70%;
 	transition: none;
 	z-index: 1;
-	height: 100%;
 	display: flex;
 	align-items: flex-end;
 	justify-content: flex-end;
@@ -790,12 +785,12 @@ address{
 	}
 	
 #menu ul a{
-	display: block;
+	display: inline;
 	color: black;
 	}
 	
 #menu ul a li{
-	display: inline-block;
+	display: inline;
 	}
 	
 #menu ul a:hover{
