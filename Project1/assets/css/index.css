@@ -223,26 +223,33 @@ header{
 	background-color: #0096FF;
 	}
 	
+#spotlight{
+	width: 100%;
+	}
+	
 #Container{
 	margin-top: 30px;
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: column;
+	flex-wrap: wrap;
 	}
 	
 .ContainerBox{
 	text-align: center;
-	display: flex;
-	flex-direction: column;
+	flex: 1;
 	/* Borda de teste 
 	border: 1px solid black;
 	*/
 	}
 	
+.ContainerBoxTitle{
+	display: flex;
+	align-items: center;
+	height: 200px;
+	}
+	
 .ContainerBox h1{
 	font-family: "MsMadi";
-	margin-top: 80px;
-	margin-bottom: 40px;
 	color: #0047AB;
 	font-size: max(5vw, 45px);
 	}
@@ -815,10 +822,8 @@ address{
 	}
 	
 	#Container{
-	display: flex;
 	justify-content: space-around;
 	flex-direction: row;
-	border: 2px solid black;
 	}
 	
 	.ContainerBox{
@@ -826,12 +831,10 @@ address{
 	flex-direction: column;
 	flex: 1;
 	width: 40%;
-	border: 2px solid black;
 	}
 	
 	.ContainerBox .ImageArea{
 	text-align: center;
-	border: 2px solid black;
 	}
 	
 	#spotlight{
