@@ -775,6 +775,7 @@ address{
 	#menu ul{
 	display: flex;
 	width: 100%;
+	height: 100%;
 	justify-content: space-evenly;
 	overflow: visible;
 	background-color: inherit;
@@ -791,6 +792,7 @@ address{
 	
 #menu ul a li{
 	display: inline;
+	flex: 1;
 	}
 	
 #menu ul a:hover{
