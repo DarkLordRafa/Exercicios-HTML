@@ -595,17 +595,17 @@ address{
 
 @media (min-width: 481px) and (max-width: 768px){
 	#menu{
-		font-size: 30px;
+	font-size: 40px;
 	}
 	
 	#MenuButton{
-		height: 70px;
-		width: 70px;
+	height: 80px;
+	width: 80px;
 	}
 	
 	#MenuButton div{
-	height: 3px;
-	width: 50px;
+	height: 5px;
+	width: 40px;
 	}
 	
 	#menu ul{
@@ -619,11 +619,11 @@ address{
 	}
 	
 	header{
-	height: 180px;
+	height: 200px;
 	}
 	
 	#LogoArea #logo{
-	width: 190px;
+	width: 220px;
 	}
 	
 	#LogoArea #plane{
@@ -631,17 +631,18 @@ address{
 	}
 	
 	#banner{
-	height: 250px;
+	height: 300px;
 	}
 	
 	#banner h1{
-	font-size: 40px;
+	font-size: 50px;
 	padding-left: 15px;
 	padding-top: 10px;
 	}
 	
 	#BannerMenu{
-	height: 90px;
+	height: 120px;
+	font-size: 30px;
 	}
 	
 	#Container{
@@ -655,7 +656,7 @@ address{
 	.ContainerBox h1{
 	margin-top: 80px;
 	margin-bottom: 40px;
-	font-size: 60px;
+	font-size: 70px;
 	}
 	
 	.ContainerBox .ImageArea{
@@ -667,7 +668,7 @@ address{
 	}
 	
 	.ContainerBox .ImageArea .buy{
-	font-size: 25px;
+	font-size: 35px;
 	}
 	
 	.description{
@@ -685,7 +686,7 @@ address{
 	}
 	
 	#about h1{
-	font-size: 60px;
+	font-size: 80px;
 	margin-bottom: 50px;
 	}
 	
@@ -699,9 +700,9 @@ address{
 	}
 	
 	#BottomBanner #button{
-	font-size: 30px;
-	height: 90px;
-	width: 170px;
+	font-size: 40px;
+	height: 110px;
+	width: 190px;
 	}
 	
 	#FooterImages{
@@ -710,7 +711,7 @@ address{
 	
 	footer{
 	min-height: 450px;
-	font-size: 20px;
+	font-size: 18px;
 	}
 	
 	#FooterArea{
