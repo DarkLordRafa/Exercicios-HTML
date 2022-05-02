@@ -142,6 +142,7 @@ header{
 	/* Fazendo as duas divs área da logo e do menu 
 	ocuparem o mesmo tamanho no header em telas
 	maiores */
+	height: 100%;
 	flex: 1;
 	}
 	
@@ -830,7 +831,7 @@ address{
 	min-height: 300px
 	}
 	
-	.ContainerBox .ImageArea{
+	.CoontainerBox .ImageArea{
 	}
 	
 	#spotlight{
