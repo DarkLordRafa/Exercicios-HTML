@@ -451,7 +451,7 @@ address{
 	
 /* Media Queries */
 	
-@media (max-width 320){
+@media (max-width: 320){
 	#menu{
 		font-size: 18px;
 	}
