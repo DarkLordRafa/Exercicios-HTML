@@ -595,17 +595,17 @@ address{
 
 @media (min-width: 481px) and (max-width: 768px){
 	#menu{
-		font-size: 22px;
+		font-size: 30px;
 	}
 	
 	#MenuButton{
-		height: 60px;
-		width: 200px;
+		height: 70px;
+		width: 70px;
 	}
 	
 	#MenuButton div{
 	height: 3px;
-	width: 40px;
+	width: 50px;
 	}
 	
 	#menu ul{
@@ -619,29 +619,29 @@ address{
 	}
 	
 	header{
-	height: 140px;
-	}
-	
-	#LogoArea #logo{
-	width: 170px;
-	}
-	
-	#LogoArea #plane{
-	width: 100px;
-	}
-	
-	#banner{
 	height: 180px;
 	}
 	
+	#LogoArea #logo{
+	width: 190px;
+	}
+	
+	#LogoArea #plane{
+	width: 150px;
+	}
+	
+	#banner{
+	height: 250px;
+	}
+	
 	#banner h1{
-	font-size: 30px;
+	font-size: 40px;
 	padding-left: 15px;
 	padding-top: 10px;
 	}
 	
 	#BannerMenu{
-	height: 70px;
+	height: 90px;
 	}
 	
 	#Container{
@@ -649,13 +649,13 @@ address{
 	}
 	
 	.ContainerBox{
-	min-height: 350px;
+	min-height: 400px;
 	}
 	
 	.ContainerBox h1{
 	margin-top: 80px;
 	margin-bottom: 40px;
-	font-size: 50px;
+	font-size: 60px;
 	}
 	
 	.ContainerBox .ImageArea{
@@ -663,15 +663,15 @@ address{
 	}
 	
 	#InlineImages img{
-	height: 150px;
+	height: 180px;
 	}
 	
 	.ContainerBox .ImageArea .buy{
-	font-size: 18px;
+	font-size: 25px;
 	}
 	
 	.description{
-	font-size: 18px;
+	font-size: 22px;
 	}
 	
 	#TopLine{
@@ -685,31 +685,32 @@ address{
 	}
 	
 	#about h1{
-	font-size: 55px;
+	font-size: 60px;
 	margin-bottom: 50px;
 	}
 	
 	#about h2{
-	font-size: 18px;
+	font-size: 22px;
 	}
 	
 	#BottomBanner{
-	height: 280px;
+	height: 350px;
 	margin-bottom: 150px;
 	}
 	
 	#BottomBanner #button{
-	font-size: 25px;
-	height: 70px;
-	width: 150px;
+	font-size: 30px;
+	height: 90px;
+	width: 170px;
 	}
 	
 	#FooterImages{
-	height: 100px;
+	height: 150px;
 	}
 	
 	footer{
 	min-height: 450px;
+	font-size: 20px;
 	}
 	
 	#FooterArea{
@@ -726,8 +727,8 @@ address{
 	}
 	
 	#FooterBlock2 img{
-	height: 60px;
-	width: 60px;
+	height: 80px;
+	width: 80px;
 	}
 	
 }
