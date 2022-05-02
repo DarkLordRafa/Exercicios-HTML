@@ -872,6 +872,7 @@ address{
 	}
 	
 	.ContainerBoxTitle{
+	position: relative;
 	min-height: 400px;
 	}
 	
@@ -879,6 +880,7 @@ address{
 	margin-top: 110px;
 	margin-bottom: 70px;
 	font-size: 70px;
+	position: absolute;
 	}
 	
 	.ContainerBox .ImageArea{
