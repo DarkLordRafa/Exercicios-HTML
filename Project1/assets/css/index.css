@@ -767,7 +767,7 @@ address{
 	
 	#menu{
 	position: static;
-	width: 50%;
+	width: 70%;
 	transition: none;
 	z-index: 1;
 	height: 100%;
@@ -810,6 +810,7 @@ address{
 	}
 	#banner, #BottomBanner{
 	background-size: cover;
+	background-position: center center;
 	}
 	
 	#Container{
@@ -825,10 +826,10 @@ address{
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	width: 40vw;
+	width: 400px;
 	}
 	
-	.ContainerBox #spotlight{
+	#spotlight{
 	width: 100%;
 	}
 	
