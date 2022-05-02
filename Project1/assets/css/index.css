@@ -665,7 +665,7 @@ address{
 	}
 	
 	.ContainerBox{
-	height: 400px;
+	min-height: 400px;
 	}
 	
 	.ContainerBox h1{
@@ -869,6 +869,7 @@ address{
 	
 	#Container{
 	margin-top: 90px;
+	height: 500px;
 	}
 	
 	.ContainerBoxTitle{
