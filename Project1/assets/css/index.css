@@ -50,6 +50,7 @@ body{
 	transition: ease 0.5s;
 	z-index: 98;
 	height: 70%;
+	border: 5px solid black;
 	}
 	
 #MenuButton{
@@ -92,6 +93,7 @@ body{
 	padding-top: 30px;
 	padding-bottom: 30px;
 	height: 100%;
+	border: 5px solid black;
 	}
 	
 #menu ul a{
@@ -826,10 +828,11 @@ address{
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	width: 35vw;
+	width: 40vw;
 	}
 	
-	.CoontainerBox .ImageArea{
+	.ContainerBox .ImageArea{
+	text-align: center;
 	}
 	
 	#spotlight{
