@@ -826,7 +826,7 @@ address{
 	ajustar com o flex do container pai */
 	.ContainerBox h1{
 	height: 200px;
-	font-size: 10vw;
+	font-size: 6vw;
 	}
 	
 	.ContainerBox .ImageArea img{
