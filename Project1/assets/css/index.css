@@ -812,6 +812,10 @@ address{
 	font-size: 4vw;
 	}
 	
+	#spotlight h1{
+	font-size: 9vw;
+	}
+	
 	#Container{
 	justify-content: space-around;
 	flex-direction: row;
@@ -842,7 +846,7 @@ address{
 	}
 	
 	#about h1{
-	font-size: 6vw;
+	font-size: 8vw;
 	}
 	
 	#about h2{
@@ -862,9 +866,9 @@ address{
 	justify-content: space-around;
 	}
 	
-	#FooterBlock1, #FooterBlock2, #FooterBlock3{
+	/*#FooterBlock1, #FooterBlock2, #FooterBlock3{
 	flex: 1;
-	}
+	}*/
 	
 	#FooterBlock1{
 	margin-bottom: 0px;
@@ -893,10 +897,92 @@ address{
 	margin-bottom: 2vh;
 	}
 	
+	header{
+	height: 30vh;
+	}
+	
+	#LogoArea #logo{
+	width: 20vw;
+	}
+	
+	#LogoArea #plane{
+	width: 15vw;
+	}
+	
+	#banner{
+	height: 40vh;
+	}
+	
+	#BannerMenu{
+	height: 20vh;
+	}
+	
+	.ContainerBox h1{
+	height: 30vh;
+	}
+	
+	.ContainerBox .ImageArea{
+	margin-bottom: 10vh;
+	}
+	
+	.ContainerBox .ImageArea img{
+	height: 40vh;
+	}
+	
+	#InlineImages img{
+	height: 20vh;
+	}
+	
+	#TopLine{
+	margin-top: 40vh;
+	margin-bottom: 20vh;
+	}
+	
+	#about{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+	
+	#about h1{
+	margin-bottom: 20vh;
+	}
+	
+	#BottomBanner{
+	height: 40vh;
+	margin-bottom: 20vh;
+	}
+	
+	#BottomBanner #button{
+	height: 10vh;
+	}
+	
+	#FooterImages{
+	height: 20vh;
+	}
+	
+	#TopLinkDiv{
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	}
+	
+	#FooterArea{
+	padding-top: 0px;
+	}
+	
+	#FooterBlock2 img{
+	height: 5vh;
+	}
+	
 }
 
 
-@media (min-width: 769px) and (max-width: 1024px){
+
+
+
+
+
+
+/*@media (min-width: 769px) and (max-width: 1024px){
 	
 	header{
 	height: 250px;
@@ -984,10 +1070,10 @@ address{
 	width: 70px;
 	}
 	
-}
+}*/
 
 
-	
+
 	
 	
 	
