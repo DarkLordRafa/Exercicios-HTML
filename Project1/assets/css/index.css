@@ -50,7 +50,6 @@ body{
 	transition: ease 0.5s;
 	z-index: 98;
 	height: 70%;
-	border: 2px solid black;
 	}
 	
 #MenuButton{
@@ -93,7 +92,6 @@ body{
 	padding-top: 30px;
 	padding-bottom: 30px;
 	height: 100%;
-	border: 2px solid black;
 	}
 	
 #menu ul a{
@@ -110,7 +108,6 @@ body{
 	display: inline-block;
 	margin-left: 10%;
 	margin-bottom: 20px;
-	border: 2px solid black;
 	}
 	
 #menu ul a:hover{
@@ -139,13 +136,6 @@ header{
 	/* Borda para testes
 	border: 1px solid black;
 	*/
-	}
-	
-#LogoArea, #menu{
-	/* Fazendo as duas divs área da logo e do menu 
-	ocuparem o mesmo tamanho no header em telas
-	maiores */
-	flex: 1;
 	}
 	
 #LogoArea{
@@ -757,9 +747,9 @@ address{
 	}
 	
 	#menu{
-	font-size: 1vw;
+	font-size: 1.8vw;
 	position: static;
-	width: 70%;
+	width: 80%;
 	transition: none;
 	z-index: 1;
 	display: flex;
@@ -769,6 +759,8 @@ address{
 	
 	#menu ul{
 	display: flex;
+	width: 100%;
+	height: auto;
 	justify-content: space-evenly;
 	overflow: visible;
 	background-color: inherit;
@@ -784,19 +776,18 @@ address{
 	}
 	
 	#menu ul a li{
-	display: inline;
-	flex: 1;
+	display: inline-block;
 	}
 	
 	#menu ul a:hover{
-	color: blue;
-	transition: 0.5s;
+	color: #6495ED;
+	transition: 0.1s;
 	}
 	
 	#menu ul a li div{
-	height: 5px;
+	height: 1.2vw;
 	width: 0%;
-	background-color: blue;
+	background-color: #6495ED;
 	transition: linear 0.2s;
 	}
 	
@@ -999,18 +990,4 @@ address{
 
 
 
-	
-	
-	
-	
-	
 
-
-
-	
-	
-	
-	
-	
-	
-	
