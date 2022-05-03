@@ -754,7 +754,7 @@ address{
 	}
 	
 	#menu{
-	font-size: 4vw;
+	font-size: 2.5vw;
 	position: static;
 	width: 70%;
 	transition: none;
@@ -800,7 +800,7 @@ address{
 	}
 	
 	#banner h1{
-	font-size: 7vw;
+	font-size: 6.5vw;
 	}
 	
 	#banner, #BottomBanner{
@@ -809,7 +809,7 @@ address{
 	}
 	
 	#BannerMenu{
-	font-size: 5vw;
+	font-size: 4vw;
 	}
 	
 	#Container{
@@ -826,7 +826,7 @@ address{
 	ajustar com o flex do container pai */
 	.ContainerBox h1{
 	height: 250px;
-	font-size; 6vw;
+	font-size: 6vw;
 	}
 	
 	.ContainerBox .ImageArea img{
@@ -834,11 +834,11 @@ address{
 	}
 	
 	.ContainerBox .ImageArea .buy{
-	font-size: 4vw;
+	font-size: 3vw;
 	}
 	
 	.description{
-	font-size: 3vw;
+	font-size: 4vw;
 	}
 	
 	#about h1{
@@ -846,15 +846,15 @@ address{
 	}
 	
 	#about h2{
-	font-size: 3vw;
+	font-size: 4vw;
 	}
 	
 	#BottomBanner #button{
-	font-size: 5vw;
+	font-size: 4vw;
 	}
 	
 	footer{
-	font-size: 3vw;
+	font-size: 2.5vw;
 	}
 	
 	#FooterArea{
