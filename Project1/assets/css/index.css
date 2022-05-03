@@ -743,6 +743,10 @@ address{
 	display: none;
 	}
 	
+	.ImageArea img:hover{
+	filter: brightness(50%);
+	}
+	
 #LogoArea{
 	display: flex;
 	justify-content: flex-start;
