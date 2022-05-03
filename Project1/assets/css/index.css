@@ -164,7 +164,6 @@ header{
 	right: 0vw;
 	animation-name: plane;
 	animation-duration: 3s;
-	animation-delay: 1s;
 	animation-timing-function: linear;
 	visibility: hidden;
 	}
