@@ -754,7 +754,7 @@ address{
 	}
 	
 	#menu{
-	font-size: 2.5vw;
+	font-size: 2vw;
 	position: static;
 	width: 70%;
 	transition: none;
@@ -825,8 +825,8 @@ address{
 	/* Altura fixa para o título e a imagem pararem de se
 	ajustar com o flex do container pai */
 	.ContainerBox h1{
-	height: 250px;
-	font-size: 6vw;
+	height: 200px;
+	font-size: 10vw;
 	}
 	
 	.ContainerBox .ImageArea img{
@@ -880,7 +880,7 @@ address{
 	
 	#FooterBlock1 ul li{
 	margin-left: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 2vh;
 	}
 
 	#FooterBlock2{
@@ -980,8 +980,8 @@ address{
 	}*/
 	
 	#FooterBlock2 img{
-	height: 90px;
-	width: 90px;
+	height: 70px;
+	width: 70px;
 	}
 	
 }
