@@ -225,10 +225,11 @@ header{
 	
 #spotlight{
 	width: 100%;
+	margin-top: 20vh;
 	}
 	
 #Container{
-	margin-top: 30px;
+	margin-top: 20vh;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -237,21 +238,17 @@ header{
 .ContainerBox{
 	text-align: center;
 	flex: 1;
+	margin-bottom: 20vh;
 	/* Borda de teste 
 	border: 1px solid black;
 	*/
-	}
-	
-.ContainerBoxTitle{
-	display: flex;
-	align-items: center;
-	height: 200px;
 	}
 	
 .ContainerBox h1{
 	font-family: "MsMadi";
 	color: #0047AB;
 	font-size: max(5vw, 45px);
+	margin-bottom: 10vh;
 	}
 	
 .ContainerBox .ImageArea{
@@ -519,10 +516,6 @@ address{
 	margin-top: 20px;
 	}
 	
-	.ContainerBox{
-	min-height: 250px;
-	}
-	
 	.ContainerBox h1{
 	margin-top: 60px;
 	margin-bottom: 20px;
@@ -659,17 +652,7 @@ address{
 	font-size: 35px;
 	}
 	
-	#Container{
-	margin-top: 60px;
-	}
-	
-	.ContainerBox{
-	min-height: 400px;
-	}
-	
 	.ContainerBox h1{
-	margin-top: 100px;
-	margin-bottom: 60px;
 	font-size: 80px;
 	}
 	
@@ -845,6 +828,10 @@ address{
 	justify-content: space-between;
 	}
 	
+	#FooterBlock1, #FooterBlock2, #FooterBlock3{
+	flex: 1;
+	}
+	
 	#FooterBlock1{
 	margin-bottom: 0px;
 	}
@@ -906,14 +893,8 @@ address{
 	font-size: 40px;
 	}
 	
-	#Container{
-	margin-top: 90px;
-	}
-	
 	.ContainerBox h1{
 	height: 250px;
-	margin-top: 110px;
-	margin-bottom: 70px;
 	font-size: 70px;
 	}
 	
@@ -968,11 +949,10 @@ address{
 	}
 	
 	#FooterImages{
-	height: 170px;
+	height: 160px;
 	}
 	
 	footer{
-	min-height: 470px;
 	font-size: 30px;
 	}
 	
@@ -984,14 +964,14 @@ address{
 	padding-top: 70px;
 	}
 	
-	#FooterBlock1 ul li{
+	/*#FooterBlock1 ul li{
 	margin-left: 15px;
 	margin-bottom: 40px;
-	}
+	}*/
 	
-	#FooterBlock2{
+	/*#FooterBlock2{
 	margin-bottom: 60px;
-	}
+	}*/
 	
 	#FooterBlock2 img{
 	height: 90px;
