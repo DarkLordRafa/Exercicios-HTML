@@ -138,6 +138,10 @@ header{
 	*/
 	}
 	
+#LogoArea, #menu{
+	flex: 1;
+	}
+	
 #LogoArea{
 	/* Centralizando a logo no header em telas menores */
 	display: flex;
@@ -744,6 +748,7 @@ address{
 	
 	#LogoArea, #menu{
 	height: 100%;
+	flex: 0;
 	}
 	
 	#menu{
