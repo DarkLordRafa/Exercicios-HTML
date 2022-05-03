@@ -843,6 +843,7 @@ address{
 	
 	#FooterArea{
 	flex-direction: row;
+	justify-content: space-evenly;
 	}
 	
 	#FooterBlock1{
