@@ -950,12 +950,12 @@ address{
 	}
 	
 	#BottomBanner{
-	height: 50vh;
+	height: 40vh;
 	margin-bottom: 20vh;
 	}
 	
 	#BottomBanner #button{
-	padding: 5vh;
+	padding: 4vh;
 	}
 	
 	#BottomBanner #button{
