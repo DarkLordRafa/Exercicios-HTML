@@ -799,7 +799,7 @@ address{
 	}
 	
 	#banner h1{
-	font-size: 6vw;
+	font-size: 5.5vw;
 	}
 	
 	#banner, #BottomBanner{
@@ -932,7 +932,7 @@ address{
 	}
 	
 	#InlineImages img{
-	height: 30vh;
+	height: 50vh;
 	}
 	
 	#TopLine{
@@ -959,14 +959,14 @@ address{
 	}
 	
 	#BottomBanner #button{
-	border-bottom: 0.6vw solid black;
-	border-right: 0.3vw solid black;
+	border-bottom: 0.4vw solid black;
+	border-right: 0.2vw solid black;
 	}
 	
 #BottomBanner #button:active{
 	border: none;
-	border-top: 0.6vw solid black;
-	border-left: 0.3vw solid black;
+	border-top: 0.4vw solid black;
+	border-left: 0.2vw solid black;
 	}
 	
 #BottomBanner #button:hover{
@@ -978,7 +978,7 @@ address{
 	}
 	
 	#TopLinkDiv{
-	padding-top: 10vh;
+	padding-top: 5vh;
 	padding-bottom: 10vh;
 	}
 	
@@ -986,108 +986,13 @@ address{
 	padding-top: 0px;
 	}
 	
-	#FooterBlock2  img{
+	#FooterBlock2 img{
 	height: 5vh;
 	}
 	
 }
 
 
-
-
-
-
-
-
-/*@media (min-width: 769px) and (max-width: 1024px){
-	
-	header{
-	height: 250px;
-	}
-	
-	#LogoArea #logo{
-	width: 250px;
-	}
-	
-	#LogoArea #plane{
-	width: 200px;
-	}
-	
-	#banner{
-	height: 350px;
-	}
-	
-	#BannerMenu{
-	height: 120px;
-	}
-	
-	.ContainerBox h1{
-	height: 200px;
-	}
-	
-	.ContainerBox .ImageArea{
-	margin-bottom: 50px;
-	}
-	
-	.ContainerBox .ImageArea img{
-	height: 250px
-	}
-	
-	#InlineImages img{
-	height: 190px;
-	}
-	
-	#TopLine{
-	margin-top: 180px;
-	margin-bottom: 130px;
-	}
-	
-	#about{
-	margin-top: 70px;
-	margin-bottom: 200px;
-	}
-	
-	#about h1{
-	margin-bottom: 80px;
-	}
-	
-	#BottomBanner{
-	height: 350px;
-	margin-bottom: 180px;
-	}
-	
-	#BottomBanner #button{
-	height: 120px;
-	width: 190px;
-	}
-	
-	#FooterImages{
-	height: 160px;
-	}
-	
-	TopLinkDiv{
-	padding-top: 50px;
-	}
-	
-	#FooterArea{
-	padding-top: 70px;
-	}
-	
-	/*#FooterBlock1 ul li{
-	margin-left: 15px;
-	margin-bottom: 40px;
-	}*/
-	
-	/*#FooterBlock2{
-	margin-bottom: 60px;
-	}*/
-	
-	#FooterBlock2 img{
-	height: 70px;
-	width: 70px;
-	}
-	
-}*/
 
 
 
