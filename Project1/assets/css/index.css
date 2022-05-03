@@ -384,7 +384,6 @@ header{
 	}
 	
 footer{
-	min-height: 400px;
 	background-color: #888888;
 	color: white;
 	font-size: 15px;
@@ -843,7 +842,7 @@ address{
 	
 	#FooterArea{
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	}
 	
 	#FooterBlock1{
