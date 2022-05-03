@@ -799,7 +799,7 @@ address{
 	}
 	
 	#banner h1{
-	font-size: 5.5vw;
+	font-size: 5.2vw;
 	}
 	
 	#banner, #BottomBanner{
@@ -845,7 +845,7 @@ address{
 	}
 	
 	.description{
-	font-size: 4vw;
+	font-size: 3vw;
 	}
 	
 	#about h1{
@@ -932,11 +932,11 @@ address{
 	}
 	
 	#InlineImages img{
-	height: 50vh;
+	height: 45vh;
 	}
 	
 	#TopLine{
-	margin-top: 40vh;
+	margin-top: 30vh;
 	margin-bottom: 20vh;
 	}
 	
