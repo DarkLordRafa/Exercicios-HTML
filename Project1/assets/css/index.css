@@ -754,6 +754,7 @@ address{
 	}
 	
 	#menu{
+	font-size: 4vw;
 	position: static;
 	width: 70%;
 	transition: none;
@@ -798,9 +799,17 @@ address{
 	transition: linear 0.2s;
 	}
 	
+	#banner h1{
+	font-size: 7vw;
+	}
+	
 	#banner, #BottomBanner{
 	background-size: cover;
 	background-position: center center;
+	}
+	
+	#BannerMenu{
+	font-size: 5vw;
 	}
 	
 	#Container{
@@ -817,10 +826,35 @@ address{
 	ajustar com o flex do container pai */
 	.ContainerBox h1{
 	height: 250px;
+	font-size; 6vw;
 	}
 	
 	.ContainerBox .ImageArea img{
 	height: 250px
+	}
+	
+	.ContainerBox .ImageArea .buy{
+	font-size: 4vw;
+	}
+	
+	.description{
+	font-size: 3vw;
+	}
+	
+	#about h1{
+	font-size: 6vw;
+	}
+	
+	#about h2{
+	font-size: 3vw;
+	}
+	
+	#BottomBanner #button{
+	font-size: 5vw;
+	}
+	
+	footer{
+	font-size: 3vw;
 	}
 	
 	#FooterArea{
@@ -856,16 +890,13 @@ address{
 	}
 	
 	#FooterBlock2 img{
-	margin-bottom: 5vh;
+	margin-bottom: 2vh;
 	}
 	
 }
 
 
 @media (min-width: 769px) and (max-width: 1024px){
-	#menu{
-	font-size: 20px;
-	}
 	
 	header{
 	height: 250px;
@@ -883,20 +914,12 @@ address{
 	height: 350px;
 	}
 	
-	#banner h1{
-	font-size: 60px;
-	padding-left: 35px;
-	padding-top: 30px;
-	}
-	
 	#BannerMenu{
 	height: 120px;
-	font-size: 40px;
 	}
 	
 	.ContainerBox h1{
-	height: 250px;
-	font-size: 70px;
+	height: 200px;
 	}
 	
 	.ContainerBox .ImageArea{
@@ -911,14 +934,6 @@ address{
 	height: 190px;
 	}
 	
-	.ContainerBox .ImageArea .buy{
-	font-size: 30px;
-	}
-	
-	.description{
-	font-size: 35px;
-	}
-	
 	#TopLine{
 	margin-top: 180px;
 	margin-bottom: 130px;
@@ -930,12 +945,7 @@ address{
 	}
 	
 	#about h1{
-	font-size: 90px;
 	margin-bottom: 80px;
-	}
-	
-	#about h2{
-	font-size: 40px;
 	}
 	
 	#BottomBanner{
@@ -944,17 +954,12 @@ address{
 	}
 	
 	#BottomBanner #button{
-	font-size: 45px;
 	height: 120px;
 	width: 190px;
 	}
 	
 	#FooterImages{
 	height: 160px;
-	}
-	
-	footer{
-	font-size: 30px;
 	}
 	
 	TopLinkDiv{
