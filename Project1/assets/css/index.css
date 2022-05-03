@@ -256,7 +256,7 @@ header{
 	
 .ContainerBox .ImageArea{
 	position: relative;
-	display: fleex;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 30px;
@@ -289,7 +289,6 @@ header{
 	
 .ContainerBox .ImageArea .buy{
 	position: absolute;
-	margin: auto;
 	bottom: 10%;
 	padding: 5px;
 	background-color: #808080;
@@ -756,7 +755,7 @@ address{
 
 
 	
-	/* Desfazendo layout mobile */
+	/* Desfazendo layout mobile e fazendo o de desktop */
 	
 @media (min-width: 769px){
 	#MenuButton{
@@ -832,6 +831,45 @@ address{
 	width: 40vw;
 	}
 	
+	/* Altura fixa para o título e a imagem pararem de se
+	ajustar com o flex do container pai */
+	.ContainerBox h1{
+	height: 250px;
+	}
+	
+	.ContainerBox .ImageArea img{
+	height: 250px
+	}
+	
+	#FooterArea{
+	flex-direction: row;
+	}
+	
+	#FooterBlock1{
+	margin-bottom: 0px;
+	}
+	
+	#FooterBlock1 ul{
+	display: block;
+	/*
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;*/
+	}
+	
+	#FooterBlock1 ul li{
+	margin-left: 0px;
+	margin-bottom: 0px;
+	}
+
+	#FooterBlock2{
+	flex-direction: column;
+	/*display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	*/
+	margin-bottom: 0px;
+	}
 	
 }
 
@@ -872,31 +910,19 @@ address{
 	margin-top: 90px;
 	}
 	
-	.ContainerBoxTitle{
-	height: 200px;
-	}
-	
 	.ContainerBox h1{
+	height: 250px;
 	margin-top: 110px;
 	margin-bottom: 70px;
 	font-size: 70px;
-	height: 200px;
 	}
 	
 	.ContainerBox .ImageArea{
 	margin-bottom: 50px;
 	}
 	
-	.ContaainerBox{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	}
-	
 	.ContainerBox .ImageArea img{
-	height: 200px
+	height: 250px
 	}
 	
 	#InlineImages img{
