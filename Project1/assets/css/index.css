@@ -869,15 +869,10 @@ address{
 	
 	#Container{
 	margin-top: 90px;
-	position: relative;
-	}
-	
-	.ContainerBox{
-	position: absolute;
 	}
 	
 	.ContainerBoxTitle{
-	min-height: 300px;
+	height: 200px;
 	}
 	
 	.ContainerBox h1{
@@ -888,6 +883,10 @@ address{
 	
 	.ContainerBox .ImageArea{
 	margin-bottom: 50px;
+	}
+	
+	.ContainerBox .ImageArea img{
+	height: 200px
 	}
 	
 	#InlineImages img{
