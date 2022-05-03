@@ -799,7 +799,7 @@ address{
 	}
 	
 	#banner h1{
-	font-size: 5vw;
+	font-size: 6vw;
 	}
 	
 	#banner, #BottomBanner{
@@ -809,6 +809,10 @@ address{
 	
 	#BannerMenu{
 	font-size: 4vw;
+	}
+	
+	#spotlight{
+	margin-top: 30vh;
 	}
 	
 	#spotlight h1{
@@ -829,11 +833,11 @@ address{
 	se ajustar com o flex do container pai */
 	.ContainerBox h1{
 	height: 25vh;
-	font-size: 8vw;
+	font-size: 7vw;
 	}
 	
 	.ContainerBox .ImageArea img{
-	height: 30vh;
+	height: 35vh;
 	}
 	
 	.ContainerBox .ImageArea .buy{
@@ -845,7 +849,7 @@ address{
 	}
 	
 	#about h1{
-	font-size: 8vw;
+	font-size: 7vw;
 	}
 	
 	#about h2{
@@ -928,7 +932,7 @@ address{
 	}
 	
 	#InlineImages img{
-	height: 20vh;
+	height: 30vh;
 	}
 	
 	#TopLine{
@@ -967,7 +971,7 @@ address{
 	padding-top: 0px;
 	}
 	
-	#FooterBlock2 a img{
+	#FooterBlock2  img{
 	height: 5vh;
 	}
 	
