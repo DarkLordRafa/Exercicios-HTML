@@ -885,6 +885,13 @@ address{
 	margin-bottom: 50px;
 	}
 	
+	.ContainerBox{
+	display: flex;
+	flex-direction: column
+	justify-content: center;
+	align-items: center;
+	}
+	
 	.ContainerBox .ImageArea img{
 	height: 200px
 	}
