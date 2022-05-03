@@ -866,7 +866,7 @@ address{
 	
 	#FooterBlock1, #FooterBlock2, #FooterBlock3{
 	flex: 1;
-	
+	}
 	
 	#FooterBlock1{
 	margin-bottom: 0px;
