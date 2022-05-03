@@ -813,6 +813,7 @@ address{
 	
 	#spotlight{
 	margin-top: 40vh;
+	margin-bottom: 50vh;
 	}
 	
 	#spotlight h1{
@@ -853,7 +854,7 @@ address{
 	}
 	
 	#about h2{
-	font-size: 4vw;
+	font-size: 3vw;
 	}
 	
 	#BottomBanner #button{
