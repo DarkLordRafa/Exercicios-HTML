@@ -182,7 +182,7 @@ header{
 	
 #banner h1{
 	font-size: max(4vw, 25px);
-	width: 50%;
+	width: 45%;
 	padding-left: 15px;
 	padding-top: 10px;
 	color: #4169E1;
@@ -497,7 +497,7 @@ address{
 	
 	#banner h1{
 	font-size: 20px;
-	width: 50%;
+	width: 45%;
 	padding-left: 12px;
 	padding-top: 8px;
 	}
