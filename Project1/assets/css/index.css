@@ -942,7 +942,7 @@ address{
 	
 	#about{
 	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 20vh;
 	}
 	
 	#about h1{
@@ -950,7 +950,7 @@ address{
 	}
 	
 	#BottomBanner{
-	height: 40vh;
+	height: 50vh;
 	margin-bottom: 20vh;
 	}
 	
