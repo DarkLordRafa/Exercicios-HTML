@@ -765,7 +765,6 @@ address{
 	display: flex;
 	align-items: flex-end;
 	justify-content: flex-end;
-	border: 1px solid black;
 	}
 	
 	#menu ul{
@@ -779,7 +778,6 @@ address{
 	margin-top: 0px;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	border: 1px solid black;
 	}
 	
 	#menu ul a{
