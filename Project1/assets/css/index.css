@@ -826,7 +826,7 @@ address{
 	ajustar com o flex do container pai */
 	.ContainerBox h1{
 	height: 200px;
-	font-size: 6vw;
+	font-size: 8vw;
 	}
 	
 	.ContainerBox .ImageArea img{
@@ -859,7 +859,7 @@ address{
 	
 	#FooterArea{
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	}
 	
 	#FooterBlock1, #FooterBlock2, #FooterBlock3{
