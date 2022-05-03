@@ -887,9 +887,11 @@ address{
 	
 	.ContainerBox{
 	display: flex;
+	width: 100%;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 	}
 	
 	.ContainerBox .ImageArea img{
@@ -906,6 +908,7 @@ address{
 	
 	.description{
 	font-size: 35px;
+	height: 200px;
 	}
 	
 	#TopLine{
