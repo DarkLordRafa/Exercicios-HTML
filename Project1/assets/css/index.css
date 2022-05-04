@@ -135,6 +135,10 @@ body{
 header{
 	display: flex;
 	height: 110px;
+	position: relative;
+	/* Overflow hidden para não acompanhar o avião
+	quando ele ultrapassar a borda do header */
+	overflow: hidden;
 	/* Borda para testes
 	border: 1px solid black;
 	*/
