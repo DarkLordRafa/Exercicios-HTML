@@ -294,20 +294,20 @@ figcaption{
 	
 @media (min-width: 801px){
 	body{
-	font-size: 4vw;
+	font-size: 3.5vw;
 	}
 	
 #top_area h1{
-	margin-top: 15vh;
+	margin-top: 10vh;
 	}
 	
 #top_area h2{
-	font-size: 4.5vw;
+	font-size: 4vw;
 	}
 	
 #top_area h3{
-	margin-top: 10vh;
-	margin-bottom: 15vh;
+	margin-top: 5vh;
+	margin-bottom: 10vh;
 	}
 	
 figure{
@@ -321,7 +321,7 @@ figure{
 	}
 	
 figcaption{
-	margin-top: 5vh;
+	margin-top: 3vh;
 	}
 	
 #about{
@@ -375,7 +375,7 @@ figcaption{
 #copyright_area{
 	margin-top: 10vh;
 	padding-bottom: 15vh;
-	font-size: 3.5vw;
+	font-size: 3vw;
 	}
 	
 }
