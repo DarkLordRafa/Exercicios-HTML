@@ -211,6 +211,7 @@ figcaption{
 #copyright_area{
 	padding-bottom: 30px;
 	margin-top: 20px;
+	font-size: 14px;
 	}
 	
 }
@@ -218,7 +219,7 @@ figcaption{
 
 @media (min-width: 481px) and (max-width: 800px){
 	body{
-	font-size: 18px;
+	font-size: 5vw;
 	}
 	
 	
@@ -227,7 +228,7 @@ figcaption{
 	}
 	
 #top_area h2{
-	font-size: 20px;
+	font-size: 3vw;
 	}
 	
 #top_area h3{
@@ -286,6 +287,7 @@ figcaption{
 #copyright_area{
 	margin-top: 40px;
 	padding-bottom: 50px;
+	font-size: 2vw;
 	}
 	
 }
