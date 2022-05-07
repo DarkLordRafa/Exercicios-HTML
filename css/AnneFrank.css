@@ -222,7 +222,6 @@ figcaption{
 	font-size: 4.5vw;
 	}
 	
-	
 #top_area h1{
 	margin-top: 70px;
 	}
@@ -293,6 +292,79 @@ figcaption{
 }
 	
 	
+@media (min-width: 801px){
+	body{
+	font-size: 4.5vw;
+	}
+	
+#top_area h1{
+	margin-top: 20vh;
+	}
+	
+#top_area h2{
+	font-size: 5vw;
+	}
+	
+#top_area h3{
+	margin-top: 5vh;
+	margin-bottom: 10vh;
+	}
+	
+figcaption{
+	margin-top: 2vh;
+	}
+	
+#about{
+	margin-top: 5vh;
+	}
+	
+#timeline{
+	margin-top: 15vh;
+	}
+	
+#timeline h2{
+	margin-bottom: 10vh;
+	}
+	
+#timeline li{
+	margin-bottom: 5vh;
+	}
+	
+#bottom_images h1{
+	margin-top: 20vh;
+	margin-bottom: 20vh;
+	}
+	
+#bottom_images figure{
+	margin-bottom: 30vh;
+	}
+	
+#gallery{
+	margin-top: 20vh;
+	}
+	
+#gallery h1{
+	margin-bottom: 15vh;
+	}
+	
+#gallery_images img{
+	margin-left: 2vw;
+	margin-right: 2vw;
+	margin-bottom: 10vw;
+	padding: 5vw;
+	}
+	
+#external{
+	margin-top: 20vh;
+	}
+	
+#copyright_area{
+	margin-top: 5vh;
+	padding-bottom: 10vh;
+	font-size: 4vw;
+	}
+	
+}
 	
 	
 	
