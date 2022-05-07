@@ -342,11 +342,11 @@ figcaption{
 	
 #bottom_images h1{
 	margin-top: 15vh;
-	margin-bottom: 15vh;
+	margin-bottom: 10vh;
 	}
 	
 #bottom_images figure{
-	margin-bottom: 20vh;
+	margin-bottom: 15vh;
 	}
 	
 #bottom_images img, #bottom_images figcaption{
@@ -374,7 +374,7 @@ figcaption{
 	
 #copyright_area{
 	margin-top: 10vh;
-	padding-bottom: 15vh;
+	padding-bottom: 10vh;
 	font-size: 3vw;
 	}
 	
