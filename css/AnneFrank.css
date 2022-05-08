@@ -364,6 +364,7 @@ figcaption{
 #gallery_images img{
 	width: 30%;
 	height: 40vh;
+	object-fit: cover;
 	margin-left: 1.5vw;
 	margin-right: 1.5vw;
 	margin-bottom: 5vw;
