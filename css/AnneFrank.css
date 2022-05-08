@@ -358,7 +358,7 @@ figcaption{
 	
 #gallery_images{
 	flex-direction: row;
-	justify-content: center;
+	align-items: center;
 	}
 	
 #gallery_images img{
