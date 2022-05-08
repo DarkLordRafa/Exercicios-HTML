@@ -358,14 +358,11 @@ figcaption{
 	
 #gallery_images{
 	flex-direction: row;
-	align-items: center;
+	justify-content: center;
 	}
 	
 #gallery_images img{
 	width: 30%;
-	}
-	
-#gallery_images img{
 	margin-left: 1.5vw;
 	margin-right: 1.5vw;
 	margin-bottom: 5vw;
