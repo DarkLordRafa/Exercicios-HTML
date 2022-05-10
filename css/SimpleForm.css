@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+	}
+	
+body{
+	font-family: Arial, Sans-Serif;
+	margin: auto;
+	background-color: #0096FF;
+	}
+	
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+	}
+	
+h1{
+	margin-bottom: 10px;
+	color: white;
+	}
+	
+input{
+	margin-bottom: 20px;
+	}
+	
+#form_area{
+	background-color: #0047AB;
+	padding: 30px;
+	border-radius: 20px;
+	}
+	
+#form_area input{
+	border: none;
+	outline: none;
+	height: 40px;
+	font-size: 17px;
+	width: 50vw;
+	border-radius: 10px;
+	/* Prevenindo a alteração de cor do autocomplete do
+	Chrome */
+	-webkit-box-shadow: 0 0 0 30px #FFFDD0 inset !important;
+	}
+	
+#terms{
+	margin-top: 20px;
+	}
+	
+a{
+	color: white;
+	}
+	
+#submit{
+	padding: 10px;
+	border: 0px solid black;
+	border-radius: 5px;
+	font-weight: bold;
+	background-color: green;
+	color: white;
+	}
+	
+#submit:hover{
+	background-color: #4CBB17;
+	}
+	
+	
+	
+	

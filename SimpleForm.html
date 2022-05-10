@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+	<head>
+		<title>Formulário estilizado</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href=
+		"css/SimpleForm.css">
+	</head>
+	<body>
+	
+	<form action="login.html" method="GET">
+		<div id="form_area">
+		<label>
+			<h1>Nome</h1>
+			<input required autofocus pattern="[a-zA-Z0-9 ]+" title="Apenas letras e números, sem caracteres especiais." type="text" name="name" placeholder="Insira seu nome" minlength="4" maxlength="12">
+		</label>
+		<label>
+			<h1>Email</h1>
+			<input required type="email" name="email" placeholder="Ex: Maria@gmail.com">
+		</label>
+		<label>
+			<h1>Senha<h1>
+			<input required pattern="[a-zA-Z0-9]+" title="Apenas letras e números, sem caracteres especiais ou espaços." type="password" name="pass" placeholder="Insira uma senha" minlength="6" maxlength="15">
+		</label>
+		</div>
+		<label style="display: block;">
+			<input id="terms" required type="checkbox">
+			Eu li e concordo com os <a href="#">Termos de uso do site</a>.
+		</label>
+		<input id="submit" type="submit" value="Cadastrar">
+	</form>
+	
+	</body>
+</html>
