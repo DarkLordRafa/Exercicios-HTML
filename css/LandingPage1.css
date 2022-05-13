@@ -205,11 +205,26 @@ address{
 	color: gold;
 	}
 	
+#banner_text{
+	font-size: 7vw;
+	}
+	
+	
+	
+@media (max-width: 320px){
+	#logo{
+	font-size: 15vw;
+	}
+	
+#word3{
+	font-size: 4vw;
+	}
 	
 	
 @media (min-width: 801px){
 	header{
-	height: 45vh;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
 	}
 	
 #whatsapp_button{
@@ -235,7 +250,8 @@ address{
 	}
 	
 #banner{
-	height: 70vh;
+	padding-top: 18vh;
+	padding-bottom: 18vh;
 	margin-top: 15vh;
 	}
 	
