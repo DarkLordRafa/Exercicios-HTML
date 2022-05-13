@@ -39,7 +39,17 @@ header{
 	}
 	
 #whatsapp_button{
-	height: 10vh;
+	height: 14vh;
+	position: fixed;
+	right: 0vw;
+	bottom: 10%;
+	padding: 2vw;
+	border: 4px solid transparent;
+	border-radius: 50%;
+	}
+	
+#whatsapp_button:hover{
+	border: 4px solid #F08000;
 	}
 	
 #logo{
@@ -144,6 +154,7 @@ h2{
 	}
 
 footer{
+	position: sticky;
 	background-color: #708090;
 	font-size: 4vw;
 	display: flex;
