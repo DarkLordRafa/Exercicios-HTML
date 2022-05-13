@@ -211,7 +211,7 @@ address{
 	}
 	
 #whatsapp_button{
-	height: 15vh;
+	height: 25vh;
 	position: fixed;
 	right: 0;
 	bottom: 50%;
@@ -234,7 +234,7 @@ address{
 	
 #banner{
 	height: 60vh;
-	margin-top: 10vh;
+	margin-top: 15vh;
 	}
 	
 #banner_image{
@@ -243,7 +243,7 @@ address{
 	}
 	
 #banner_text{
-	font-size: 8vw;
+	font-size: 7.5vw;
 	}
 	
 #content{
