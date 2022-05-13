@@ -229,7 +229,7 @@ address{
 	}
 	
 #word3{
-	font-size: 2vw;
+	font-size: 3vw;
 	}
 	
 #banner{
@@ -237,96 +237,66 @@ address{
 	margin-top: 10vh;
 	}
 	
-#banner_image{
-	width: 50%;
-	}
-	
 #banner_text{
-	width: 40%;
 	font-size: 8vw;
 	}
 	
 #content{
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-top: 15vh;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 5vh;
 	}
 	
 .content_box{
-	width: 90%;
-	margin-bottom: 5vh;
-	background-color: white;
-	border-radius: 20px;
+	width: 30%;
+	border-radius: 40px;
 	padding: 5%;
-	border: 2px solid #F08000;
+	border: 4px solid #F08000;
 	text-align: center;
 	}
 	
-.content_box img{
-	width: 100%;
-	margin-bottom: 2vh;
+h2{
+	font-size: 5vw;
+	margin-bottom: 10vh;
 	}
 	
-h2{
-	font-size: 7vw;
-	margin-bottom: 5vh;
-	text-transform: uppercase;
+.content_box img{
+	margin-bottom: 10vh;
 	}
 	
 .content_box p{
-	font-size: 5vw;
+	font-size: 3vw;
 	margin-bottom: 2vh;
 	}
 	
 .content_box a{
-	font-size: 5vw;
-	text-decoration: underline;
-	color: #F08000;
+	font-size: 3vw;
 	}
 	
 #content2{
-	font-size: 6vw;
-	width: 80%;
-	margin: auto;
-	text-align: center;
-	margin-top: 5vh;
-	margin-bottom: 30vh;
+	font-size: 4vw;
+	margin-top: 10vh;
+	margin-bottom: 50vh;
 	}
 	
 #content2 p{
-	margin-bottom: 4vh;
+	margin-bottom: 8vh;
 	}
 	
 #buy{
-	font-size: 7vw;
-	text-transform: uppercase;
-	font-weight: bold;
-	text-decoration: underline;
+	font-size: 5vw;
 	}
 
 footer{
-	position: sticky;
-	background-color: #708090;
-	font-size: 4vw;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	color: white;
-	padding-bottom: 8vh;
+	font-size: 2.5vw;
+	padding-bottom: 10vh;
 	}
 	
 #join_us{
-	font-size: 6.5vw;
-	margin-top: 2vh;
-	margin-bottom: 3vh;
-	}
-	
-#medias{
-	display: flex;
-	justify-content: center;
-	width: 100%;
+	font-size: 4vw;
+	margin-top: 4vh;
+	margin-bottom: 6vh;
 	}
 	
 #medias a{
@@ -335,24 +305,16 @@ footer{
 	}
 	
 #medias a img{
-	height: 8vh;
-	}
-	
-address a, #copy a{
-	text-decoration: underline;
+	height: 10vh;
 	}
 	
 address{
-	margin-top: 5vh;
-	maargin-bottom: 2vh;
+	margin-top: 8vh;
+	maargin-bottom: 8vh;
 	}
 	
 #copy{
-	margin-top: 2vh;
-	}
-	
-#copy a{
-	color: gold;
+	margin-top: 4vh;
 	}
 }
 
