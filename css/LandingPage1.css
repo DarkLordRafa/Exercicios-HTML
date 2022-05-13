@@ -207,21 +207,21 @@ address{
 	
 @media (min-width: 801px){
 	header{
-	height: 40vh;
+	height: 30vh;
 	}
 	
 #whatsapp_button{
-	height: 20vh;
+	height: 15vh;
 	position: fixed;
 	right: 0;
 	bottom: 50%;
 	padding: 1vw;
-	border: 0.3vw solid transparent;
+	border: 0.5vw solid transparent;
 	border-radius: 50%;
 	}
 	
 #whatsapp_button:hover{
-	border: 0.3vw solid #F08000;
+	border: 0.5vw solid #F08000;
 	}
 	
 #logo{
@@ -233,18 +233,17 @@ address{
 	}
 	
 #banner{
-	height: 60vh;
-	margin-top: 5vh;
+	height: 70vh;
+	margin-top: 10vh;
 	}
 	
 #banner_image{
 	width: 50%;
-	border-radius: 50%;
 	}
 	
 #banner_text{
 	width: 40%;
-	font-size: 7vw;
+	font-size: 8vw;
 	}
 	
 #content{
