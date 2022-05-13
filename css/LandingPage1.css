@@ -82,7 +82,7 @@ header{
 	}
 	
 #banner_image{
-	width: 50%;
+	height: 65%;
 	border-radius: 50%;
 	}
 	
@@ -207,7 +207,7 @@ address{
 	
 @media (min-width: 801px){
 	header{
-	height: 35vh;
+	height: 40vh;
 	}
 	
 #whatsapp_button{
