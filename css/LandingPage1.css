@@ -246,6 +246,7 @@ address{
 	flex-direction: row;
 	justify-content: space-evenly;
 	margin-top: 5vh;
+	height: 40vh;
 	}
 	
 .content_box{
@@ -277,7 +278,7 @@ h2{
 #content2{
 	font-size: 4vw;
 	margin-top: 10vh;
-	margin-bottom: 50vh;
+	margin-bottom: 40vh;
 	}
 	
 #content2 p{
