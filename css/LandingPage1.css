@@ -216,11 +216,23 @@ address{
 	font-size: 15vw;
 	}
 	
-#word3{
+	#word3{
 	font-size: 4vw;
 	}
 	
+	#banner_text{
+	font-size: 6vw;
+	}
+	h2{
+	font-size: 3vw;
+	}
 	
+.content_box p{
+	font-size: 2vw;
+	}
+}
+
+
 @media (min-width: 801px){
 	header{
 	padding-top: 10vh;
@@ -256,7 +268,7 @@ address{
 	}
 	
 #banner_image{
-	height: 80%;
+	height: 40vh;
 	border-radius: 50%;
 	}
 	
