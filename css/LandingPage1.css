@@ -192,101 +192,18 @@ address{
 	
 	
 @media (max-width: 320px){
-	#logo{
-	font-size: 18vw;
-	}
-	
-#banner{
-	height: 40vh;
-	margin-top: 5vh;
-	}
-	
-#banner_image{
+	#banner_image{
 	height: 75%;
-	width: 50%;
 	}
-	
-#banner_text{
-	width: 40%;
-	}
-	
-#content{
-	margin-top: 15vh;
-	}
-	
-.content_box{
-	width: 90%;
-	margin-bottom: 5vh;
-	border-radius: 20px;
-	padding: 5%;
-	border: 2px solid #F08000;
-	}
-	
-.content_box img{
-	margin-bottom: 2vh;
-	}
-	
-h2{
-	font-size: 7vw;
-	margin-bottom: 5vh;
-	}
-	
-.content_box p{
-	font-size: 5vw;
-	margin-bottom: 2vh;
-	}
-	
-.content_box a{
-	font-size: 5vw;
-	}
-	
-#content2{
-	font-size: 6vw;
-	margin-top: 5vh;
-	margin-bottom: 30vh;
-	}
-	
-#content2 p{
-	margin-bottom: 4vh;
-	}
-	
-#buy{
-	font-size: 7vw;
-	}
-
-footer{
-	font-size: 4vw;
-	padding-bottom: 8vh;
-	}
-	
-#join_us{
-	font-size: 6.5vw;
-	margin-top: 2vh;
-	margin-bottom: 3vh;
-	}
-	
-#medias a{
-	margin-right: 2%;
-	margin-left: 2%;
-	}
-	
-#medias a img{
-	height: 8vh;
-	}
-	
-address{
-	margin-top: 5vh;
-	maargin-bottom: 2vh;
-	}
-	
-#copy{
-	margin-top: 2vh;
-	}
-	
 }
 	
 	
-	
+@media (min-width: 481px) and (max-width: 800px){
+	#banner_image{
+	height: 75%;
+	}
+}
+
 	
 	
 	
