@@ -238,7 +238,7 @@ address{
 	}
 	
 #banner_image{
-	height: 70%;
+	height: 80%;
 	border-radius: 50%;
 	}
 	
@@ -265,11 +265,11 @@ address{
 h2{
 	font-size: 4vw;
 	margin-bottom: 5vh;
-	height: 28vh;
+	height: 25vh;
 	}
 	
 .content_box img{
-	margin-bottom: 5vh;
+	margin-bottom: 3vh;
 	height: 25vh;
 	}
 	
