@@ -235,8 +235,8 @@ address{
 
 @media (min-width: 801px){
 	header{
-	padding-top: 10vh;
-	padding-bottom: 10vh;
+	padding-top: 8vh;
+	padding-bottom: 8vh;
 	}
 	
 #whatsapp_button{
@@ -254,16 +254,16 @@ address{
 	}
 	
 #logo{
-	font-size: 12vw;
+	font-size: 10vw;
 	}
 	
 #word3{
-	font-size: 3vw;
+	font-size: 2.5vw;
 	}
 	
 #banner{
-	padding-top: 12vh;
-	padding-bottom: 12vh;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 	margin-top: 15vh;
 	}
 	
@@ -273,7 +273,7 @@ address{
 	}
 	
 #banner_text{
-	font-size: 8vw;
+	font-size: 7vw;
 	}
 	
 #content{
