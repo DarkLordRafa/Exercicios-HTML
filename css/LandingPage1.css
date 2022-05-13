@@ -44,12 +44,12 @@ header{
 	right: 0vw;
 	bottom: 10%;
 	padding: 2vw;
-	border: 4px solid transparent;
+	border: 1.2vw solid transparent;
 	border-radius: 50%;
 	}
 	
 #whatsapp_button:hover{
-	border: 4px solid #F08000;
+	border: 1.2vw solid #F08000;
 	}
 	
 #logo{
@@ -206,16 +206,7 @@ address{
 	
 	
 @media (max-width: 320px){
-	#banner_image{
-	heeight: 75%;
-	}
-}
 	
-	
-@media (min-width: 481px) and (max-width: 800px){
-	#banner_image{
-	heeight: 75%;
-	}
 }
 
 	
