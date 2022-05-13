@@ -246,11 +246,11 @@ address{
 	flex-direction: row;
 	justify-content: space-evenly;
 	margin-top: 5vh;
-	height: 40vh;
 	}
 	
 .content_box{
 	width: 30%;
+	height: 40vh;
 	border-radius: 40px;
 	padding: 5%;
 	border: 4px solid #F08000;
