@@ -262,13 +262,13 @@ address{
 	}
 	
 #banner{
-	padding-top: 18vh;
-	padding-bottom: 18vh;
+	padding-top: 12vh;
+	padding-bottom: 12vh;
 	margin-top: 15vh;
 	}
 	
 #banner_image{
-	height: 40vh;
+	height: 50vh;
 	border-radius: 50%;
 	}
 	
