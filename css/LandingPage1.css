@@ -54,7 +54,7 @@ header{
 	}
 	
 #logo{
-	font-size: 18vw;
+	font-size: 16vw;
 	text-align: center;
 	}
 	
@@ -204,11 +204,7 @@ address{
 #copy a{
 	color: gold;
 	}
-	
-#banner_text{
-	font-size: 7vw;
-	}
-	
+}
 	
 	
 @media (max-width: 320px){
@@ -221,14 +217,14 @@ address{
 	}
 	
 	#banner_text{
-	font-size: 6vw;
+	font-size: 8vw;
 	}
 	h2{
-	font-size: 3vw;
+	font-size: 4vw;
 	}
 	
 .content_box p{
-	font-size: 2vw;
+	font-size: 3vw;
 	}
 }
 
@@ -262,8 +258,8 @@ address{
 	}
 	
 #banner{
-	padding-top: 5vh;
-	padding-bottom: 5vh;
+	padding-top: 7vh;
+	padding-bottom: 7vh;
 	margin-top: 15vh;
 	}
 	
