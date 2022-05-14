@@ -54,7 +54,7 @@ header{
 	}
 	
 #logo{
-	font-size: 16vw;
+	font-size: 14vw;
 	text-align: center;
 	}
 	
@@ -209,15 +209,15 @@ address{
 	
 @media (max-width: 320px){
 	#logo{
-	font-size: 15vw;
+	font-size: 12vw;
 	}
 	
 	#word3{
-	font-size: 4vw;
+	font-size: 3.5vw;
 	}
 	
 	#banner_text{
-	font-size: 8vw;
+	font-size: 7.5vw;
 	}
 	h2{
 	font-size: 4vw;
