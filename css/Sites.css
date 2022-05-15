@@ -69,8 +69,11 @@ body{
 	
 #links li{
 	display: inline-block;
+	width: 45%;
+	white-space: nowrap;
 	margin-bottom: 5vh;
 	transition: ease-out 0.1s;
+	border-bottom: 2px solid transparent;
 	}
 	
 #links li:hover{
