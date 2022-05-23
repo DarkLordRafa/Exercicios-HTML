@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	box-sizing:  border-box;
+	}
+	
+a{
+	text-decoration: none;
+	}
+
+/* Cores
+Azul claro: #4b87ef
+Azul escuro: #1658d0
+Botões de pesquisa:
+Cinza nível 1: #f2f9fa
+Background do hover:
+Cinza nível 2: #f3f4f4
+Linhas do footer:
+Cinza nível 3: #dcdce1
+Cinza das letras:
+Cinza nível 4: #6f747a
+
+*/
+
+html{
+	font-family: "Open Sans", sans-serif;
+	}
+	
+header, #header_menu_area, #header_menu_area ul, #mobile_header_menu a, #apps_area{
+	display: flex;
+	align-items: center;
+	}
+	
+header{
+	justify-content: end;
+	height: 45px;
+	}
+	
+#mobile_menu_button{
+	box-sizing: content-box;
+	position: relative;
+	left: 0;
+	top: 0;
+	margin: 0;
+	padding-top: 5%;
+	padding-left: 4%;
+	height: 100%;
+	}
+	
+#mobile_menu_button img{
+	height: 4vh;
+	}
+	
+header #desktop_header_menu{
+	display: none;
+	}
+
+#header_menu_area{
+	width: 100%;
+	}
+	
+header #mobile_header_menu{
+	display: flex;
+	justify-content: start;
+	}
+	
+#mobile_header_menu a{
+	height: 45px;
+	justify-content: center;
+	text-transform: uppercase;
+	font-size: 3.3vw;
+	font-family: Roboto;
+	font-weight: bold;
+	color: #6f747a;
+	}
+	
+#mobile_header_menu a{
+	padding-left: 2.5vw;
+	padding-right: 2.5vw;
+	border-bottom: 2px solid transparent;
+	}
+	
+#mobile_header_menu #active{
+	color: #4b87ef;
+	border-bottom: 2px solid #4b87ef;
+	}
+	
+#profile{
+	margin-right: 3vw;
+	}
+	
+#apps_menu{
+	margin-right: 6vw;
+	}
+	
+#header_menu_area ul a{
+	margin-left: 3vw;
+	}
+	
+#apps_menu{
+	height: 20px;
+	}
+	
+#profile{
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+	object-fit: cover;
+	}
+	
+#logo_area{
+	display: flex;
+	justify-content: center;
+	}
+	
+#logo{
+	height: 60px;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	}
+	
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	}
+	
+#search_bar{
+	position: relative;
+	width: 95%;
+	}
+	
+i{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	z-index: 99;
+	height: 100%;
+	}
+	
+#glass{
+	padding-left: 2%;
+	}
+	
+i img{
+	height: 25px;
+	}
+	
+#mic{
+	right:0;
+	}
+	
+#mic img{
+	height: 40px;
+	padding-right: 2%;
+	}
+	
+input[type="search"]{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 14%;
+	width: 100%;
+	border-radius: 100px;
+	box-shadow: 0px 0px 0px 1px #dcdce1;
+	border: none;
+	outline: none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
