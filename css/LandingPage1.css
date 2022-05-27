@@ -194,7 +194,6 @@ address a, #copy a{
 	
 address{
 	margin-top: 5vh;
-	maargin-bottom: 2vh;
 	}
 	
 #copy{
@@ -204,7 +203,6 @@ address{
 #copy a{
 	color: gold;
 	}
-}
 	
 	
 @media (max-width: 320px){
@@ -344,7 +342,6 @@ footer{
 	
 address{
 	margin-top: 8vh;
-	maargin-bottom: 8vh;
 	}
 	
 #copy{
