@@ -38,8 +38,11 @@ header, #header_menu_area, #header_menu_area ul, #mobile_header_menu a, #apps_ar
 	}
 	
 header{
-	justify-content: end;
 	height: 45px;
+	}
+	
+header > *{
+	padding-top: 5px;
 	}
 	
 #mobile_menu_button{
@@ -56,14 +59,11 @@ header{
 
 #header_menu_area{
 	width: 100%;
-	}
-	
-header #mobile_header_menu{
-	display: flex;
 	justify-content: start;
 	}
 	
 #mobile_header_menu a{
+	font-family: "Open Sans", sans-serif;
 	height: 45px;
 	justify-content: center;
 	text-transform: uppercase;
@@ -85,17 +85,17 @@ header .button_area{
 }
 
 #button_area_apps{
-	padding: 8%;
-	margin-right: 2vw;
+	padding: 10%;
+	margin-right: 2.2vw;
 }
 
 #button_area_profile{
-	padding: 5%;
-	margin-right: 5vw;
+	padding: 4%;
+	margin-right: 10vw;
 }
 
 header .button_area:hover{
-	background-color: #f3f4f4;
+	background-color: #ececec;
 }
 	
 #profile{
@@ -234,7 +234,7 @@ header #desktop_header_menu{
 	
 footer{
 	background-color: #f3f4f4;
-	margin-top: 38vh;
+	margin-top: 36vh;
 	}
 	
 footer span, footer a{
@@ -280,6 +280,10 @@ footer a:hover{
 @media (max-width:320px){
 	header{
 	height: 40px;
+	}
+	
+header > *{
+	padding-top: 4px;
 	}
 	
 #mobile_menu_button{
@@ -341,8 +345,12 @@ input[type="search"]{
 	
 
 @media (min-width:768px) and (max-width:1023px){
-header{
+	header{
 	height: 60px;
+	}
+	
+header > *{
+	padding-top: 8px;
 	}
 	
 #mobile_menu_button{
@@ -388,6 +396,10 @@ input[type="search"]{
 #local{
 	font-size: 18px;
 	padding: 12px;
+	}
+	
+footer{
+	margin-top: 28vh;
 	}
 	
 #footer{
