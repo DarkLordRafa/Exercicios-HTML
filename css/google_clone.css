@@ -546,7 +546,7 @@ header #desktop_header_menu{
 	}
 	
 #keyboard{
-	right: 12%;
+	right: 10%;
 	}
 	
 #search_bar{
@@ -556,6 +556,8 @@ header #desktop_header_menu{
 input[type="search"]{
 	padding-top: 1vh;
 	padding-bottom: 1vh;
+	padding-left: 8%;
+	padding-right: 8%;
 	font-size: 1.5vw;
 	}
 	
