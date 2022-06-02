@@ -476,7 +476,7 @@ header #desktop_header_menu{
 	}
 	
 #desktop_header_menu ul a{
-	font-size: 2vw;
+	font-size: 3.5vw;
 	color: black;
 	padding-left: 2.5vw
 	padding-right: 2.5vw;
@@ -504,7 +504,7 @@ header #desktop_header_menu{
 	}
 	
 #logo{
-	height: 30vh;
+	height: 40vh;
 	margin-top: 10vh;
 	margin-bottom: 5vh;
 	}
@@ -531,6 +531,8 @@ input[type="search"]{
 #footer{
 	position: absolute;
 	bottom: 0;
+	flex-direction: row;
+	justify-content: space-evenly;
 	padding: 5vh;
 	line-height: 2vh;
 	}
