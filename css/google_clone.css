@@ -474,7 +474,7 @@ header #mobile_header_menu{
 #buttons input{
 	margin-left: 5%;
 	padding: 2%;
-	font-size: 2.5vw;
+	font-size: 1.5vw;
 	}
 
 header #desktop_header_menu{
@@ -488,7 +488,7 @@ header #desktop_header_menu{
 	}
 	
 #desktop_header_menu a{
-	font-size: 2vw;
+	font-size: 1vw;
 	}
 
 #desktop_header_menu a:hover{
@@ -526,13 +526,13 @@ header #desktop_header_menu{
 	}
 	
 #logo{
-	height: 20vh;
+	height: 15vh;
 	margin-top: 20vh;
 	margin-bottom: 5vh;
 	}
 	
 #search_bar{
-	width: 30%;
+	width: 50%;
 	}
 
 input[type="search"]{
@@ -542,7 +542,7 @@ input[type="search"]{
 	
 #available{
 	margin-top: 5vh;
-	font-size: 2vw;
+	font-size: 1vw;
 	}
 	
 footer{
@@ -551,7 +551,7 @@ footer{
 	}
 
 #local{
-	font-size: 3vw;
+	font-size: 2vw;
 	padding: 2vh;
 	}
 	
@@ -573,7 +573,7 @@ footer{
 	
 #desktop_footer a{
 	display: inline;
-	font-size: 2vw;
+	font-size: 0.8vw;
 	padding-left: 2vw;
 	}
 }
