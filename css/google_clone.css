@@ -452,7 +452,8 @@ header > *{
 	
 #header_menu_area ul a{
 	color: black;
-	margin-left: 1.5vw;
+	margin-left: 1.2vw;
+	margin-right: 1.5vw;
 	}
 	
 #mobile_menu_button{
@@ -511,7 +512,7 @@ header #desktop_header_menu{
 
 #button_area_profile{
 	padding: 3%;
-	margin-right: 1vw;
+	margin-right: 2vw;
 }
 	
 #profile{
