@@ -448,12 +448,12 @@ header > *{
 	
 #header_menu_area{
 	justify-content: end;
+	margin-right: 1.5vw;
 	}
 	
 #header_menu_area ul a{
 	color: black;
-	margin-left: 1.2vw;
-	margin-right: 1.5vw;
+	margin-left: 1vw;
 	}
 	
 #mobile_menu_button{
@@ -570,14 +570,20 @@ footer{
 #desktop_footer{
 	display: flex;
 	justify-content: space-between;
-	padding: auto;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
 	line-height: auto;
 	}
 	
 #desktop_footer a{
 	display: inline;
 	font-size: 1vw;
-	padding: 2vw;
+	padding: auto;
+	}
+	
+#desktop_footer div{
+	padding-left: 2vw;
+	padding-right: 2vw;
 	}
 }
 
