@@ -538,15 +538,15 @@ header #desktop_header_menu{
 	}
 	
 #glass{
-	padding-left: 4%;
+	padding-left: 3%;
 	}
 	
 #color_mic{
-	padding-right:5%;
+	padding-right:3%;
 	}
 	
 #keyboard{
-	right: 10%;
+	right: 12%;
 	}
 	
 #search_bar{
@@ -556,7 +556,6 @@ header #desktop_header_menu{
 input[type="search"]{
 	padding-top: 1vh;
 	padding-bottom: 1vh;
-	padding-left: 10%;
 	font-size: 1.5vw;
 	}
 	
