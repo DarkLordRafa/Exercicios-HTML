@@ -526,7 +526,7 @@ header #desktop_header_menu{
 	}
 	
 #logo{
-	height: 15vh;
+	height: 12vh;
 	margin-top: 20vh;
 	margin-bottom: 5vh;
 	}
@@ -546,6 +546,7 @@ input[type="search"]{
 	}
 	
 footer{
+	width: 100%;
 	position: absolute;
 	bottom: 0;
 	}
