@@ -372,6 +372,16 @@ header > *{
 	height: 60px;
 	font-size: 14px;
 	}
+	
+#button_area_apps{
+	padding: 8%;
+	margin-right: 2vw;
+}
+
+#button_area_profile{
+	padding: 3%;
+	margin-right: 9vw;
+}
 
 #apps_menu{
 	height: 25px;
