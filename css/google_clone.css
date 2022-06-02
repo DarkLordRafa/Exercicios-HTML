@@ -403,8 +403,9 @@ header > *{
 	}
 
 input[type="search"]{
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 18px;
 	padding-left: 10%;
 	padding-right: 10%;
 	}
@@ -532,13 +533,27 @@ header #desktop_header_menu{
 	margin-bottom: 5vh;
 	}
 	
+#glass{
+	padding-left: 4%;
+	}
+	
+#color_mic{
+	padding-right:5%;
+	}
+	
+#keyboard{
+	right: 10%;
+	}
+	
 #search_bar{
 	width: 50%;
 	}
 
 input[type="search"]{
-	padding-top: 2vh;
-	padding-bottom: 2vh;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	padding-left: 10%;
+	font-size: 2vw;
 	}
 	
 #available{
@@ -576,7 +591,7 @@ footer{
 	display: inline;
 	font-size: 1vw;
 	padding-top: 1vh;
-	padding-bottom: 1vh;
+	padding-bottom: 2vh;
 	margin-left: 1vw;
 	margin-right: 1vw;
 	}
