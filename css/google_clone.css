@@ -475,9 +475,8 @@ header #desktop_header_menu{
 	display: flex;
 	}
 	
-#desktop_header_menu a{
-	height: auto;
-	font-size: 3.5vw;
+#desktop_header_menu ul a{
+	font-size: 2vw;
 	color: black;
 	padding-left: 2.5vw
 	padding-right: 2.5vw;
@@ -505,9 +504,13 @@ header #desktop_header_menu{
 	}
 	
 #logo{
-	height: 20vh;
+	height: 30vh;
 	margin-top: 10vh;
 	margin-bottom: 5vh;
+	}
+	
+#search_bar{
+	width: 50%;
 	}
 
 input[type="search"]{
