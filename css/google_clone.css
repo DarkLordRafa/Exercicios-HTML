@@ -439,7 +439,7 @@ input[type="search"]{
 
 @media(min-width:1024px){
 	header{
-	height: 10vh;
+	height: auto;
 	}
 	
 header > *{
@@ -452,7 +452,7 @@ header > *{
 	
 #header_menu_area ul a{
 	color: black;
-	margin-left: 2vw;
+	margin-left: 1.5vw;
 	}
 	
 #mobile_menu_button{
@@ -483,8 +483,8 @@ header #desktop_header_menu{
 	
 #desktop_header_menu ul a{
 	color: black;
-	padding-left: 2.5vw
-	padding-right: 2.5vw;
+	padding-left: auto;
+	padding-right: auto;
 	}
 	
 #desktop_header_menu a{
@@ -510,8 +510,8 @@ header #desktop_header_menu{
 }
 
 #button_area_profile{
-	padding: 2%;
-	margin-right: 3vw;
+	padding: 3%;
+	margin-right: 1vw;
 }
 	
 #profile{
@@ -526,7 +526,7 @@ header #desktop_header_menu{
 	}
 	
 #logo{
-	height: 12vh;
+	height: 14vh;
 	margin-top: 20vh;
 	margin-bottom: 5vh;
 	}
