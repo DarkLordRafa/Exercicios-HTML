@@ -476,12 +476,11 @@ header #desktop_header_menu{
 	}
 	
 #desktop_header_menu a{
-	height: 10vh;
-	font-size: 5vw;
+	height: auto;
+	font-size: 3.5vw;
 	color: black;
-	padding-left: 2.5vw;
+	padding-left: 2.5vw
 	padding-right: 2.5vw;
-	border-bottom: 2px solid transparent;
 	}
 	
 #desktop_header_menu a:hover{
@@ -518,7 +517,7 @@ input[type="search"]{
 	
 #available{
 	margin-top: 5vh;
-	font-size: 3vw;
+	font-size: 3.5vw;
 	}
 
 #local{
