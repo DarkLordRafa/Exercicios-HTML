@@ -570,15 +570,13 @@ footer{
 #desktop_footer{
 	display: flex;
 	justify-content: space-between;
-	padding-top: 1vh;
-	padding-bottom: 1vh;
-	line-height: auto;
 	}
 	
 #desktop_footer a{
 	display: inline;
 	font-size: 1vw;
-	padding: auto;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
 	margin-left: 1vw;
 	margin-right: 1vw;
 	}
