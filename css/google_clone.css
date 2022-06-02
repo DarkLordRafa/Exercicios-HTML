@@ -556,7 +556,7 @@ footer{
 	font-size: 1vw;
 	padding-top: 1vh;
 	padding-bottom: 1vh;
-	margin-left: 2vw;
+	padding-left: 2vw;
 	}
 	
 #middle_block{
@@ -579,9 +579,11 @@ footer{
 	display: inline;
 	font-size: 1vw;
 	padding: auto;
+	margin-left: 2vw;
+	margin-right: 2vw;
 	}
 	
-#desktop_footer div{
+#desktoop_footer div{
 	padding-left: 2vw;
 	padding-right: 2vw;
 	}
