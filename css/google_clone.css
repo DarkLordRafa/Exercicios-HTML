@@ -579,13 +579,13 @@ footer{
 	display: inline;
 	font-size: 1vw;
 	padding: auto;
-	margin-left: 2vw;
-	margin-right: 2vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
 	}
 	
-#desktoop_footer div{
-	padding-left: 2vw;
-	padding-right: 2vw;
+#desktop_footer div{
+	padding-left: 1vw;
+	padding-right: 1vw;
 	}
 }
 
