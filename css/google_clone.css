@@ -239,7 +239,7 @@ header #desktop_header_menu{
 	
 footer{
 	background-color: #f3f4f4;
-	margin-top: 36vh;
+	margin-top: 65%;
 	}
 	
 footer span, footer a{
@@ -401,10 +401,6 @@ input[type="search"]{
 #local{
 	font-size: 18px;
 	padding: 12px;
-	}
-	
-footer{
-	margin-top: 28vh;
 	}
 	
 #footer{
