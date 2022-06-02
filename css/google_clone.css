@@ -552,8 +552,8 @@ footer{
 	}
 
 #local{
-	font-size: 2vw;
-	padding: 2vh;
+	font-size: 1vw;
+	padding: 1vh;
 	}
 	
 #middle_block{
@@ -566,9 +566,8 @@ footer{
 	
 #desktop_footer{
 	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	padding: 2vh;
+	justify-content: space-between;
+	padding: 1vh;
 	line-height: auto;
 	}
 	
