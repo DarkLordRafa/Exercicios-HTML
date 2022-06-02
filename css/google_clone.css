@@ -556,14 +556,14 @@ header #desktop_header_menu{
 input[type="search"]{
 	padding-top: 1vh;
 	padding-bottom: 1vh;
-	padding-left: 8%;
-	padding-right: 8%;
+	padding-left: 10%;
+	padding-right: 10%;
 	font-size: 1.5vw;
 	}
 	
 #search::-webkit-search-cancel-button{
-	margin-right: 5%;
-	margin-left: 8%;
+	margin-right: 7%;
+	margin-left: 4%;
 	}
 	
 #available{
