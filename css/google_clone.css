@@ -504,13 +504,13 @@ header #desktop_header_menu{
 	}
 	
 #logo{
-	height: 40vh;
+	height: 60vh;
 	margin-top: 10vh;
 	margin-bottom: 5vh;
 	}
 	
 #search_bar{
-	width: 50%;
+	width: 60%;
 	}
 
 input[type="search"]{
@@ -526,6 +526,10 @@ input[type="search"]{
 #local{
 	font-size: 4vw;
 	padding: 5vh;
+	}
+	
+#middle_block{
+	display: none;
 	}
 	
 #footer{
