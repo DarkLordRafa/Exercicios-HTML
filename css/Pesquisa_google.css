@@ -51,6 +51,7 @@ header{
 	margin-top: 5vw;
 	width: 26vw;
 	margin-left: -5vw;
+	-webkit-tap-highlight-color: transparent;
 	}
 	
 #header-area__profile{
