@@ -5,6 +5,11 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content=
 		"width=device-width, initial-scale=1.0">
+		<meta property="og:url" content="https://darklordrafa.github.io/Exercicios-HTML/Pesquisa_google">
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="https://darklordrafa.github.io/Exercicios-HTML/imagens/google_clone/thumb2.png">
+		<meta property="og:title" content="Clone da página de resultados do Google">
+		<meta property="og:description" content="Um clone mobile da página de resultados do Google feito com HTML5 e CSS3.">
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href=
 		"css/Pesquisa_google.css">
@@ -15,6 +20,7 @@
 	</head>
 	<body>
 	
+	<div id="mobile-page">
 	<header>
 		<div id="header-area">
 			<div id ="header-area__mobile-menu">
@@ -235,6 +241,54 @@
 			<img id="load-more__drop-down-icon" src="imagens/dropdown.png">
 			<span id="load-more__text">Ver mais</span>
 		</a>
+	</div>
+	
+	<footer>
+		<div id="footer__location">
+			Brasil
+		</div>
+		<div id="footer__languages">
+			<div id="languages-block1">
+				<span>Disponibilizado pelo Google em:</span>
+			</div>
+			<div id="languages-block2">
+				<span id="languages-block2__actual">idioma atual</span>
+				<a>English</a>
+				<a id="languages-block2__more">Mais</a>
+			</div>
+		</div>
+		<div id="footer__footer-block">
+			<div id="footer-block__user-account">
+				<span id="user-account__actual">
+					suaconta@email.com - 
+				</span>
+				<a id="user-account__change">
+					Mudar de conta
+				</a>
+			</div>
+			<div id="footer-block__options1">
+				<ul>
+					<a><li>Tema escuro: desativado</li></a>
+					<a><li>Configurações</li></a>
+					<a><li>Ajuda</li></a>
+					<a><li>Feedback</li></a>
+				</ul>
+			</div>
+			<div id="footer-block__options2">
+				<ul>
+					<a><li>Privacidade</li></a>
+					<a><li>Termos</li></a>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	</div>
+	
+	<div id="larger-screen-page">
+		<h1>Por favor acesse o site em um dispositivo com 
+		uma tela menor
+		</h1>
+		<img src="imagens/mobile_devices.png">
 	</div>
 	
 	
