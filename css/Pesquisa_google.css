@@ -47,11 +47,14 @@ header{
 	width: 6.5vw;
 	}
 	
+#header-area__logo-link-area{
+	-webkit-tap-highlight-color: transparent;
+	}
+	
 #header-area__logo{
 	margin-top: 5vw;
 	width: 26vw;
 	margin-left: -5vw;
-	-webkit-tap-highlight-color: transparent;
 	}
 	
 #header-area__profile{
