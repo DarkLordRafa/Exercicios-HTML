@@ -170,7 +170,7 @@ i{
 	border-bottom:  2px solid transparent;
 	}
 	
-#scrolling-menu li:hover{
+#scrolling-menu li:active{
 	color: black;
 	}
 	
