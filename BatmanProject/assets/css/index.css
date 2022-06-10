@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	box-sizing:  border-box;
+	text-size-adjust: none;
+	}
+	
+a{
+	text-decoration: none;
+	}
+	
+html{
+	height: 100%;
+	overflow-x: hidden;
+	}
+	
+body{
+	font-family: Arial, sans-serif;
+	font-size: 7vw;
+	font-weight: 900;
+	color: white;
+	text-transform: uppercase;
+	height: 100%;
+	background-image: url("../imagens/background.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	
+header{
+	display: flex;
+	justify-content: flex-end;
+	}
+	
+#play-music__menu{
+	margin-right: 7vw;
+	margin-top: 2vh;
+	font-size: 6vw;
+	}
+	
+#play-music__menu ul{
+	background-color: #00000040;
+	font-size: 5vw;
+	}
+	
+#play-music__menu ul li{
+	padding: 2%;
+	}
+	
+#play-music__button, #stop-music{
+	display: flex;
+	align-items: center;
+	}
+	
+#play-music__menu img{
+	height: 15px;
+	margin-left: 2vw;
+	}
+	
+#play-music__button{
+	margin-bottom: 5%;
+	}
+	
+#characters{
+	display: flex;
+	margin-top: 5%;
+	width: 100%;
+	}
+	
+#characters__menu{
+	font-size: 5vw;
+	}
+	
+#characters__menu ul{
+	background-color: #00000040;
+	}
+	
+#characters__menu li{
+	padding: 1vw;
+	padding-right: 2vw;
+	}
+	
+#characters__image{
+	width: 50%;
+	}
+	
+#characters__image img{
+	height: 35vh;
+	margin-left: 10%;
+	}
+	
+main{
+	font-size: 4vw;
+	font-weight: 400;
+	width: 60%;
+	height: 30%;
+	margin: auto;
+	overflow: auto;
+	padding: 3%;
+	background-color: black;
+	text-transform: none;
+	border-radius: 10px;
+	}
+	
+main p{
+	
+	}
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
