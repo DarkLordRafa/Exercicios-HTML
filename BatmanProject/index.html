@@ -13,15 +13,15 @@
 	
 	<header>
 		<div id="play-music">
+			<div id="play-music__button">
+				Música<img src="assets/imagens/play.png">
+			</div>
 			<div id="play-music__menu">
-				<div id="play-music__button">
-					Música<img src="assets/imagens/play.png">
-				</div>
 				<ul>
-					<li>Música 1</li>
-					<li>Música 2</li>
-					<li>Música 3</li>
-					<li id="stop-music">Parar<img src="assets/imagens/stop.png"</li>
+					<li id="music-1">Música 1</li>
+					<li id="music-2">Música 2</li>
+					<li id="music-3">Música 3</li>
+					<li id="stop">Parar<img src="assets/imagens/stop.png"></li>
 				</ul>
 			</div>
 		</div>
@@ -47,6 +47,79 @@
 			Quando seus pais foram alvejados na sua frente, o jovem Bruce Wayne decidiu livrar Gotham City dos criminosos que lhes tiraram a vida. Ele treinou para atingir a perfeição física e mental e dominar as artes marciais, técnicas de detetive e psicologia criminal. Vestido como morcego para atacar os medos dos criminosos, o Batman combate crimes com a ajuda de aparelhos e veículos especializados, operando a partir de sua Batcaverna secreta, abaixo da Mansão Wayne.
 		</p>
 	</main>
+	
+	<audio id="music">
+		<source src="assets/audio/track1.mp3">
+	</audio>
+	
+	
+	<!-- Refatorar aqui -->
+	<script>
+		window.onload = function(open_close_menu){
+			document.querySelector("#play-music__button").addEventListener("click", function(open_close_menu){
+			if (document.querySelector("#play-music__menu").style.height == '70%'){
+				document.querySelector("#play-music__menu").style.height = '0%';
+				}
+			else {
+				document.querySelector("#play-music__menu").style.height = '70%';
+					}
+				});
+			};
+	</script>
+	
+	<script>
+		document.querySelector("#music").loop = true;
+		function play_music_1(){
+			document.querySelector("#music").src = "assets/audio/MainTheme.mp3";
+			document.querySelector("#music").play();
+			}
+		function play_music_2(){
+			document.querySelector("#music").src = "assets/audio/track1.mp3";
+			document.querySelector("#music").play();
+			}
+		function play_music_3(){
+			document.querySelector("#music").src = "assets/audio/track2.mp3";
+			document.querySelector("#music").play();
+			}
+		function stop_music(){
+			document.querySelector("#music").src = "";
+			}
+	</script>
+	
+	<script>
+		document.querySelector("#music-1").addEventListener("click", play_music_1);
+		document.querySelector("#music-2").addEventListener("click", play_music_2);
+		document.querySelector("#music-3").addEventListener("click", play_music_3);
+		document.querySelector("#stop").addEventListener("click", stop_music);
+	</script>
+	
+	
+	<!--
+	<script>
+		function play_music_1(){
+		var music = new Audio("assets/audio/MainTheme.mp3");
+		music.play();
+		}
+		function play_music_2(){
+		var music = new Audio("assets/audio/track1.mp3");
+		music.play();
+		}
+		function play_music_3(){
+		var music = new Audio("assets/audio/track2.mp3");
+		music.play();
+		}
+		function stop(){
+		music.pause();
+		}
+	</script>
+	
+	<script>
+		document.querySelector("#music-1").addEventListener("click", play_music_1);
+		document.querySelector("#music-2").addEventListener("click", play_music_2);
+		document.querySelector("#music-3").addEventListener("click", play_music_3);
+		document.querySelector("#stop-music").addEventListener("click", stop);
+	</script>
+	-->
 	
 	
 	

@@ -30,21 +30,27 @@ body{
 header{
 	display: flex;
 	justify-content: flex-end;
+	height: 20%;
+	margin-bottom: 10%;
+	padding-top: 2vh;
+	}
+	
+#play-music{
+	margin-right: 7vw;
+	font-size: 6vw;
+	height: 100%;
 	}
 	
 #play-music__menu{
-	margin-right: 7vw;
-	margin-top: 2vh;
-	font-size: 6vw;
-	}
-	
-#play-music__menu ul{
+	height: 0%;
+	overflow: auto;
 	background-color: #00000040;
 	font-size: 5vw;
 	}
 	
 #play-music__menu ul li{
-	padding: 2%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	}
 	
 #play-music__button, #stop-music{
@@ -52,7 +58,7 @@ header{
 	align-items: center;
 	}
 	
-#play-music__menu img{
+#play-music img{
 	height: 15px;
 	margin-left: 2vw;
 	}
@@ -63,12 +69,16 @@ header{
 	
 #characters{
 	display: flex;
-	margin-top: 5%;
+	margin-bottom: 5%;
+	align-items: center;
 	width: 100%;
+	height: 40%;
 	}
 	
 #characters__menu{
 	font-size: 5vw;
+	overflow: auto;
+	height: 60%;
 	}
 	
 #characters__menu ul{
@@ -76,8 +86,7 @@ header{
 	}
 	
 #characters__menu li{
-	padding: 1vw;
-	padding-right: 2vw;
+	padding: 2vw;
 	}
 	
 #characters__image{
@@ -85,7 +94,7 @@ header{
 	}
 	
 #characters__image img{
-	height: 35vh;
+	width: 100%;
 	margin-left: 10%;
 	}
 	
@@ -93,27 +102,44 @@ main{
 	font-size: 4vw;
 	font-weight: 400;
 	width: 60%;
-	height: 30%;
+	height: 25%;
 	margin: auto;
 	overflow: auto;
-	padding: 3%;
+	padding: 5%;
 	background-color: black;
 	text-transform: none;
 	border-radius: 10px;
+	border: 1px solid white;
 	}
 	
-main p{
-	
+#play-music__menu::-webkit-scrollbar{
+	background-color: black;
+	}
+
+#play-music__menu::-webkit-scrollbar-thumb{
+	background-color: white;
+	border-radius: 10px;
 	}
 	
+#characters__menu::-webkit-scrollbar{
+	background-color: black;
+	}
+
+#characters__menu::-webkit-scrollbar-thumb{
+	background-color: white;
+	border-radius: 10px;
+	}
+	
+main::-webkit-scrollbar{
+	background-color: black;
+	}
+
+main::-webkit-scrollbar-thumb{
+	background-color: white;
+	border-radius: 10px;
+	}
 	
 
-	
-	
-	
-	
-	
-	
 	
 	
 	
