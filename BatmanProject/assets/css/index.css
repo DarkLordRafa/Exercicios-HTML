@@ -6,6 +6,11 @@
 	text-size-adjust: none;
 	}
 	
+@keyframes bats-animation{
+	0% {left: -220vw; visibility: visible;}
+	100% {left: 250vw;}
+	}
+	
 a{
 	text-decoration: none;
 	}
@@ -67,6 +72,19 @@ header{
 	margin-bottom: 5%;
 	}
 	
+.bat{
+	visibility: hidden;
+	position: absolute;
+	}
+	
+.bats{
+	animation-name: bats-animation;
+	visibility: hidden;
+	animation-duration: 1.5s;
+	position: absolute;
+	height: 70%;
+	}
+	
 #characters{
 	display: flex;
 	margin-bottom: 5%;
@@ -96,13 +114,13 @@ header{
 	
 #characters__image img{
 	height: 100%;
-	margin-left: 10%;
+	margin-left: 5%;
 	}
 	
 main{
 	font-size: 4vw;
 	font-weight: 400;
-	width: 60%;
+	width: 70%;
 	height: 25%;
 	margin: auto;
 	overflow: auto;

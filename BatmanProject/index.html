@@ -28,6 +28,7 @@
 		</div>
 	</header>
 	
+	<img class="bat" src="assets/imagens/bats.gif">
 	<div id="characters">
 		<nav id="characters__menu">
 			<ul>
@@ -39,7 +40,7 @@
 			</ul>
 		</nav>
 		<div id="characters__image">
-			<img src="assets/imagens/batman.png">
+			<img src="assets/imagens/batman3.png">
 		</div>
 	</div>
 	
@@ -67,17 +68,24 @@
 				document.querySelector("#play-music__menu").style.height = '70%';
 				}
 			}
+		$("#characters li")
+      .on("click", function(){
+      $(".bat").addClass("bats")
+		.on("animationend", function(){
+      $(this).removeClass("bats");
+    });
+		}
+    );
 		function scroll_to_top(){
 			$("main").scrollTop(0);
 			}
-		function active_option(){
-			if ($("ul li").style.background-color == "black"){
-				$("ul li").style.background-color = "inherit";
+		$("li").ready(function(){
+			$("li").click(function(){
+				$("li").css("background-color", "");
+				$(this).css("background-color", "black");
+			});
 				}
-			else{
-				$("ul li').style.background-color = "black";
-				}
-			}
+			);
 	</script>
 	
 	<script>
@@ -112,7 +120,7 @@
 	
 	<script>
 		function display_batman(){
-			document.querySelector("#characters__image img").src = "assets/imagens/batman.png";
+			document.querySelector("#characters__image img").src = "assets/imagens/batman3.png";
 			document.querySelector("main p").innerHTML = "Quando seus pais foram alvejados na sua frente, o jovem Bruce Wayne decidiu livrar Gotham City dos criminosos que lhes tiraram a vida. Ele treinou para atingir a perfeição física e mental e dominar as artes marciais, técnicas de detetive e psicologia criminal. Vestido como morcego para atacar os medos dos criminosos, o Batman combate crimes com a ajuda de aparelhos e veículos especializados, operando a partir de sua Batcaverna secreta, abaixo da Mansão Wayne.";
 			}
 		function display_catwoman(){
