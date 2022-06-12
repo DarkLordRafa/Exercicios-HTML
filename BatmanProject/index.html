@@ -8,6 +8,7 @@
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href=
 		"assets/css/index.css">
+		<script src="assets/js/jquery.js"></script>
 	</head>
 	<body>
 	
@@ -30,11 +31,11 @@
 	<div id="characters">
 		<nav id="characters__menu">
 			<ul>
-				<li>Batman</li>
-				<li>Mulher-Gato</li>
-				<li>Coringa</li>
-				<li>Pinguin</li>
-				<li>Charada</li>
+				<li id="batman">Batman</li>
+				<li id="catwoman">Mulher-Gato</li>
+				<li id="joker">Coringa</li>
+				<li id="penguin">Pinguin</li>
+				<li id="riddler">Charada</li>
 			</ul>
 		</nav>
 		<div id="characters__image">
@@ -51,20 +52,36 @@
 	<audio id="music">
 		<source src="assets/audio/track1.mp3">
 	</audio>
+	<audio id="bats-sound">
+		<source src="assets/audio/bats2.mp3">
+	</audio>
 	
 	
-	<!-- Refatorar aqui -->
+	
 	<script>
-		window.onload = function(open_close_menu){
-			document.querySelector("#play-music__button").addEventListener("click", function(open_close_menu){
+		function open_close_menu(){
 			if (document.querySelector("#play-music__menu").style.height == '70%'){
 				document.querySelector("#play-music__menu").style.height = '0%';
 				}
 			else {
 				document.querySelector("#play-music__menu").style.height = '70%';
-					}
-				});
-			};
+				}
+			}
+		function scroll_to_top(){
+			$("main").scrollTop(0);
+			}
+		function active_option(){
+			if ($("ul li").style.background-color == "black"){
+				$("ul li").style.background-color = "inherit";
+				}
+			else{
+				$("ul li').style.background-color = "black";
+				}
+			}
+	</script>
+	
+	<script>
+		document.querySelector("#play-music__button").addEventListener("click", open_close_menu);
 	</script>
 	
 	<script>
@@ -84,13 +101,51 @@
 		function stop_music(){
 			document.querySelector("#music").src = "";
 			}
+		function play_select_sound(){
+		var select_sound = new Audio("assets/audio/select.mp3");
+		select_sound.play();
+			}
+		function play_bats_sound(){
+			document.querySelector("#bats-sound").play();
+			}
 	</script>
 	
 	<script>
+		function display_batman(){
+			document.querySelector("#characters__image img").src = "assets/imagens/batman.png";
+			document.querySelector("main p").innerHTML = "Quando seus pais foram alvejados na sua frente, o jovem Bruce Wayne decidiu livrar Gotham City dos criminosos que lhes tiraram a vida. Ele treinou para atingir a perfeição física e mental e dominar as artes marciais, técnicas de detetive e psicologia criminal. Vestido como morcego para atacar os medos dos criminosos, o Batman combate crimes com a ajuda de aparelhos e veículos especializados, operando a partir de sua Batcaverna secreta, abaixo da Mansão Wayne.";
+			}
+		function display_catwoman(){
+			document.querySelector("#characters__image img").src = "assets/imagens/catwoman.png";
+			document.querySelector("main p").innerHTML = "Órfã nas ruas cruéis de Gotham, Selina Kyle recorreu ao roubo para sobreviver. Determinada a fazer isso com estilo, ela aprendeu artes marciais e ginástica para aperfeiçoar as habilidades. Sua atividade criminosa é temperada por um altruísmo relutante, tornando-a vila inconstante e heroína ocasional. Ela mantém com o Batman um relacionamento complicado e antagônico, que com frequência se torna galanteador e até romântico. Desde a abertura de Arkham City. os relatos de roubos da Mulher-Gato se reduziram, embora rumores no submundo indiquem que ela esteja caçando o Duas-Caras por motivo desconhecido.";
+			}
+		function display_joker(){
+			document.querySelector("#characters__image img").src = "assets/imagens/joker.png";
+			document.querySelector("main p").innerHTML = "O autoproclamado Palhaço Príncipe do Crime não tem nenhum poder além da capacidade incrível para causar violência e caos mortais. Desde seu último encontro com o Cavaleiro das Trevas, o Coringa foi transferido para Arkham City. Testemunhas afirmam que uma doença grave o aflige, talvez causada pela overdose de Titan na Ilha Arkham. Ele tem se escondido, transmitindo ordens pela Arlequina, para que ninguém confirme se ele está mesmo com a saúde debilitada ou apenas pregando mais uma peça doentia.";
+			}
+		function display_penguin(){
+			document.querySelector("#characters__image img").src = "assets/imagens/penguin.png";
+			document.querySelector("main p").innerHTML = "O Pinguim é um gênio do crime excêntrico, conhecido por seus negócios escusos. Nascido na rica família Cobblepot, Oswald foi mandado para o exterior quando garoto, para estudar. Quando sua família empobreceu, Cobblepot empreendeu uma educação criminosa nas ruas de Londres. Anos depois, ele ressurgiu como o Pinguim, um comerciante clandestino de armas em Gotham, facilitando as atividades ilegais que financiam boa parte do submundo da cidade. O Pinguim parece estar prosperando em Arkham City como o líder do seu emergente mercado negro.";
+			}
+		function display_riddler(){
+			document.querySelector("#characters__image img").src = "assets/imagens/riddler.png";
+			document.querySelector("main p").innerHTML = "Com uma necessidade obsessiva por atenção, Edward Nigma está determinado a ser o criminoso mais esperto de Gotham, traçando trilhas elaboradas de pistas e enigmas junto com seus crimes. Batman provou ser um oponente digno, capaz de desvendar seus planos mais intrincados, mas o Charada está dedicado a criar um mistério para frustrar o Cavaleiro da Trevas, mesmo que tenha de matar para isso. Humilhado pelo Batman na Ilha Arkham, Nigma está mais determinado do que nunca a deixar o Cruzado Encapuzado de joelhos.";
+			}
+	</script>
+	
+	<script>
+		$("#characters li").on("click", scroll_to_top);
+		$("li, #play-music__button").on("click", play_select_sound);
+		$("#characters li").on("click", play_bats_sound);
 		document.querySelector("#music-1").addEventListener("click", play_music_1);
 		document.querySelector("#music-2").addEventListener("click", play_music_2);
 		document.querySelector("#music-3").addEventListener("click", play_music_3);
 		document.querySelector("#stop").addEventListener("click", stop_music);
+		document.querySelector("#batman").addEventListener("click", display_batman);
+		document.querySelector("#catwoman").addEventListener("click", display_catwoman);
+		document.querySelector("#joker").addEventListener("click", display_joker);
+		document.querySelector("#penguin").addEventListener("click", display_penguin);
+		document.querySelector("#riddler").addEventListener("click", display_riddler);
 	</script>
 	
 	
@@ -111,13 +166,6 @@
 		function stop(){
 		music.pause();
 		}
-	</script>
-	
-	<script>
-		document.querySelector("#music-1").addEventListener("click", play_music_1);
-		document.querySelector("#music-2").addEventListener("click", play_music_2);
-		document.querySelector("#music-3").addEventListener("click", play_music_3);
-		document.querySelector("#stop-music").addEventListener("click", stop);
 	</script>
 	-->
 	
