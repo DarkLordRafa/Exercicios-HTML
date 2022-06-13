@@ -4,6 +4,7 @@
 	list-style-type: none;
 	box-sizing:  border-box;
 	text-size-adjust: none;
+	-webkit-tap-highlight-color: transparent;
 	}
 	
 @keyframes bats-animation{
@@ -13,6 +14,7 @@
 	
 a{
 	text-decoration: none;
+	color: inherit;
 	}
 	
 html{
@@ -32,18 +34,31 @@ body{
 	background-size: cover;
 	}
 	
+#me{
+	font-size: 5vw;
+	text-align: center;
+	color: white;
+	margin-bottom: 5%;
+	}
+	
+#me a{
+	text-decoration: underline;
+	color: gold;
+	}
+	
 header{
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	height: 20%;
-	margin-bottom: 10%;
+	margin-bottom: 2%;
 	padding-top: 2vh;
 	}
 	
 #play-music{
-	margin-right: 7vw;
+	margin-right: 4vw;
 	font-size: 6vw;
 	height: 100%;
+	width: auto;
 	}
 	
 #play-music__menu{
@@ -54,22 +69,58 @@ header{
 	}
 	
 #play-music__menu ul li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	padding-top: 5%;
 	padding-bottom: 5%;
 	}
 	
-#play-music__button, #stop-music{
+#play-music__button{
 	display: flex;
 	align-items: center;
 	}
 	
 #play-music img{
-	height: 15px;
+	width: 3.5vw;
+	height: 3.5vw;
 	margin-left: 2vw;
 	}
 	
 #play-music__button{
 	margin-bottom: 5%;
+	}
+	
+#language{
+	margin-left: 2vw;
+	font-size: 6vw;
+	width: 40%;
+	height: 100%;
+	}
+	
+#language__menu{
+	height: 0%;
+	overflow: auto;
+	background-color: #00000040;
+	font-size: 5vw;
+	}
+	
+#language__menu ul li{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	display: flex;
+	align-items: center;
+	}
+	
+#language__button{
+	display: flex;
+	align-items: center;
+	margin-bottom: 5%;
+	}
+	
+#language img{
+	width: 5.5vw;
+	margin-left: 2vw;
 	}
 	
 .bats-hidden{
@@ -136,6 +187,15 @@ main{
 	}
 
 #play-music__menu::-webkit-scrollbar-thumb{
+	background-color: white;
+	border-radius: 10px;
+	}
+	
+#language__menu::-webkit-scrollbar{
+	background-color: black;
+	}
+
+#language__menu::-webkit-scrollbar-thumb{
 	background-color: white;
 	border-radius: 10px;
 	}

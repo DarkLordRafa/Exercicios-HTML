@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Projeto Batman - Personagens</title>
+		<title>Projetc Batman - Characters</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content=
 		"width=device-width, initial-scale=1.0, user-scalable='no'">
@@ -15,8 +15,8 @@
 	<header>
 		<div id="language">
 			<div id="language__button">
-				Português
-				<img src="assets/imagens/brazil.png">
+				English
+				<img src="assets/imagens/eua.png">
 			</div>
 			<div id="language__menu">
 				<ul>
@@ -28,30 +28,30 @@
 		
 		<div id="play-music">
 			<div id="play-music__button">
-				Música<img src="assets/imagens/play.png">
+				Play Music<img src="assets/imagens/play.png">
 			</div>
 			<div id="play-music__menu">
 				<ul>
-					<li id="music-1">Música 1</li>
-					<li id="music-2">Música 2</li>
-					<li id="music-3">Música 3</li>
-					<li id="stop">Parar<img src="assets/imagens/stop.png"></li>
+					<li id="music-1">Music 1</li>
+					<li id="music-2">Music 2</li>
+					<li id="music-3">Music 3</li>
+					<li id="stop">Stop<img src="assets/imagens/stop.png"></li>
 				</ul>
 			</div>
 		</div>
 	</header>
 	
-	<h1 id="me">Desenvolvido por <a href="https://www.linkedin.com/in/rafael-aparecido-363bbb212">Rafael</a></h1>
+	<h1 id="me">Developed by <a href="https://www.linkedin.com/in/rafael-aparecido-363bbb212">Rafael</a></h1>
 	<img class="bats-hidden" src="assets/imagens/bats.gif">
 	<div id="characters">
 		<nav id="characters__menu">
 			<ul>
 				<li id="batman">Batman</li>
-				<li id="catwoman">Mulher-Gato</li>
-				<li id="joker">Coringa</li>
-				<li id="harley-quinn">Arlequina</li>
-				<li id="penguin">Pinguin</li>
-				<li id="riddler">Charada</li>
+				<li id="catwoman">Catwoman</li>
+				<li id="joker">The Joker</li>
+				<li id="harley-quinn">Harley Quinn</li>
+				<li id="penguin">The Penguin</li>
+				<li id="riddler">The Riddler</li>
 			</ul>
 		</nav>
 		<div id="characters__image">
@@ -61,7 +61,15 @@
 	
 	<main>
 		<p>
-			Quando seus pais foram alvejados na sua frente, o jovem Bruce Wayne decidiu livrar Gotham City dos criminosos que lhes tiraram a vida. Ele treinou para atingir a perfeição física e mental e dominar as artes marciais, técnicas de detetive e psicologia criminal. Vestido como morcego para atacar os medos dos criminosos, o Batman combate crimes com a ajuda de aparelhos e veículos especializados, operando a partir de sua Batcaverna secreta, abaixo da Mansão Wayne.
+			When his parents were gunned down in front of him, young Bruce
+			Wayne resolved to rid Gotham City of the criminal element that took
+			their lives.
+			He trained extensively to achieve mental and physical perfection, in
+			addition to mastering martial arts, detective techniques, and criminal
+			psychology.
+			Dressing as a bat to prey on criminals' fears, Batman fights crimes
+			with the aid of specialized gadgets and vehicles, operating out of his
+			secret Batcave below Wayne Manor.
 		</p>
 	</main>
 	
@@ -145,27 +153,27 @@
 	<script>
 		function display_batman(){
 			document.querySelector("#characters__image img").src = "assets/imagens/batman3.png";
-			document.querySelector("main p").innerHTML = "Quando seus pais foram alvejados na sua frente, o jovem Bruce Wayne decidiu livrar Gotham City dos criminosos que lhes tiraram a vida. Ele treinou para atingir a perfeição física e mental e dominar as artes marciais, técnicas de detetive e psicologia criminal. Vestido como morcego para atacar os medos dos criminosos, o Batman combate crimes com a ajuda de aparelhos e veículos especializados, operando a partir de sua Batcaverna secreta, abaixo da Mansão Wayne.";
+			document.querySelector("main p").innerHTML = "When his parents were gunned down in front of him, young Bruce Wayne resolved to rid Gotham City of the criminal element that took their lives. He trained extensively to achieve mental and physical perfection, in addition to mastering martial arts, detective techniques, and criminal psychology. Dressing as a bat to prey on criminals' fears, Batman fights crimes with the aid of specialized gadgets and vehicles, operating out of his secret Batcave below Wayne Manor.";
 			}
 		function display_catwoman(){
 			document.querySelector("#characters__image img").src = "assets/imagens/catwoman.png";
-			document.querySelector("main p").innerHTML = "Órfã nas ruas cruéis de Gotham, Selina Kyle recorreu ao roubo para sobreviver. Determinada a fazer isso com estilo, ela aprendeu artes marciais e ginástica para aperfeiçoar as habilidades. Sua atividade criminosa é temperada por um altruísmo relutante, tornando-a vilã inconstante e heroína ocasional. Ela mantém com o Batman um relacionamento complicado e antagônico, que com frequência se torna galanteador e até romântico. Desde a abertura de Arkham City. os relatos de roubos da Mulher-Gato se reduziram, embora rumores no submundo indiquem que ela esteja caçando o Duas-Caras por motivo desconhecido.";
+			document.querySelector("main p").innerHTML = "An orphan who learned to survive on the mean streets of Gotham, Selina Kyle turned to thievery to survive. Determined to do it with style,she learned martial arts and trained in gymnastics to perfect her skills. Her criminal activities are tempered by a reluctant altruism, making her an inconstant villain and occasional hero. She maintains a complicated, adversarial relationship with Batman that frequently turns flirtatious and occasionally romantic. Since the opening of Arkham City, reports of Catwoman burglaries are down, though underworld rumors have her hunting down Two-Face for an unknown reason.";
 			}
 		function display_joker(){
 			document.querySelector("#characters__image img").src = "assets/imagens/joker.png";
-			document.querySelector("main p").innerHTML = "O autoproclamado Palhaço Príncipe do Crime não tem nenhum poder além da capacidade incrível para causar violência e caos mortais. Desde seu último encontro com o Cavaleiro das Trevas, o Coringa foi transferido para Arkham City. Testemunhas afirmam que uma doença grave o aflige, talvez causada pela overdose de Titan na Ilha Arkham. Ele tem se escondido, transmitindo ordens pela Arlequina, para que ninguém confirme se ele está mesmo com a saúde debilitada ou apenas pregando mais uma peça doentia.";
+			document.querySelector("main p").innerHTML = "The self-styled Clown Prince of Crime has no superpowers beyond a capacity for incredible violence and a skill at creating deadly mayhem. Since his last encounter with the Dark Knight, the Joker has been transferred to Arkham City. Eyewitnesses claim he is stricken with a serious disease, possibly caused by his Titan overdose on Arkham Island. He has been lying low, delivering orders through Harley Quinn, so no one can confirm if the Joker is actually in poor health or playing another sick joke.";
 			}
 		function display_harley_quinn(){
 			document.querySelector("#characters__image img").src = "assets/imagens/harley_quinn.png";
-			document.querySelector("main p").innerHTML = "Psiquiatra do Asilo Arkham designada para cuidar do Coringa, a Dra. Harleen Quinzel acabou ficando obcecada por seu paciente, acreditando estar apaixonada por ele. Ela o ajudou a fugir e assumiu sua própria identidade de Arlequina. Ela é uma criminosa violenta e imprevisível cuja única motivação é conseguir a aprovação do Coringa. Graças à natureza cruel e volátil dele, isso de certa forma a torna mais uma de suas vítimas - ainda que muito perigosa. Depois da overdose de Titan que o Coringa sofreu no Asilo Arkham, a mente da Arlequina se deteriorou ainda mais. Ela está cegamente determinada a fazê-lo sorrir de novo.";
+			document.querySelector("main p").innerHTML = "An Arkham Asylum psychiatrist assigned to treat the Joker, Dr. Harleen Quinzel instead became obsessively fixated on her patient, believing herself to be in love with him. She helped him escape and took on her own criminal identity as Harley Quinn. Quinn is a violent and unpredictable felon whose only motivation is achieving the Joker's approval Because of his cruel and mercurial nature, this in some ways makes her just another of his victims-albeit a very dangerous one, Since the Joker's Titan overdose in Arkham Asylum, Harley's mind has further deteriorated. She is blindly determined to put a smile back on his face.";
 			}
 		function display_penguin(){
 			document.querySelector("#characters__image img").src = "assets/imagens/penguin.png";
-			document.querySelector("main p").innerHTML = "O Pinguim é um gênio do crime excêntrico, conhecido por seus negócios escusos. Nascido na rica família Cobblepot, Oswald foi mandado para o exterior quando garoto, para estudar. Quando sua família empobreceu, Cobblepot empreendeu uma educação criminosa nas ruas de Londres. Anos depois, ele ressurgiu como o Pinguim, um comerciante clandestino de armas em Gotham, facilitando as atividades ilegais que financiam boa parte do submundo da cidade. O Pinguim parece estar prosperando em Arkham City como o líder do seu emergente mercado negro.";
+			document.querySelector("main p").innerHTML = "The Penguin is an eccentric criminal mastermind known for his shady business dealings. Born into the wealthy Cobblepot family, Oswald was sent overseas for school as a boy. When his family hit hard times, Cobblepot immersed himself in a criminal education on the streets of London. Years later, he re-emerged as the Penguin, a black-market arms dealer in Gotham, facilitating the illegal financial activities that fund much of the city's underworld. The Penguin seems to be prospering within Arkham City as the leader of its emerging black market.";
 			}
 		function display_riddler(){
 			document.querySelector("#characters__image img").src = "assets/imagens/riddler.png";
-			document.querySelector("main p").innerHTML = "Com uma necessidade obsessiva por atenção, Edward Nigma está determinado a ser o criminoso mais esperto de Gotham, traçando trilhas elaboradas de pistas e enigmas junto com seus crimes. Batman provou ser um oponente digno, capaz de desvendar seus planos mais intrincados, mas o Charada está dedicado a criar um mistério para frustrar o Cavaleiro da Trevas, mesmo que tenha de matar para isso. Humilhado pelo Batman na Ilha Arkham, Nigma está mais determinado do que nunca a deixar o Cruzado Encapuzado de joelhos.";
+			document.querySelector("main p").innerHTML = "With an obsessive-compulsive need for attention, Edward Nigma is determined to be the cleverest of Gotham City's criminals, plotting elaborate trails of clues and riddles around his crimes. Batman has proven a worthy opponent, capable of unraveling the Riddler's most intricate plans, but Nigma is dedicated to creating a mystery that will stump the Dark Knight, even if he has to kill someone to do it Humiliated by Batman on Arkham Island, Nigma is more determined than ever to bring the Caped Crusader to his knees.";
 			}
 	</script>
 	
