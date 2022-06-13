@@ -79,16 +79,13 @@ header{
 #play-music__button{
 	display: flex;
 	align-items: center;
+	margin-bottom: 5%;
 	}
 	
 #play-music img{
 	width: 3.5vw;
 	height: 3.5vw;
 	margin-left: 2vw;
-	}
-	
-#play-music__button{
-	margin-bottom: 5%;
 	}
 	
 #language{
