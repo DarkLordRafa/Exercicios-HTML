@@ -15,6 +15,9 @@
 a{
 	text-decoration: none;
 	color: inherit;
+	}
+	
+a, li, #play-music__button, #language__button{
 	cursor: pointer;
 	}
 	
