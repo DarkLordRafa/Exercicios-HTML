@@ -224,6 +224,7 @@ main::-webkit-scrollbar-thumb{
 
 @media (min-width: 1024px){
 	body{
+	background-position: center bottom;
 	font-size: 3vw;
 	}
 	
