@@ -223,7 +223,7 @@ main::-webkit-scrollbar-thumb{
 	
 	
 
-@media (min-width: 1024px) and (orientation: landscape){
+@media (min-width: 1024px), (orientation: landscape){
 	body{
 	background-image: url("../imagens/background_large.gif");
 	font-size: 3vw;
