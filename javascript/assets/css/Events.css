@@ -21,6 +21,10 @@ a{
 	justify-content: center;
 }
 
+.container *{
+	border: 1px solid black;
+}
+
 .block1, .block2{
 	height: 10vh;
 	width: 20vh;
@@ -47,8 +51,11 @@ a{
 	z-index: 99;
 	background-color: white;
 	top: -2.5vh;
+	border: 2px solid black;
 }
 
-.container *{
-	border: 1px solid black;
+.pokemon-area__image{
+	height: 20vh;
+	opacity: 0;
+	transition: linear 2s;
 }
