@@ -12,7 +12,7 @@ function open_close(){
 //Checando se o elemento possui a classe e fazendo as alterações:
 	if (button.classList.contains("circle-not-active")){
 		pokeDisplayed = true;
-		pokeballSound.src = "assets/sounds/pokeout.mp3";
+		pokeballSound.src = "assets/sounds/poke_out.mp3";
 		pokeballSound.play();
 		pokemonImage.style.opacity = "1";
 //Toda vez que transição encerra, essa função verifica o valor de pokeDisplayed
@@ -32,7 +32,7 @@ function open_close(){
 	}
 	else{
 		pokeDisplayed = false;
-		pokeballSound.src = "assets/sounds/pokereturn.mp3";
+		pokeballSound.src = "assets/sounds/poke_return.mp3";
 		pokemonImage.style.opacity = "0";
 		pokeballSound.play();
 //Fazendo alterações apenas quando o áudio acaba:
