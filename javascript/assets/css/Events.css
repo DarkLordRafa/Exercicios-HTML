@@ -44,8 +44,8 @@ a{
 }
 
 .circle{
-	height: 8vw;
-	width: 8vw;
+	height: 5vh;
+	width: 5vh;
 	border-radius: 50%;
 	position: relative;
 	z-index: 99;
