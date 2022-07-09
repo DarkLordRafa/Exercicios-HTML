@@ -27,8 +27,8 @@ function open_close(){
 		button.classList.remove("circle-not-active");
 //Fazendo alterações de acordo com a posição das divs na coleção:
 		containerElements[0, 1].style.position = "absolute";
-		containerElements[0].style.marginTop = "-20vh";
-		containerElements[1].style.marginTop = "20vh";
+		containerElements[0].style.marginTop = "-15vh";
+		containerElements[1].style.marginTop = "15vh";
 	}
 	else{
 		pokeDisplayed = false;

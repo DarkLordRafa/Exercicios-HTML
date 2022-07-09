@@ -13,7 +13,7 @@ a{
 
 .container{
 	width: 40%;
-	height: 50vh;
+	height: 40vh;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
@@ -26,26 +26,26 @@ a{
 }
 
 .block1, .block2{
-	height: 10vh;
-	width: 20vh;
+	height: 8vh;
+	width: 16vh;
 }
 
 .block1{
-	border-top-left-radius: 10vh;
-	border-top-right-radius: 10vh;
+	border-top-left-radius: 8vh;
+	border-top-right-radius: 8vh;
 	background-color: red;
 }
 
 .block2{
-	border-bottom-left-radius: 10vh;
-	border-bottom-right-radius: 10vh;
+	border-bottom-left-radius: 8vh;
+	border-bottom-right-radius: 8vh;
 	display: flex;
 	justify-content: center;
 }
 
 .circle{
-	height: 5vh;
-	width: 5vh;
+	height: 4vh;
+	width: 4vh;
 	border-radius: 50%;
 	position: relative;
 	z-index: 99;
