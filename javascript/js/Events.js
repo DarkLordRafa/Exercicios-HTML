@@ -6,7 +6,7 @@ let pokemonImage = document.querySelector(".pokemon-area__image");
 let pokeballSound = document.querySelector("#pokeball-sound");
 let charmanderSound = document.querySelector("#charmander-sound");
 //Definir a variável fora dos blocos para ela poder ser acessada em qualquer lugar:
-var pokeDisplayed = true;
+var pokeDisplayed = false;
 
 function open_close(){
 //Checando se o elemento possui a classe e fazendo as alterações:
