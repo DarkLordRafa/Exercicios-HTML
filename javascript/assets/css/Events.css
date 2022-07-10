@@ -58,5 +58,5 @@ a{
 .pokemon-area__image{
 	height: 20vh;
 	opacity: 0;
-	transition: linear 2s;
+	transition: linear 3s;
 }
