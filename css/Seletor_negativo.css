@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	box-sizing:  border-box;
+	text-size-adjust: none;
+	}
+	
+a{
+	text-decoration: none;
+	}
+	
+div{
+	padding: 50px;
+	width: 30%;
+	border: 1px solid black;
+}
+
+body :not(.excluded){
+	background-color: red;
+}
+
+

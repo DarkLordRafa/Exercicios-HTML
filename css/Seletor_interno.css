@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	box-sizing:  border-box;
+	text-size-adjust: none;
+	}
+	
+a{
+	text-decoration: none;
+	}
+	
+/*Colocar dois pontos duas vezes seleciona o conteúdo interno do elemento:*/
+.first::first-letter{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.second::first-line{
+	font-weight: bold;
+	color: DarkBlue;
+	text-decoration: underline;
+}
