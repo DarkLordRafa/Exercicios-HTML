@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	box-sizing:  border-box;
+	text-size-adjust: none;
+	}
+	
+a{
+	text-decoration: none;
+	}
+	
+div:empty{
+	height: 5vh;
+	background-color: blue;
+}

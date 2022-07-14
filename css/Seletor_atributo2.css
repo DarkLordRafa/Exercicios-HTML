@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	box-sizing:  border-box;
+	text-size-adjust: none;
+	}
+	
+a{
+	text-decoration: none;
+	}
+	
+/*Selecionando atributo que possua algo específico no valor:*/
+a[href*="site"]{
+	background-color: red;
+}
+
+/*Selecionando atributo pelo começo do valor:*/
+a[href^="http:"]{
+	background-color: yellow;
+}
+
+/*Selecionando atributo pelo final do valor*/
+a[href$=".com"]{
+	border: 1px solid green;
+}

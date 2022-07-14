@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	box-sizing:  border-box;
+	text-size-adjust: none;
+	}
+	
+a{
+	text-decoration: none;
+	}
+	
+/*Selecionando pelo atributo:*/
+/*Apenas pelo atributo:*/
+[name]{
+	background-color: yellow;
+}
+
+/*Combinando tag e atributo para ser mais especifico:*/
+/*Valores não padrão precisam estar entre aspas*/
+input[name="password"]{
+	background-color: red;
+}
+
+a[href]{
+	color: blue;
+}
+
+a[href="https://google.com"]{
+	color: green;
+}
