@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	box-sizing:  border-box;
+	text-size-adjust: none;
+	}
+	
+a{
+	text-decoration: none;
+	}
+	
+body{
+	background-image: url("../imagens/windows.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+div{
+	position: absolute;
+	height: 70%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
