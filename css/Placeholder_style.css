@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	box-sizing:  border-box;
+	text-size-adjust: none;
+	}
+	
+a{
+	text-decoration: none;
+	}
+	
+input[type="text"]{
+	display: block;
+	margin: auto;
+	height: 10vw;
+	width: 70vw;
+	margin-top: 30vh;
+	font-size: 5vw;
+}
+
+input[type="text"]::placeholder{
+	color: DarkBlue;
+	font-style: italic;
+}
