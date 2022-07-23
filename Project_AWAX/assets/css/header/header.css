@@ -47,13 +47,12 @@ header{
 }
 
 .header__mobile-menu{
-	position: fixed;
-	top: 25vw;
+	position: absolute;
 	right: 0;
 	background-color: rgba(00, 00, 00, 0.8);
 	color: white;
 	width: 0%;
-	height: 90%;
+	height: 100%;
 	font-size: 4.5vw;
 	font-weight: bold;
 	padding-top: 5vw;
@@ -75,7 +74,6 @@ header{
 	color: orange;
 }
 
-#body{
-	height: 200vh;
-}
+
+
 

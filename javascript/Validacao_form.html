@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Validando formulário</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="assets/images/js_icon.png" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href=
+		"assets/css/Validacao_form.css">
+	</head>
+	<body>
+		
+		<div class="desktop-alert">
+			<h1>Por favor utilize um dispositivo com tela menor (Celular/Tablet)</h1>
+		</div>
+		
+		<div class="form-area">
+			<form method="POST" action="Login.html">
+				<h2>Login</h2>
+				<div class="top-error-area">
+					<span class="top-error-message">
+					</span>
+				</div>
+				<label for="email">
+					<h3>Email</h3>
+				</label>
+				<input class="input-email" name="email" id="email" placeholder="Insira seu email">
+				<div class="email-error-area">
+					<span class="email-error-message">
+					</span>
+				</div>
+				<label for="password">
+					<h3>Senha</h3>
+				</label>
+				<input class="input-password" name="password" id="password" placeholder="Insira sua senha">
+				<div class="password-error-area">
+					<span class="password-error-message">
+					</span>
+				</div>
+				<input class="input-submit" type="submit" value="Entrar">
+			</form>
+			<img src="assets/images/confirmed.png" class="confirmed-icon">
+		</div>
+	
+	<script src="js/Validacao_form.js"></script>
+	</body>
+</html>
