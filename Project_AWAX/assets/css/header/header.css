@@ -5,10 +5,18 @@ header{
 	padding-bottom: 5%;
 	height: 25vw;
 	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+.container{
+	max-width: 1440px;
+}
+
+.header__container{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	position: fixed;
 }
 
 .header__logo{
@@ -42,7 +50,7 @@ header{
 	position: fixed;
 	width: 0%;
 	right: 0;
-	height: 90%;
+	height: calc(100% - 25vw);
 	top: 25vw;
 }
 
@@ -72,6 +80,13 @@ header{
 
 .header__mobile-menu li:hover{
 	color: orange;
+}
+
+.banner{
+	width: 100%;
+	height: calc(100vh - 25vw);
+	background-color: grey;
+	margin-top: 25vw;
 }
 
 

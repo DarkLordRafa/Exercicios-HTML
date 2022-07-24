@@ -11,8 +11,11 @@ a{
 	text-decoration: none;
 	}
 	
-html, body{
-	height: 100%;
+html{
+	height: -webkit-fill-available;
+}
+	body{
+	min-height: 100%;
 	width: 100%;
 	font-family: Arial, Sans-Serif;
 }
