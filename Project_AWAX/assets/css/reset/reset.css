@@ -11,12 +11,7 @@ a{
 	text-decoration: none;
 	}
 	
-html{
-	height: -webkit-fill-available;
-}
-	body{
-	min-height: 100%;
-	width: 100%;
+body{
 	font-family: Arial, Sans-Serif;
 }
 	
