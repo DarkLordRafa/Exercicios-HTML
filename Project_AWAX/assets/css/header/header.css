@@ -79,15 +79,5 @@ header{
 }
 
 .header__mobile-menu li:hover{
-	color: orange;
+	color: #B28756;
 }
-
-.banner{
-	width: 100%;
-	height: calc(100vh - 25vw);
-	background-color: grey;
-	margin-top: 25vw;
-}
-
-
-

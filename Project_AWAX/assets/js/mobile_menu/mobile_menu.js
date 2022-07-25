@@ -25,3 +25,15 @@ function close(c){
 
 mobileMenuButton.addEventListener("click", open_close);
 mobileMenuArea.addEventListener("click", close);
+
+var margin = 0;
+
+function slide(){
+	if (margin == -200){
+		margin = 100;
+	}
+	margin += -100;
+	document.querySelector(".slider-area").style.marginLeft = margin+"vw";
+}
+
+setInterval(slide, 4000);
