@@ -6,13 +6,5 @@
 	box-sizing:  border-box;
 	text-size-adjust: none;
 	-webkit-tap-highlight-color: transparent;
+	scroll-behavior: smooth;
 	}
-	
-a{
-	text-decoration: none;
-	}
-	
-body{
-	font-family: "Montserrat", Arial, Sans-Serif;
-}
-	

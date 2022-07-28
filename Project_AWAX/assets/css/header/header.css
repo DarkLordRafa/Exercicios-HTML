@@ -7,10 +7,8 @@ header{
 	width: 100%;
 	position: fixed;
 	top: 0;
-}
-
-.container{
-	max-width: 1440px;
+	display: flex;
+	justify-content: center;
 }
 
 .header__container{
@@ -21,7 +19,7 @@ header{
 
 .header__logo{
 	height: 12vw;
-	margin-left: 10vw;
+	margin-left: 5vw;
 }
 
 .header__mobile-icons{
@@ -29,8 +27,12 @@ header{
 	align-items: center;
 }
 
-.header__mobile-icons img{
-	margin-right: 10vw;
+.mobile-tel-icon{
+	margin-right: 8vw;
+}
+
+.mobile-menu-icon{
+	margin-right: 3vw;
 }
 
 .mobile-tel-icon{
@@ -48,6 +50,7 @@ header{
 
 .mobile-menu-area{
 	position: fixed;
+	z-index: 98;
 	width: 0%;
 	right: 0;
 	height: calc(100% - 25vw);
@@ -65,7 +68,7 @@ header{
 	font-weight: bold;
 	padding-top: 5vw;
 	transition: ease-in-out 0.3s;
-	overflow: hidden;
+	z-index: 99;
 }
 
 .header__mobile-menu ul li{

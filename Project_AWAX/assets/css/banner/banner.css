@@ -9,21 +9,24 @@
 	background-position: center;
 }
 
+.desktop-tel-icon{
+	display: none;
+}
+
 .banner .slider-area{
 	height: 100%;
 	width: 300vw;
 	display: flex;
-	transition: ease 2s;
+	transition: ease 1.5s;
 }
 
 .slider-area__slide{
 	height: 100%;
 	width: 100vw;
-	display: inline-block;
+	padding-top: 20vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 	color: white;
 	text-transform: uppercase;
 	background-color: rgba(00, 00, 00, 0.7);
@@ -35,18 +38,46 @@
 
 .slider-area__slide h1{
 	font-size: 8vw;
+	margin-bottom: 3vw;
 }
 
 .slide__button{
 	padding: 2vw 5vw;
 	background-color: #B28756;
 	font-weight: bold;
-	margin-top: 3%;
 	border-radius: 100px;
 	color: white;
+	margin-top: 7vw;
+	font-size: 4.5vw;
 }
 
 .slide__button:hover{
 	background-color: #CC5500;
 }
 
+.slider-area__indicators{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	z-index: 1;
+	bottom: 15%;
+	width: 100%;
+}
+
+.indicators__indicator{
+	height: 4vw;
+	width: 4vw;
+	border: 2px solid #B28756;
+	border-radius: 50%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.baner h1, .banner h2, .banner h3{
+	margin: 0;
+}
+
+.banner h3{
+	color: white;
+	font-size: 5vw;
+}
