@@ -1,16 +1,13 @@
 
-.about-us__container{
-	margin: auto;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
 .about-us__content{
 	display: flex;
 	flex-direction: column;
 }
 
 .about-us__video{
-	
+	margin-top: 15vw;
+}
+
+.about-us__video iframe{
+	box-shadow: 0px 15px 12px -3px #A9A9A9;
 }
