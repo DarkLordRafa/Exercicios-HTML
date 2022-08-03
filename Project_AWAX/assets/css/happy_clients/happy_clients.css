@@ -1,6 +1,7 @@
 
 .happy-clients{
 	background-color: #EEE;
+	padding-bottom: 20vh;
 }
 
 .happy-clients .slider-background{
@@ -70,14 +71,24 @@
 	overflow: auto;
 }
 
+.happy-clients__companies::-webkit-scrollbar{
+	background-color: transparent;
+	border: 1px solid #B28756;
+	height: 2vw;
+	}
+
+.happy-clients__companies::-webkit-scrollbar-thumb{
+	background-color: #CC5500;
+	border-radius: 10px;
+	}
+
 .horizontal-menu{
 	position: relative;
-	background-color: red;
 }
 
 .horizontal-menu__gradient{
 	position: absolute;
-	width: 20vw;
+	width: 15vw;
 	height: 100%;
 	right: 0;
 	top: 0;
@@ -95,7 +106,7 @@
 }
 
 .companies-area img{
-	height: 15vw;
+	width: 25vw;
 	margin-left: 7vw;
 	margin-right: 7vw;
 }
