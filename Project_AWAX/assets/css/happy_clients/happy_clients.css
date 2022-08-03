@@ -1,0 +1,86 @@
+
+.happy-clients{
+	background-color: #EEE;
+}
+
+.happy-clients .slider-background{
+	height: 135vw;
+	background-color: transparent;
+}
+
+.happy-clients .slider-header{
+	margin-top: 0;
+}
+
+.happy-clients .slider-area{
+	width: 200vw;
+}
+
+.happy-clients .slider-area__slide{
+	justify-content: center;
+	color: black;
+	background-color: transparent;
+}
+
+.happy-clients .slider-indicators{
+	bottom: 5%;
+}
+
+.happy-clients h2{
+	color: black;
+}
+
+.slide__clients-content{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.slide__clients-content h4, .slide__clients-content h5{
+	text-transform: none;
+}
+
+.slide__clients-content h4{
+	font-size: 5vw;
+}
+
+.slide__clients-content h5{
+	font-size: 4vw;
+	font-weight: 600;
+	margin-bottom: 5vw;
+}
+
+.clients-content__client-img{
+	height: 35vw;
+	margin-top: 8vw;
+	margin-bottom: 5vw;
+}
+
+.clients-content__quote-icon{
+	height: 5vw;
+	margin-bottom: 3vw;
+}
+
+.happy-clients__companies{
+	display: flex;
+	height: 30vw;
+	background-color: white;
+	overflow: auto;
+}
+
+.companies-area{
+	display: flex;
+	flex-shrink: 0;
+	height: 100%;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+}
+
+.companies-area img{
+	height: 15vw;
+	margin-left: 7vw;
+	margin-right: 7vw;
+}

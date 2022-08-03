@@ -88,6 +88,13 @@ aos outros elementos.*/
 #b2{
 	align-self: flex-start;
 	}
+/*
+	A propriedade flex é uma shorthand.
+	Se colocar flex: 0, o elemento não será mais flexível, mas ainda terá efeitos como justify-content por exemplo.
+	A propriedade flex-shrink define o quanto o item vai encolher pra caber no container. Se colocar flex-shrink: 0, o item não encolherá.
+*/
+	
+
 	
 	
 
