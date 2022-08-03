@@ -244,9 +244,7 @@ header #desktop_header_menu{
 	
 footer{
 	background-color: #f3f4f4;
-	position: absolute;
 	margin-top: 65%;
-	bottom: 0;
 	}
 	
 footer span, footer a{
@@ -421,6 +419,12 @@ input[type="search"]{
 #available{
 	margin-top: 35px;
 	font-size: 16px;
+	}
+	
+footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
 	}
 
 #local{
