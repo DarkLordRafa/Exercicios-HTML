@@ -244,7 +244,9 @@ header #desktop_header_menu{
 	
 footer{
 	background-color: #f3f4f4;
+	position: absolute;
 	margin-top: 65%;
+	bottom: 0;
 	}
 	
 footer span, footer a{
