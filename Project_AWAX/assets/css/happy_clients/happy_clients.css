@@ -70,6 +70,21 @@
 	overflow: auto;
 }
 
+.horizontal-menu{
+	position: relative;
+	background-color: red;
+}
+
+.horizontal-menu__gradient{
+	position: absolute;
+	width: 20vw;
+	height: 100%;
+	right: 0;
+	top: 0;
+	background-image: linear-gradient(to left, white, transparent);
+	pointer-events: none;
+}
+
 .companies-area{
 	display: flex;
 	flex-shrink: 0;
