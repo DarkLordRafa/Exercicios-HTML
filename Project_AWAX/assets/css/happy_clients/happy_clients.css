@@ -1,11 +1,9 @@
 
 .happy-clients{
 	background-color: #EEE;
-	padding-bottom: 20vh;
 }
 
 .happy-clients .slider-background{
-	height: 135vw;
 	background-color: transparent;
 }
 
@@ -21,6 +19,8 @@
 	justify-content: center;
 	color: black;
 	background-color: transparent;
+	margin-top: 20vw;
+	margin-bottom: 7%;
 }
 
 .happy-clients .slider-indicators{
@@ -69,6 +69,7 @@
 	height: 30vw;
 	background-color: white;
 	overflow: auto;
+	border-top: 2px solid #D3D3D3;
 }
 
 .happy-clients__companies::-webkit-scrollbar{

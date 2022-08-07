@@ -1,0 +1,60 @@
+
+.prices{
+	background-color: #EEE;
+	padding-bottom: 10vw;
+}
+
+.prices__cards{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.prices__card{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10vw;
+	margin-bottom: 3vw;
+	width: 100%;
+}
+
+.prices .section-button{
+	background-color: black;
+	margin-top: 10vw;
+}
+
+.prices .section-button:hover{
+	background-color: #B28756;
+}
+
+.prices h4{
+	font-weight: 600;
+	font-size: 4.5vw;
+}
+
+.prices__price{
+	font-weight: 700;
+	font-size: 6vw;
+}
+
+.prices h5{
+	font-weight: 600;
+	color: #A9A9A9;
+	font-size: 3.5vw;
+	margin-bottom: 5vw;
+}
+
+.prices h6{
+	font-weight: 400;
+	font-size: 4vw;
+}
+
+.prices__line{
+	height: 1px;
+	width: 5%;
+	background-color: black;
+	margin-top: 1.5vw;
+	margin-bottom: 1vw;
+}

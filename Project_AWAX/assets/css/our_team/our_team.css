@@ -53,6 +53,10 @@
 	align-items: center;
 }
 
+.card-icons__icon:hover{
+	background-color: #B28756;
+}
+
 .card-icons__icon img{
 	width: 5vw;
 	height: 5vw;
