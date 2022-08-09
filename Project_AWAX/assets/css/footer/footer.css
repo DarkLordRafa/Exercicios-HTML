@@ -1,0 +1,154 @@
+
+.mobile-footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mobile-footer-map{
+	width: 100%;
+}
+
+.mobile-footer-map__info{
+	padding: 10vw 0;
+}
+
+.mobile-footer-map__info ul{
+	display: flex;
+	flex-direction: column;
+}
+
+.mobile-footer-map__info ul li:not(:last-child){
+	margin-bottom: 4vw;
+}
+
+.mobile-footer-map__info li{
+	display: flex;
+	text-align: left;
+	align-items: center;
+	flex-shrink: 0;
+}
+
+.mobile-footer-map__info p{
+	font-size: 4vw;
+}
+
+.mobile-footer-map__icon{
+	background-color: #A9A9A9;
+	border-radius: 50%;
+	width: 9vw;
+	height: 9vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 4vw;
+	flex-shrink: 0;
+}
+
+.mobile-footer-map__icon img{
+	height: 6vw;
+	width: 6vw;
+	object-fit: contain;
+}
+
+.mobile-footer-map__map{
+	width: 100%;
+	height: 60vw;
+}
+
+.mobile-footer__footer{
+	background-color: black;
+	color: white;
+	width: 100%;
+	position: relative;
+	padding-top: 4vw;
+	padding-bottom: 10vw;
+}
+
+.footer__top-icon{
+	position: absolute;
+	top: -3vw;
+	right: 7vw;
+	background-color: #B28756;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 9vw;
+	width: 9vw;
+}
+
+.footer__top-icon img{
+	height: 5vw;
+	width: 5vw;
+	object-fit: contain;
+}
+
+.mobile-footer__email-form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #353935;
+	width: 100%;
+	padding: 10vw 0;
+	margin-bottom: 10vw;
+}
+
+.mobile-footer__email-form input{
+	outline: none;
+	border: none;
+}
+
+.mobile-footer__email-form input[type="email"]{
+	background-color: transparent;
+	padding: 3vw 0;
+	margin-bottom: 8vw;
+	border-bottom: 1px solid white;
+	width: 60%;
+	font-size: 4vw;
+	color: white;
+}
+
+.mobile-footer__email-form input[type="email"]::placeholder{
+	color: #A9A9A9;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align: center;
+}
+
+.mobile-footer__email-form input[type="submit"]{
+	padding: 4vw 15vw;
+}
+
+.mobile-footer__footer-icons{
+	display: flex;
+	margin-bottom: 10vw;
+}
+
+.mobile-footer__footer-icons .card-icons__icons{
+	background-color: #353935;
+}
+
+.mobile-footer__footer-text{
+	text-align: left;
+	margin-bottom: 8vw;
+}
+
+.mobile-footer__Awax{
+	font-size: 4vw;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 2vw;
+}
+
+.mobile-footer strong{
+	font-size: 4vw;
+	font-weight: 600;
+	color: white;
+}
+
+.mobile-footer strong a{
+	display: inline-block;
+	color: gold;
+	text-decoration: underline;
+}
