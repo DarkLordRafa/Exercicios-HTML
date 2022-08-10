@@ -14,7 +14,7 @@
 }
 
 .banner .slider-area__slide{
-	padding-top: 20vh;
+	padding-top: 35vw;
 	color: white;
 	text-transform: uppercase;
 }
@@ -23,7 +23,25 @@
 	margin: 0;
 }
 
+.banner h2{
+	font-size: 6vw;
+}
+
 .banner h3{
 	color: white;
 	font-size: 5vw;
+}
+
+.banner__slide2{
+	padding-top: 20vw!important;
+}
+
+.banner__slide2 img{
+	height: 40vw;
+	border-radius: 50%;
+	margin-bottom: 10vw;
+}
+
+.banner__slide3 h2{
+	margin-bottom: 10vw;
 }
