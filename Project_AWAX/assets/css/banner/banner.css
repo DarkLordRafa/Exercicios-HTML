@@ -1,6 +1,6 @@
 
 .banner{
-	height: calc(100vh - 30vw);
+	height: calc(100vh - 25vw);
 	margin-top: 25vw;
 	background-image: url("../../images/common/bg.jpg");
 }
