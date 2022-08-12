@@ -141,14 +141,10 @@ header{
 
 @media (min-width: 1024px){
 header{
-	background-color: black;
-	padding-top: 5%;
-	padding-bottom: 5%;
-	height: 25vw;
-	width: 100%;
-	position: fixed;
-	z-index: 97;
-	top: 0;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	height: 12vw;
+	position: static;
 	display: flex;
 	justify-content: center;
 }
@@ -161,8 +157,8 @@ header{
 }
 
 .header__logo{
-	height: 12vw;
-	margin-left: 5vw;
+	height: 6vw;
+	margin-left: 2.5vw;
 }
 
 .header__mobile-icons{
