@@ -100,3 +100,52 @@
 	font-weight: 400;
 	font-size: 4.2vw;
 }
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 1023px){
+.premium .section-button{
+	margin-bottom: 10vw;
+}
+
+.premium .slider-indicators{
+	bottom: 4%;
+}
+
+.premium .slider-area__slide{
+	margin-top: 20vw;
+	margin-bottom: 5%;
+}
+
+.premium__box1 img{
+	height: 50vw;
+	width: 75%;
+	margin-bottom: 4vw;
+}
+
+.premium__box2{
+	width: 70%;
+}
+
+.premium__box2 img{
+	width: 7vw;
+	height: 7vw;
+	margin-left: -11vw;
+	margin-right: 3vw;
+}
+
+.premium__feature-line{
+	width: 2.5vw;
+	margin-right: 2.5vw;
+}
+
+.premium h4{
+	font-size: 4vw;
+}
+
+.premium h5{
+	font-size: 3.2vw;
+	}
+}

@@ -56,3 +56,44 @@
 	font-weight: 400;
 	color: black;
 }
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 1023px){
+.some-facts span{
+	font-size: 10vw;
+}
+
+.some-facts__line{
+	width: 4vw;
+	margin-bottom: 2vw;
+}
+
+.some-facts .container p:last-child{
+	margin-bottom: 8vw;
+}
+
+.some-facts .some-facts__social{
+	padding-top: 4vw;
+	padding-bottom: 5vw;
+}
+
+.some-facts__social-box{
+	margin-left: 1.5vw;
+	margin-right: 1.5vw;
+}
+
+.some-facts__social-box img{
+	height: 7vw;
+}
+
+.some-facts__social h3{
+	margin-bottom: 4vw;
+}
+
+.some-facts__social-box h5{
+	font-size: 3vw;
+	}
+}

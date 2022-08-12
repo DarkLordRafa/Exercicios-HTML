@@ -30,3 +30,24 @@
 .contact-us h3{
 	margin-bottom: 14vw;
 }
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 1023px){
+.contact-us{
+	padding-bottom: 8vw;
+}
+
+.contact-us input:not(:last-child){
+	padding-top: 1.5vw;
+	padding-bottom: 1.5vw;
+	margin-bottom: 8vw;
+	font-size: 3vw;
+}
+
+.contact-us h3{
+	margin-bottom: 10vw;
+	}
+}
