@@ -23,3 +23,20 @@
 	margin-top: 4vw;
 	margin-bottom: 2vw;
 }
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 1023px){
+.services__item{
+	width: 35%;
+}
+
+
+.services__item img{
+	height: 12vw;
+	margin-top: 3vw;
+	margin-bottom: 1vw;
+	}
+}
