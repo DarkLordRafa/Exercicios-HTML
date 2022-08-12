@@ -205,3 +205,66 @@ section p{
 	width: 3vw;
 	}
 }
+
+
+
+@media (min-width: 1024px){
+.container{
+	width: 80vw;
+	max-width: 1440px;
+}
+
+section:not(:first-child){
+	padding-top: 7vw;
+}
+
+section h2{
+	font-size: 3vw;
+	margin-bottom: 1.5vw;
+}
+
+section h3{
+	font-size: 2vw;
+	margin-bottom: 4vw;
+}
+
+section h4{
+	font-size: 2.5vw;
+	margin-bottom: 1vw;
+}
+
+section p{
+	margin-bottom: 2.5vw;
+	font-size: 2vw;
+}
+
+.section-button{
+	padding: 1vw 2.5vw;
+	font-size: 1.7vw;
+}
+
+.slider-header{
+	margin-top: 5vw;
+}
+
+.slider-area__slide h1{
+	font-size: 4vw;
+	margin-bottom: 1.5vw;
+}
+
+.slide__button{
+	padding: 1vw 2.5vw;
+	margin-top: 3.5vw;
+	font-size: 2.2vw;
+}
+
+.slider-indicators{
+	bottom: 7%;
+}
+
+.indicators__indicator{
+	height: 2vw;
+	width: 2vw;
+	border: 4px solid #B28756;
+	}
+}
