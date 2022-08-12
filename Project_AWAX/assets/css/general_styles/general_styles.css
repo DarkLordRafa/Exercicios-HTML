@@ -219,7 +219,7 @@ section:not(:first-child){
 
 section h2{
 	font-size: 3vw;
-	margin-bottom: 5vh;
+	margin-bottom: 2vh;
 }
 
 section h3{
@@ -238,7 +238,7 @@ section p{
 }
 
 .section-button{
-	padding: 5vh 8vh;
+	padding: 3vh 12vh;
 	font-size: 1.7vw;
 }
 
@@ -248,11 +248,11 @@ section p{
 
 .slider-area__slide h1{
 	font-size: 4vw;
-	margin-bottom: 3vh;
+	margin-bottom: 2vh;
 }
 
 .slide__button{
-	padding: 5vh 8vh;
+	padding: 3vh 12vh;
 	margin-top: 10vh;
 	font-size: 2.2vw;
 }
