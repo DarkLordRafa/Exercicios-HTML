@@ -166,8 +166,7 @@ header{
 }
 
 .header__mobile-icons{
-	display: flex;
-	align-items: center;
+	display: none;
 }
 
 .mobile-tel-icon{
