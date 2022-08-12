@@ -1,6 +1,6 @@
 
 .banner{
-	height: calc(100vh - 35vw);
+	height: calc(100vh - 30vw);
 	margin-top: 25vw;
 	background-image: url("../../images/common/bg.jpg");
 }
@@ -14,7 +14,9 @@
 }
 
 .banner .slider-area__slide{
-	padding-top: 35vw;
+	padding-bottom: 15%;
+	justify-content: center;
+	
 	color: white;
 	text-transform: uppercase;
 }
@@ -33,7 +35,7 @@
 }
 
 .banner__slide2{
-	padding-top: 20vw!important;
+	padding-bottom: 10%!important;
 }
 
 .banner__slide2 img{
@@ -44,4 +46,8 @@
 
 .banner__slide3 h2{
 	margin-bottom: 10vw;
+}
+
+.banner .slider-indicators{
+	bottom: 15%;
 }
