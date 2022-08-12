@@ -12,7 +12,7 @@ body{
 
 .container{
 	width: 90vw;
-	max-width: 1440px;
+	max-width: 1440px!important;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
@@ -211,7 +211,6 @@ section p{
 @media (min-width: 1024px){
 .container{
 	width: 80vw;
-	max-width: 1440px;
 }
 
 section:not(:first-child){

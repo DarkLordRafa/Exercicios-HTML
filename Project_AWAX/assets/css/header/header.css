@@ -136,3 +136,95 @@ header{
 	margin-left: 10vw;
 	}
 }
+
+
+
+@media (min-width: 1024px){
+header{
+	background-color: black;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	height: 25vw;
+	width: 100%;
+	position: fixed;
+	z-index: 97;
+	top: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.header__container{
+	display: flex;
+	flex-direction: row!important;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__logo{
+	height: 12vw;
+	margin-left: 5vw;
+}
+
+.header__mobile-icons{
+	display: flex;
+	align-items: center;
+}
+
+.mobile-tel-icon{
+	margin-right: 8vw;
+}
+
+.mobile-menu-icon{
+	margin-right: 3vw;
+}
+
+.mobile-tel-icon{
+	height: 13vw;
+}
+
+.mobile-menu-icon{
+	height: 8vw;
+}
+
+.header__desktop-menu{
+	display: none;
+	color: white;
+}
+
+.mobile-menu-area{
+	position: fixed;
+	z-index: 98;
+	width: 0%;
+	right: 0;
+	height: calc(100% - 25vw);
+	top: 25vw;
+}
+
+.header__mobile-menu{
+	position: absolute;
+	right: 0;
+	background-color: rgba(00, 00, 00, 0.8);
+	color: white;
+	width: 0%;
+	height: 120%;
+	font-size: 4.5vw;
+	font-weight: bold;
+	padding-top: 5vw;
+	transition: ease-in-out 0.3s;
+	z-index: 99;
+}
+
+.header__mobile-menu ul li{
+	padding-top: 3.5vw;
+	padding-bottom: 3.5vw;
+	padding-right: 10vw;
+	margin-left: 12vw;
+	white-space: nowrap;
+	color: white;
+	text-transform: uppercase;
+}
+
+.header__mobile-menu li:hover{
+	color: #B28756;
+}
+}
