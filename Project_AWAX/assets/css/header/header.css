@@ -170,7 +170,7 @@ header{
 }
 
 .header__desktop-menu{
-	display: flex;
+	display: flex!important;
 	color: white;
 }
 
