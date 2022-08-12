@@ -142,3 +142,63 @@ section p{
 .rounded{
 	border-radius: 50%;
 }
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 1023px){
+
+section:not(:first-child){
+	padding-top: 10vw;
+}
+
+section h2{
+	font-size: 5vw;
+	margin-bottom: 2vw;
+}
+
+section h3{
+	font-size: 3vw;
+	margin-bottom: 6vw;
+}
+
+section h4{
+	font-size: 3.5vw;
+	margin-bottom: 1vw;
+}
+
+section p{
+	margin-bottom: 3vw;
+	font-size: 3vw;
+}
+
+.section-button{
+	padding: 1vw 4vw;
+	font-size: 2.5vw;
+}
+
+.slider-header{
+	margin-top: 8vw;
+}
+
+.slider-area__slide h1{
+	font-size: 7vw;
+	margin-bottom: 2vw;
+}
+
+.slide__button{
+	margin-top: 5vw;
+	font-size: 3.5vw;
+}
+
+.slider-indicators{
+	bottom: 10%;
+	width: 100%;
+}
+
+.indicators__indicator{
+	height: 3vw;
+	width: 3vw;
+	}
+}
