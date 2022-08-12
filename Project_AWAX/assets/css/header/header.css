@@ -86,3 +86,53 @@ header{
 .header__mobile-menu li:hover{
 	color: #B28756;
 }
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 1023px){
+header{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	height: 20vw;
+}
+
+.header__logo{
+	height: 10vw;
+	margin-left: 3vw;
+}
+
+.mobile-tel-icon{
+	margin-right: 6vw;
+}
+
+.mobile-menu-icon{
+	margin-right: 2vw;
+}
+
+.mobile-tel-icon{
+	height: 10vw;
+}
+
+.mobile-menu-icon{
+	height: 7vw;
+}
+
+.mobile-menu-area{
+	height: calc(100% - 20vw);
+	top: 20vw;
+}
+
+.header__mobile-menu{
+	font-size: 3.5vw;
+	padding-top: 3vw;
+}
+
+.header__mobile-menu ul li{
+	padding-top: 2.5vw;
+	padding-bottom: 2.5vw;
+	padding-right: 8vw;
+	margin-left: 10vw;
+	}
+}
