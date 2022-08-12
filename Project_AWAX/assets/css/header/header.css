@@ -152,7 +152,7 @@ header{
 	display: flex;
 	flex-direction: row!important;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .header__desktop-menu a{
@@ -163,10 +163,11 @@ header{
 
 .header__desktop-menu ul{
 	display: flex;
+	align-items: center;
 }
 
 .header__desktop-menu ul li{
-	padding-bottom: 5vh;
+	padding-bottom: 1vh;
 	padding-left: 2vw;
 	padding-right: 2vw;
 	white-space: normal;
