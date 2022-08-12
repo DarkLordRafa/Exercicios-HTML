@@ -139,7 +139,7 @@ header{
 
 
 
-@media (min-width: 1024px){
+@media (min-width: 350px){
 header{
 	padding-top: 5vh;
 	height: 15vh;
@@ -172,7 +172,7 @@ header{
 	white-space: normal;
 	text-transform: uppercase;
 	border-bottom: 5px solid #B28756;
-	color: white;
+	color: blue;
 }
 
 .header__desktop-menu li:hover{
