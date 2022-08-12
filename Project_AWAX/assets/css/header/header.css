@@ -172,6 +172,7 @@ header{
 	white-space: normal;
 	text-transform: uppercase;
 	border-bottom: 5px solid #B28756;
+	color: white;
 }
 
 .header__desktop-menu li:hover{
