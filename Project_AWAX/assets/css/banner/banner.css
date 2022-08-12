@@ -15,8 +15,9 @@
 
 .banner .slider-area__slide{
 	padding-bottom: 15%;
+	padding-left: 5vw;
+	padding-right: 5vw;
 	justify-content: center;
-	
 	color: white;
 	text-transform: uppercase;
 }
