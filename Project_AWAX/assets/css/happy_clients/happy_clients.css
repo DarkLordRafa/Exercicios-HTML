@@ -113,3 +113,57 @@
 	margin-left: 7vw;
 	margin-right: 7vw;
 }
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 1023px){
+.happy-clients .slider-area__slide{
+	margin-top: 15vw;
+	margin-bottom: 5%;
+}
+
+.happy-clients .slider-indicators{
+	bottom: 4%;
+}
+
+.slide__clients-content h4{
+	font-size: 4vw;
+}
+
+.slide__clients-content h5{
+	font-size: 3vw;
+	margin-bottom: 4vw;
+}
+
+.clients-content__client-img{
+	height: 30vw;
+	width: 30vw;
+	margin-top: 6vw;
+	margin-bottom: 4vw;
+}
+
+.clients-content__quote-icon{
+	height: 4vw;
+	margin-bottom: 2vw;
+}
+
+.happy-clients__companies{
+	height: 25vw;
+}
+
+.happy-clients__companies::-webkit-scrollbar{
+	height: 1vw;
+	}
+
+.horizontal-menu__gradient{
+	width: 12vw;
+}
+
+.companies-area img{
+	width: 20vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	}
+}

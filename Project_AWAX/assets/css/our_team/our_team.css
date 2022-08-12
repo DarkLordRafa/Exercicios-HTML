@@ -78,3 +78,54 @@
 	margin-bottom: 10vw;
 	text-transform: none;
 }
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 1023px){
+.our-team .slider-background{
+	height: 120vw;
+}
+
+.our-team .slider-header{
+	margin-top: 4vw;
+}
+
+.our-team .slider-indicators{
+	bottom: 4%;
+}
+
+.slider__card{
+	padding-top: 8vw;
+	padding-bottom: 8vw;
+	margin-top: 12vw;
+}
+
+.card-img{
+	height: 35vw;
+	width: 35vw;
+	margin-bottom: 8vw;
+}
+
+.card-icons__icon{
+	width: 6vw;
+	height: 6vw;
+}
+
+.card-icons__icon img{
+	width: 4vw;
+	height: 4vw;
+	object-fit: cover;
+}
+
+.our-team h4{
+	font-size: 4vw;
+	margin-bottom: 1vw;
+}
+
+.our-team h5{
+	font-size: 3vw;
+	margin-bottom: 8vw;
+	}
+}

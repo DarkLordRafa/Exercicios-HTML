@@ -58,3 +58,43 @@
 	margin-top: 1.5vw;
 	margin-bottom: 1vw;
 }
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 1023px){
+.prices{
+	padding-bottom: 8vw;
+}
+
+.prices__card{
+	padding: 8vw;
+	margin-bottom: 2vw;
+}
+
+.prices .section-button{
+	margin-top: 8vw;
+}
+
+.prices h4{
+	font-size: 3.5vw;
+}
+
+.prices__price{
+	font-size: 5vw;
+}
+
+.prices h5{
+	font-size: 3vw;
+	margin-bottom: 4vw;
+}
+
+.prices h6{
+	font-size: 3.5vw;
+}
+
+.prices__line{
+	width: 4%;
+	}
+}
