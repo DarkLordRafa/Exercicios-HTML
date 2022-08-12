@@ -143,7 +143,7 @@ header{
 header{
 	padding-top: 2.5%;
 	padding-bottom: 2.5%;
-	height: 12vw;
+	height: 15vh;
 	position: static;
 	display: flex;
 	justify-content: center;
@@ -156,9 +156,13 @@ header{
 	justify-content: space-between;
 }
 
+.header__desktop-menu a{
+	margin: 0 5vh;
+}
+
 .header__logo{
-	height: 6vw;
-	margin-left: 2.5vw;
+	height: 7vh;
+	margin-left: 0;
 }
 
 .header__mobile-icons{

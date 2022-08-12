@@ -214,46 +214,46 @@ section p{
 }
 
 section:not(:first-child){
-	padding-top: 7vw;
+	padding-top: 10vh;
 }
 
 section h2{
 	font-size: 3vw;
-	margin-bottom: 1.5vw;
+	margin-bottom: 5vh;
 }
 
 section h3{
 	font-size: 2vw;
-	margin-bottom: 4vw;
+	margin-bottom: 8vh;
 }
 
 section h4{
 	font-size: 2.5vw;
-	margin-bottom: 1vw;
+	margin-bottom: 3vh;
 }
 
 section p{
-	margin-bottom: 2.5vw;
+	margin-bottom: 6vh;
 	font-size: 2vw;
 }
 
 .section-button{
-	padding: 1vw 2.5vw;
+	padding: 5vh 8vh;
 	font-size: 1.7vw;
 }
 
 .slider-header{
-	margin-top: 5vw;
+	margin-top: 10vh;
 }
 
 .slider-area__slide h1{
 	font-size: 4vw;
-	margin-bottom: 1.5vw;
+	margin-bottom: 3vh;
 }
 
 .slide__button{
-	padding: 1vw 2.5vw;
-	margin-top: 3.5vw;
+	padding: 5vh 8vh;
+	margin-top: 10vh;
 	font-size: 2.2vw;
 }
 
