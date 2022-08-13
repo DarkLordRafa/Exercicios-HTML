@@ -158,12 +158,12 @@ header{
 .header__desktop-menu a{
 	color: white;
 	font-weight: bold;
-	font-size: 2vw;
+	font-size: 1vw;
 	padding-bottom: 5vh;
-	padding-left: 0vw;
-	padding-right: 0vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
 	text-transform: uppercase;
-	border-bottom: 1px solid #B28756;
+	border-bottom: 5px solid #B28756;
 	color: white;
 }
 
@@ -176,7 +176,7 @@ header{
 	
 }
 
-.header__desktop-menu li:hover{
+.header__desktop-menu a:hover{
 	color: #B28756;
 }
 
