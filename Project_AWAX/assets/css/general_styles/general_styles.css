@@ -213,47 +213,47 @@ section p{
 }
 
 section:not(:first-child){
-	padding-top: 10vh;
+	padding-top: 8vh;
 }
 
 section h2{
-	font-size: 3vw;
-	margin-bottom: 2vh;
+	font-size: 2vw;
+	margin-bottom: 1vh;
 }
 
 section h3{
-	font-size: 2vw;
-	margin-bottom: 8vh;
+	font-size: 1vw;
+	margin-bottom: 6vh;
 }
 
 section h4{
-	font-size: 2.5vw;
-	margin-bottom: 3vh;
-}
-
-section p{
-	margin-bottom: 6vh;
-	font-size: 2vw;
-}
-
-.section-button{
-	padding: 2vh 10vh;
-	font-size: 1.7vw;
-}
-
-.slider-header{
-	margin-top: 10vh;
-}
-
-.slider-area__slide h1{
-	font-size: 4vw;
+	font-size: 1.5vw;
 	margin-bottom: 2vh;
 }
 
+section p{
+	margin-bottom: 5vh;
+	font-size: 1vw;
+}
+
+.section-button{
+	padding: 2vh 8vh;
+	font-size: 1vw;
+}
+
+.slider-header{
+	margin-top: 8vh;
+}
+
+.slider-area__slide h1{
+	font-size: 3vw;
+	margin-bottom: 1vh;
+}
+
 .slide__button{
-	padding: 2vh 10vh;
-	margin-top: 10vh;
-	font-size: 2.2vw;
+	padding: 2vh 8vh;
+	margin-top: 8vh;
+	font-size: 1vw;
 }
 
 .slider-indicators{
@@ -261,8 +261,8 @@ section p{
 }
 
 .indicators__indicator{
-	height: 2vw;
-	width: 2vw;
-	border: 4px solid #B28756;
+	height: 1vw;
+	width: 1vw;
+	border: 3px solid #B28756;
 	}
 }

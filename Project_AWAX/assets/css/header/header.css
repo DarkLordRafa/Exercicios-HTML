@@ -145,8 +145,7 @@ header{
 	padding-bottom: 0;
 	height: 15vh;
 	position: static;
-	display: flex;
-	justify-content: center;
+	align-items: center;
 }
 
 .header__container{
@@ -164,7 +163,7 @@ header{
 .header__desktop-menu a{
 	color: white;
 	font-weight: bold;
-	font-size: 0.8vw;
+	font-size: 1vw;
 	padding-bottom: 5vh;
 	padding-left: 0.7vw;
 	padding-right: 0.7vw;
