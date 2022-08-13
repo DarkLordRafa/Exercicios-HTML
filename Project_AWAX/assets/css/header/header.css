@@ -12,9 +12,9 @@ header{
 	justify-content: center;
 }
 
-.header__container{
+header .header__container{
 	display: flex;
-	flex-direction: row!important;
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	justify-content: space-between;
@@ -149,11 +149,8 @@ header{
 	align-items: center;
 }
 
-.header__container{
-	display: flex;
-	flex-direction: row!important;
+header .header__container{
 	align-items: center;
-	justify-content: space-between;
 }
 
 .header__desktop-menu{
@@ -185,6 +182,7 @@ header{
 .header__logo{
 	height: 7vh;
 	margin-left: 0;
+	margin-bottom: 5vh;
 }
 
 .header__mobile-icons{
