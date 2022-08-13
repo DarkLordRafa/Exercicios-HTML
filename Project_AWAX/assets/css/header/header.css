@@ -180,9 +180,8 @@ header .header__container{
 }
 
 .header__logo{
-	height: 7vh;
+	height: 6vh;
 	margin-left: 0;
-	margin-bottom: 5vh;
 }
 
 .header__mobile-icons{
