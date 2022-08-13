@@ -152,7 +152,7 @@ header{
 	display: flex;
 	flex-direction: row!important;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .header__desktop-menu a{
@@ -163,8 +163,7 @@ header{
 	padding-left: 1vw;
 	padding-right: 1vw;
 	text-transform: uppercase;
-	border-bottom: 5px solid #B28756;
-	color: white;
+	border-bottom: 3px solid transparent;
 }
 
 .header__desktop-menu ul{
@@ -178,6 +177,7 @@ header{
 
 .header__desktop-menu a:hover{
 	color: #B28756;
+	border-bottom: 3px solid #B28756;
 }
 
 .header__logo{
