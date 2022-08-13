@@ -166,7 +166,7 @@ header .header__container{
 	padding-left: 0.5vw;
 	padding-right: 0.5vw;
 	text-transform: uppercase;
-	border-bottom: 3px solid transparent;
+	border-bottom: 4px solid transparent;
 }
 
 .header__desktop-menu ul{
@@ -176,7 +176,7 @@ header .header__container{
 
 .header__desktop-menu a:hover{
 	color: #B28756;
-	border-bottom: 3px solid #B28756;
+	border-bottom: 4px solid #B28756;
 }
 
 .header__logo{
