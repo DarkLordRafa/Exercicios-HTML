@@ -182,7 +182,7 @@ header .header__container{
 .header__logo{
 	height: 6vh;
 	margin-left: 0;
-	padding-bottom: 5vh;
+	align-self: flex-start;
 }
 
 .header__mobile-icons{
