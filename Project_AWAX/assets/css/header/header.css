@@ -163,8 +163,8 @@ header .header__container{
 	font-weight: bold;
 	font-size: 1vw;
 	padding-bottom: 5vh;
-	padding-left: 0.6vw;
-	padding-right: 0.6vw;
+	padding-left: 0.5vw;
+	padding-right: 0.5vw;
 	text-transform: uppercase;
 	border-bottom: 3px solid transparent;
 }
