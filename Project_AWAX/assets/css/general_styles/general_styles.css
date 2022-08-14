@@ -237,7 +237,7 @@ section p{
 }
 
 .section-button{
-	padding: 2vh 8vh;
+	padding: 2vh 5vh;
 	font-size: 1vw;
 }
 
@@ -246,18 +246,18 @@ section p{
 }
 
 .slider-area__slide h1{
-	font-size: 3vw;
+	font-size: 6vw;
 	margin-bottom: 1vh;
 }
 
 .slide__button{
-	padding: 2vh 8vh;
-	margin-top: 8vh;
+	padding: 2vh 5vh;
+	margin-top: 5vh;
 	font-size: 1vw;
 }
 
 .slider-indicators{
-	bottom: 7%;
+	bottom: 4%;
 }
 
 .indicators__indicator{

@@ -115,11 +115,12 @@
 
 .banner h3{
 	color: white;
-	font-size: 2.5vw;
+	font-size: 1.5vw;
+	white-space: nowrap;
 }
 
-.banner__slide2{
-	padding-bottom: 10%!important;
+.banner .banner__slide2{
+	padding-bottom: 5%;
 }
 
 .banner__slide2 img{
