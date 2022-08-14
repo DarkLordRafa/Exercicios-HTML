@@ -66,7 +66,7 @@ section p{
 
 .slider-background{
 	background-color: grey;
-	overflow-x: hidden;
+	overflow: hidden;
 	background-size: cover;
 	background-position: center;
 	position: relative;
