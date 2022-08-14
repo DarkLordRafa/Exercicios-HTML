@@ -31,18 +31,12 @@ header .header__container{
 }
 
 .mobile-tel-icon{
+	height: 13vw;
 	margin-right: 8vw;
 }
 
 .mobile-menu-icon{
 	margin-right: 3vw;
-}
-
-.mobile-tel-icon{
-	height: 13vw;
-}
-
-.mobile-menu-icon{
 	height: 8vw;
 }
 
@@ -105,19 +99,13 @@ header{
 }
 
 .mobile-tel-icon{
+	height: 10vw;
 	margin-right: 6vw;
 }
 
 .mobile-menu-icon{
-	margin-right: 2vw;
-}
-
-.mobile-tel-icon{
-	height: 10vw;
-}
-
-.mobile-menu-icon{
 	height: 7vw;
+	margin-right: 2vw;
 }
 
 .mobile-menu-area{

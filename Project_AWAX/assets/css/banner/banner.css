@@ -3,6 +3,7 @@
 	height: calc(100vh - 25vw);
 	margin-top: 25vw;
 	background-image: url("../../images/common/bg.jpg");
+	position: relative;
 }
 
 .desktop-tel-icon{
@@ -134,5 +135,13 @@
 
 .banner .slider-indicators{
 	bottom: 10%;
+}
+	
+.desktop-tel-icon{
+	display: block;
+	position: absolute;
+	height: 5vh;
+	bottom: -2.5vh;
+	right: 10vw;
 	}
 }
