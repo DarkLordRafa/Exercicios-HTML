@@ -213,7 +213,7 @@ section p{
 }
 
 section:not(:first-child){
-	padding-top: 8vh;
+	padding-top: 5vh;
 }
 
 section h2{

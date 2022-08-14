@@ -38,12 +38,19 @@
 @media (min-width: 1024px){
 .about-us__content{
 	flex-direction: row;
+	margin-bottom: 8vh;
+}
+
+.about-us__text{
+	text-align: left;
+	padding-right: 2vw;
 }
 
 .about-us__video{
 	margin-top: 0;
 	margin-bottom: 0;
 	width: auto;
+	height: 40vh;
 }
 
 .about-us__video iframe{
