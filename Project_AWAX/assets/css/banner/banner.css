@@ -116,19 +116,19 @@
 .banner h3{
 	color: white;
 	font-size: 1.5vw;
-	white-space: nowrap;
+	display: flex;
 }
 
-.banner .banner__slide2{
+#banner__slide2{
 	padding-bottom: 5%;
 }
 
-.banner__slide2 img{
+#banner__slide2 img{
 	height: 30vh;
 	margin-bottom: 5vh;
 }
 
-.banner__slide3 h2{
+#banner__slide3 h2{
 	margin-bottom: 5vh;
 }
 
