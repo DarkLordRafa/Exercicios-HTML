@@ -6,7 +6,7 @@
 	position: relative;
 }
 
-.desktop-tel-icon{
+.desktop-tel-icon-area{
 	display: none;
 }
 
@@ -136,12 +136,16 @@
 .banner .slider-indicators{
 	bottom: 10%;
 }
+
+.desktop-tel-icon-area{
+	display: block;
+	position: relative;
+}
 	
 .desktop-tel-icon{
 	display: block;
 	position: absolute;
-	height: 5vh;
-	bottom: -2.5vh;
+	height: 8vh;
 	right: 5vw;
 	z-index: 95;
 	}
