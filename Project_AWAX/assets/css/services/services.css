@@ -40,3 +40,24 @@
 	margin-bottom: 1vw;
 	}
 }
+
+
+
+@media (min-width: 1024px){
+.services__content{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.services__item{
+	width: auto;
+}
+
+.services__item img{
+	height: 10vh;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+}
