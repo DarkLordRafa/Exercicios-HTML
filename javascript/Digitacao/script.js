@@ -60,7 +60,7 @@ function reset(){
 	timer = [0, 0 ,0 ,0];
 	timerRunning = false;
 	testArea.value = "";
-	theTimer.innerHTML = "00:00:00:";
+	theTimer.innerHTML = "00:00:00";
 	testWrapper.style.borderColor = "grey";
 }
 // Listeners de eventos para entrada de teclado e o botão de recomeçar:
