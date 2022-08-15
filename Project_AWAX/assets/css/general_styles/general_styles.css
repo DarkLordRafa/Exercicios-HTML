@@ -261,8 +261,8 @@ section p{
 }
 
 .indicators__indicator{
-	height: 1.5vw;
-	width: 1.5vw;
+	height: 2vh;
+	width: 2vh;
 	border: 3px solid #B28756;
 	}
 }

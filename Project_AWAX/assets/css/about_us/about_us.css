@@ -38,7 +38,7 @@
 @media (min-width: 1024px){
 .about-us__content{
 	flex-direction: row;
-	margin-bottom: 10vh;
+	margin-bottom: 5vh;
 }
 
 .about-us__text{
