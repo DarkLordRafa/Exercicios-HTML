@@ -45,7 +45,7 @@
 .services__content{
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	border: 1px solid white;
 }
@@ -58,6 +58,7 @@
 
 .services-item-header{
 	height: 20vh;
+	border: 1px solid green;
 }
 
 .services__item img{
