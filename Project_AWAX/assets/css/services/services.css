@@ -50,11 +50,11 @@
 }
 
 .services__item{
-	width: 12%;
-	margin: 0 6.5%;
+	width: 15%;
+	margin: 0 5%;
 }
 
 .services__item img{
-	height: 5vh;
+	height: 7vh;
 	}
 }
