@@ -12,6 +12,8 @@
 
 .services__item{
 	width: 40%;
+	margin-top: 4vw;
+	margin-bottom: 2vw;
 }
 
 .services__item p{
@@ -20,8 +22,6 @@
 
 .services__item img{
 	height: 15vw;
-	margin-top: 4vw;
-	margin-bottom: 2vw;
 }
 
 
@@ -31,13 +31,13 @@
 @media (min-width: 601px) and (max-width: 1023px){
 .services__item{
 	width: 35%;
+	margin-top: 4vw;
+	margin-bottom: 2vw;
 }
 
 
 .services__item img{
 	height: 12vw;
-	margin-top: 3vw;
-	margin-bottom: 1vw;
 	}
 }
 
@@ -48,16 +48,16 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: center;
 }
 
 .services__item{
 	width: auto;
+	margin: 0 10%;
 }
 
 .services__item img{
-	height: 10vh;
-	margin-top: 0;
-	margin-bottom: 0;
+	height: auto;
+	width: 10%;
 	}
 }
