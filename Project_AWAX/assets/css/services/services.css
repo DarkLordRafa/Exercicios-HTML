@@ -13,7 +13,6 @@
 .services__item{
 	width: 40%;
 	margin-top: 4vw;
-	margin-bottom: 2vw;
 }
 
 .services__item p{
@@ -22,6 +21,7 @@
 
 .services__item img{
 	height: 15vw;
+	margin-bottom: 2vw;
 }
 
 
@@ -31,8 +31,6 @@
 @media (min-width: 601px) and (max-width: 1023px){
 .services__item{
 	width: 35%;
-	margin-top: 4vw;
-	margin-bottom: 2vw;
 }
 
 
@@ -52,12 +50,12 @@
 }
 
 .services__item{
-	width: auto;
-	margin: 0 10%;
+	width: 15%;
+	margin: 0 5%;
 }
 
 .services__item img{
 	height: auto;
-	width: 10%;
+	width: 70%;
 	}
 }
