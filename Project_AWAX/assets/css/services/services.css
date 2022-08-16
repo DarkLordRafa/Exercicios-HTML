@@ -51,10 +51,13 @@
 
 .services__item{
 	width: 15%;
+	height: 20vh;
 	margin: 0 5%;
 }
 
 .services__item img{
 	height: 7vh;
+	width: 7vh;
+	object-fit: cover;
 	}
 }
