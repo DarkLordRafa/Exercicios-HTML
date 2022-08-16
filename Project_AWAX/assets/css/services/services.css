@@ -47,17 +47,20 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	border: 1px solid white;
 }
 
 .services__item{
 	width: 15%;
 	height: 20vh;
 	margin: 0 5%;
+	border: 1px solid white;
 }
 
 .services__item img{
 	height: 7vh;
 	width: 7vh;
 	object-fit: cover;
+	border: 1px solid white;
 	}
 }
