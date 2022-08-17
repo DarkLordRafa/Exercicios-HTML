@@ -6,6 +6,11 @@ var maxMarginSliderArea2 = -500;
 if (screen.width > 1023){
 	maxMarginSliderArea2 = -100;
 }
+else {
+	console.log("T");
+}
+
+console.log(screen.width);
 var slideNumberSliderArea2 = 0;
 
 sliderIndicators2[slideNumberSliderArea2].style.backgroundColor = "#B28756";
