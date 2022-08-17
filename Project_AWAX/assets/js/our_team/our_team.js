@@ -3,6 +3,9 @@ const sliderArea2 = document.querySelector(".our-team .slider-area");
 const sliderIndicators2 = document.querySelectorAll(".our-team .indicators__indicator");
 var marginSliderArea2 = 0;
 var maxMarginSliderArea2 = -500;
+if (screen.width > 1023){
+	maxMarginSliderArea2 = -100;
+}
 var slideNumberSliderArea2 = 0;
 
 sliderIndicators2[slideNumberSliderArea2].style.backgroundColor = "#B28756";
