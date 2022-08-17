@@ -167,11 +167,11 @@
 	justify-content: center;
 	padding-top: 15vw;
 	padding-bottom: 3.5%;
-	width: 33%;
+	width: 30%;
 }
 
 .slider__card{
-	width: 80%;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
