@@ -3,7 +3,7 @@
 	width: 90vw;
 	margin: 0 auto;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	padding-top: 15vw;
 	padding-bottom: 3.5%;
 }
