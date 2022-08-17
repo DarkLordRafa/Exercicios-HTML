@@ -1,6 +1,5 @@
 
 .our-team .slider-background{
-	height: 150vw;
 	background-image: url("../../images/common/city.jpg");
 }
 
@@ -18,6 +17,8 @@
 
 .our-team .slider-area__slide{
 	justify-content: center;
+	margin-top: 20vw;
+	margin-bottom: 7%;
 }
 
 .slider__card{
@@ -128,4 +129,10 @@
 	font-size: 3vw;
 	margin-bottom: 8vw;
 	}
+}
+
+
+
+@media (min-width: 1024px){
+	
 }
