@@ -17,8 +17,8 @@
 
 .our-team .slider-area__slide{
 	justify-content: center;
-	margin-top: 20vw;
-	margin-bottom: 7%;
+	padding-top: 15vw;
+	padding-bottom: 3.5%;
 }
 
 .slider__card{
@@ -85,9 +85,6 @@
 
 
 @media (min-width: 601px) and (max-width: 1023px){
-.our-team .slider-background{
-	height: 120vw;
-}
 
 .our-team .slider-header{
 	margin-top: 4vw;
@@ -95,6 +92,11 @@
 
 .our-team .slider-indicators{
 	bottom: 4%;
+}
+
+.our-team .slider-area__slide{
+	padding-top: 12vw;
+	padding-bottom: 3%;
 }
 
 .slider__card{
