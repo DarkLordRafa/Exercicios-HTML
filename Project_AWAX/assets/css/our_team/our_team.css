@@ -150,7 +150,9 @@
 
 @media (min-width: 1024px){
 .our-team__container{
-	width: 70vw;
+	width: 100vw;
+	padding-left: 15vw;
+	padding-right: 15vw;
 }
 	
 .our-team .slider-header{
