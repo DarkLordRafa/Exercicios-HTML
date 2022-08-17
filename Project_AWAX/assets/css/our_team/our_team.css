@@ -1,10 +1,20 @@
 
+.our-team__container{
+	width: 90vw;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	padding-top: 15vw;
+	padding-bottom: 3.5%;
+}
+
 .our-team .slider-background{
 	background-image: url("../../images/common/city.jpg");
 }
 
 .our-team .slider-area{
 	width: 600vw;
+	background-color: rgba(00, 00, 00, 0.7);
 }
 
 .our-team .slider-header{
@@ -17,8 +27,8 @@
 
 .our-team .slider-area__slide{
 	justify-content: center;
-	padding-top: 15vw;
-	padding-bottom: 3.5%;
+	flex-shrink: 0;
+	background-color: transparent;
 }
 
 .slider__card{
@@ -85,6 +95,9 @@
 
 
 @media (min-width: 601px) and (max-width: 1023px){
+.our-team__container{
+	width: 80vw;
+}
 
 .our-team .slider-header{
 	margin-top: 4vw;
@@ -136,6 +149,10 @@
 
 
 @media (min-width: 1024px){
+.our-team__container{
+	width: 70vw;
+}
+	
 .our-team .slider-header{
 	margin-top: 5vw;
 }
@@ -148,7 +165,7 @@
 	justify-content: center;
 	padding-top: 15vw;
 	padding-bottom: 3.5%;
-	width: 32vw;
+	width: 33%;
 }
 
 .slider__card{
