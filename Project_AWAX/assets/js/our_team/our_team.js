@@ -5,12 +5,17 @@ var marginSliderArea2 = 0;
 var maxMarginSliderArea2;
 if (screen.width > 1023){
 	maxMarginSliderArea2 = -100;
+//Removendo o excesso de indicadores do slider:
+	sliderIndicators2.forEach(function(indicator, index){
+		if (index > 1){
+			indicator.parentElement.removeChild(indicator);
+		}
+	});
 }
 else {
 	maxMarginSliderArea2 = -500;
 }
 
-console.log(screen.width);
 var slideNumberSliderArea2 = 0;
 
 sliderIndicators2[slideNumberSliderArea2].style.backgroundColor = "#B28756";
