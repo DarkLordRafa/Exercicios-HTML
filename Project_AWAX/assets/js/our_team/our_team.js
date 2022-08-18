@@ -2,11 +2,12 @@
 const sliderArea2 = document.querySelector(".our-team .slider-area");
 const sliderIndicators2 = document.querySelectorAll(".our-team .indicators__indicator");
 var marginSliderArea2 = 0;
+var maxMarginSliderArea2;
 if (screen.width > 1023){
-	var maxMarginSliderArea2 = -100;
+	maxMarginSliderArea2 = -100;
 }
 else {
-	var maxMarginSliderArea2 = -500;
+	maxMarginSliderArea2 = -500;
 }
 
 console.log(screen.width);
