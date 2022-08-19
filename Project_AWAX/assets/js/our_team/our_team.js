@@ -12,7 +12,7 @@ mobileSliderIndicators2[0].style.backgroundColor = "#B28756";
 desktopSliderIndicators2[0].style.backgroundColor = "#B28756";
 
 function checkWidth(){
-	if (window.innerWidth >= 400){
+	if (window.innerWidth >= 1024){
 	maxMarginSliderArea2 = -100;
 	sliderIndicators2 = document.querySelectorAll(".our-team__desktop-indicators .indicators__indicator");
 }
@@ -41,10 +41,9 @@ function slider2(){
 }
 
 checkWidth();
-//setInterval(checkWidth, 100);
-window.addEventListener("resize", checkWidth);
+setInterval(checkWidth, 10);
 window.addEventListener("resize", function(){
-	if (window.innerWidth >= 400){
+	if (window.innerWidth >= 1024){
 		slideNumberSliderArea2 = 0;
 	}
 });
