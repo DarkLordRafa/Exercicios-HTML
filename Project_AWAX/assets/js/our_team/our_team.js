@@ -38,4 +38,3 @@ function slider2(){
 }
 
 setInterval(slider2, 4000);
-
