@@ -3,7 +3,7 @@ const sliderArea2 = document.querySelector(".our-team .slider-area");
 const sliderIndicators2 = document.querySelectorAll(".our-team .indicators__indicator");
 var marginSliderArea2 = 0;
 var maxMarginSliderArea2;
-if (screen.width > 1023){
+if (screen.width >= 1024){
 	maxMarginSliderArea2 = -100;
 //Removendo o excesso de indicadores do slider:
 	sliderIndicators2.forEach(function(indicator, index){
