@@ -99,7 +99,8 @@
 @media (min-width: 601px) and (max-width: 1023px){
 .our-team__container{
 	padding-top: 10vw;
-	padding-bottom: 3%;
+	padding-bottom: 2%;
+	border: 1px solid white;
 }
 
 .our-team .slider-header{
@@ -119,6 +120,7 @@
 	padding-top: 8vw;
 	padding-bottom: 8vw;
 	margin-top: 12vw;
+	border: 1px solid white;
 }
 
 .card-img{
