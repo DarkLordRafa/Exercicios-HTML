@@ -162,25 +162,26 @@
 	padding-top: 10vh;
 	padding-bottom: 10vh;
 	margin-top: 0;
+	width: 100%;
 }
 
 .card-img{
-	height: 30vh;
-	width: 30vh;
+	height: 20vh;
+	width: 20vh;
 	object-fit: cover;
-	margin-bottom: 15vh;
+	margin-bottom: 5vh;
 }
 
 .card-icons__icon{
-	width: 5vh;
-	height: 5vh;
-	margin-left: 2vh;
-	margin-right: 2vh;
+	width: 3vh;
+	height: 3vh;
+	margin-left: 1vh;
+	margin-right: 1vh;
 }
 
 .card-icons__icon img{
-	width: 3.5vh;
-	height: 3.5;
+	width: 2vh;
+	height: 2vh;
 }
 
 .our-team h4{
