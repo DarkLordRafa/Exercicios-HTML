@@ -1,6 +1,6 @@
 
 const sliderArea2 = document.querySelector(".our-team .slider-area");
-const sliderIndicators2 = document.querySelectorAll(".our-team .indicators__indicator");
+var sliderIndicators2;
 const mobileSliderIndicators2 = document.querySelectorAll(".our-team__mobile-indicators .indicators__indicator");
 const desktopSliderIndicators2 = document.querySelectorAll(".our-team__desktop-indicators .indicators__indicator");
 var marginSliderArea2 = 0;
@@ -8,20 +8,22 @@ var maxMarginSliderArea2;
 var slideNumberSliderArea2 = 0;
 var maxSlideNumberSlideArea2;
 
-sliderIndicators2[slideNumberSliderArea2].style.backgroundColor = "#B28756";
+mobileSliderIndicators2[0].style.backgroundColor = "#B28756";
+desktopSliderIndicators2[0].style.backgroundColor = "#B28756";
 
 function checkWidth(){
 	if (window.innerWidth >= 400){
 	maxMarginSliderArea2 = -100;
-	desktopSliderIndicators2[slideNumberSliderArea2].style.backgroundColor = "#B28756";
+	sliderIndicators2 = document.querySelectorAll(".our-team__desktop-indicators .indicators__indicator");
 }
 	else {
 	maxMarginSliderArea2 = -500;
-	mobileSliderIndicators2[slideNumberSliderArea2].style.backgroundColor = "#B28756";
+	sliderIndicators2 = document.querySelectorAll(".our-team__mobile-indicators .indicators__indicator");
 	}
 }
 
 function slider2(){
+	console.log(slideNumberSliderArea2);
 	if (marginSliderArea2 == maxMarginSliderArea2){
 		marginSliderArea2 = 0;
 		slideNumberSliderArea2 = 0;
@@ -35,8 +37,15 @@ function slider2(){
 	}
 	);
 	sliderArea2.style.marginLeft = marginSliderArea2+"vw";
+	sliderIndicators2[slideNumberSliderArea2].style.backgroundColor = "#B28756";
 }
 
 checkWidth();
-setInterval(checkWidth, 100);
+//setInterval(checkWidth, 100);
+window.addEventListener("resize", checkWidth);
+window.addEventListener("resize", function(){
+	if (window.innerWidth >= 400){
+		slideNumberSliderArea2 = 0;
+	}
+});
 setInterval(slider2, 4000);
