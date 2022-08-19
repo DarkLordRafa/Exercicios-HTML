@@ -3,22 +3,24 @@ const sliderArea2 = document.querySelector(".our-team .slider-area");
 const sliderIndicators2 = document.querySelectorAll(".our-team .indicators__indicator");
 var marginSliderArea2 = 0;
 var maxMarginSliderArea2;
-if (window.innerWidth >= 1024){
-	maxMarginSliderArea2 = -100;
-//Removendo o excesso de indicadores do slider:
-	sliderIndicators2.forEach(function(indicator, index){
-		if (index > 1){
-			indicator.parentElement.removeChild(indicator);
-		}
-	});
-}
-else {
-	maxMarginSliderArea2 = -500;
-}
-
 var slideNumberSliderArea2 = 0;
 
 sliderIndicators2[slideNumberSliderArea2].style.backgroundColor = "#B28756";
+
+function checkWidth(){
+if (window.innerWidth >= 1024){
+	maxMarginSliderArea2 = -100;
+//Removendo o excesso de indicadores do slider:
+sliderIndicators2.forEach(function(indicator, index){
+	if (index > 1){
+		indicator.parentElement.removeChild(indicator);
+	}
+});
+}
+	else {
+	maxMarginSliderArea2 = -500;
+	}
+}
 
 function slider2(){
 	if (marginSliderArea2 == maxMarginSliderArea2){
@@ -37,4 +39,6 @@ function slider2(){
 	sliderArea2.style.marginLeft = marginSliderArea2+"vw";
 }
 
+checkWidth();
+window.innerWidth.addEventListener("change", checkWidth);
 setInterval(slider2, 4000);
