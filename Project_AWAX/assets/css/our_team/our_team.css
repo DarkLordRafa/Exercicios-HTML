@@ -142,7 +142,7 @@
 	padding-right: 15vw;
 	display: flex;
 	justify-content: space-between;
-	padding-top: 13vh;
+	padding-top: 20vh;
 	padding-bottom: 3.5%;
 }
 	
@@ -155,12 +155,12 @@
 }
 
 .our-team .slider-area__slide{
-	width: 30%;
+	width: 31.5%;
 }
 
 .slider__card{
-	padding-top: 10vh;
-	padding-bottom: 10vh;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 	margin-top: 0;
 	width: 100%;
 }
@@ -191,6 +191,6 @@
 
 .our-team h5{
 	font-size: 1.4vw;
-	margin-bottom: 5vh;
+	margin-bottom: 4.5vh;
 	}
 }
