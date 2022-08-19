@@ -97,6 +97,11 @@
 
 
 @media (min-width: 601px) and (max-width: 1023px){
+.our-team__container{
+	padding-top: 10vw;
+	padding-bottom: 3%;
+}
+
 .our-team .slider-header{
 	margin-top: 4vw;
 }
