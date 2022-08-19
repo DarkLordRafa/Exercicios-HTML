@@ -1,11 +1,4 @@
 
-.our-team__container{
-	display: flex;
-	justify-content: space-between;
-	padding-top: 15vw;
-	padding-bottom: 3.5%;
-}
-
 .our-team .slider-background{
 	background-image: url("../../images/common/city.jpg");
 }
@@ -147,6 +140,10 @@
 	width: 100vw;
 	padding-left: 15vw;
 	padding-right: 15vw;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 13vh;
+	padding-bottom: 3.5%;
 }
 	
 .our-team .slider-header{
@@ -158,9 +155,6 @@
 }
 
 .our-team .slider-area__slide{
-	justify-content: center;
-	padding-top: 13vh;
-	padding-bottom: 4%;
 	width: 30%;
 }
 
