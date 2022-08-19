@@ -7,7 +7,6 @@ var slideNumberSliderArea2 = 0;
 
 sliderIndicators2[slideNumberSliderArea2].style.backgroundColor = "#B28756";
 
-function checkWidth(){
 if (window.innerWidth >= 1024){
 	maxMarginSliderArea2 = -100;
 //Removendo o excesso de indicadores do slider:
@@ -20,7 +19,6 @@ sliderIndicators2.forEach(function(indicator, index){
 	else {
 	maxMarginSliderArea2 = -500;
 	}
-}
 
 function slider2(){
 	if (marginSliderArea2 == maxMarginSliderArea2){
@@ -39,6 +37,4 @@ function slider2(){
 	sliderArea2.style.marginLeft = marginSliderArea2+"vw";
 }
 
-checkWidth();
-window.addEventListener("resize", checkWidth);
 setInterval(slider2, 4000);
