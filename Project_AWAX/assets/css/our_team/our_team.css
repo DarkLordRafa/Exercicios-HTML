@@ -23,6 +23,10 @@
 	bottom: 5%;
 }
 
+.our-team__desktop-indicators{
+	display: none;
+}
+
 .our-team .slider-area__slide{
 	justify-content: center;
 	flex-shrink: 0;
@@ -142,7 +146,7 @@
 
 
 
-@media (min-width: 1024px){
+@media (min-width: 400px){
 .our-team__container{
 	width: 100vw;
 	padding-left: 15vw;
@@ -151,6 +155,14 @@
 	justify-content: space-between;
 	padding-top: 20vh;
 	padding-bottom: 3.5%;
+}
+
+.our-team__mobile-indicators{
+	display: none;
+}
+
+.our-team__desktop-indicators{
+	display: flex;
 }
 	
 .our-team .slider-header{
