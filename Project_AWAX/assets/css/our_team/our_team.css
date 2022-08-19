@@ -1,4 +1,11 @@
 
+.our-team__container{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 15vw;
+	padding-bottom: 3.5%;
+}
+
 .our-team .slider-background{
 	background-image: url("../../images/common/city.jpg");
 }

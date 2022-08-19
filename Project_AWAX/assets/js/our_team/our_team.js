@@ -40,5 +40,5 @@ function slider2(){
 }
 
 checkWidth();
-window.innerWidth.addEventListener("change", checkWidth);
+window.addEventListener("resize", checkWidth);
 setInterval(slider2, 4000);
