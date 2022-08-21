@@ -167,3 +167,69 @@
 	margin-right: 5vw;
 	}
 }
+
+
+
+@media (min-width: 1024px){
+.happy-clients .slider-area__slide{
+	justify-content: center;
+	color: black;
+	background-color: transparent;
+	margin-top: 20vh;
+	margin-bottom: 3.5%;
+}
+
+.slide__clients-content{
+	width: 70vw;
+}
+
+.slide__clients-content h4{
+	font-size: 1.6vw;
+}
+
+.slide__clients-content h5{
+	font-size: 1.4vw;
+	margin-bottom: 5vh;
+}
+
+.clients-content__client-img{
+	height: 18vh;
+	width: 18vh;
+	margin-top: 10vh;
+	margin-bottom: 5vh;
+}
+
+.clients-content__quote-icon{
+	height: 4vh;
+	margin-bottom: 2vh;
+}
+
+.happy-clients__companies{
+	height: 20vh;
+	overflow: visible;
+	border-top: 2px solid #D3D3D3;
+}
+
+.happy-clients__companies::-webkit-scrollbar{
+	background-color: transparent;
+	border: 1px solid #B28756;
+	height: 2vh;
+	}
+
+
+.horizontal-menu__gradient{
+	position: absolute;
+	width: 10vw;
+}
+
+.companies-area{
+	height: 100%;
+	width: auto;
+}
+
+.companies-area img{
+	width: 7vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	}
+}

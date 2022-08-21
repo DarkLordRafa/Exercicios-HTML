@@ -210,7 +210,7 @@ section p{
 
 @media (min-width: 1024px){
 .container{
-	width: 70vw;
+	width: 50%;
 }
 
 section:not(:first-child){
