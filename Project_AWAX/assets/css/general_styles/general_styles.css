@@ -229,7 +229,7 @@ section h3{
 
 section h4{
 	font-size: 1.3vw;
-	margin-bottom: 2vh;
+	margin-bottom: 1vh;
 }
 
 section p{
@@ -262,8 +262,10 @@ section p{
 }
 
 .indicators__indicator{
-	height: 2vh;
-	width: 2vh;
+	height: 1.8vh;
+	width: 1.8vh;
 	border: 2px solid #B28756;
+	margin-left: 1vh;
+	margin-right: 1vh;
 	}
 }
