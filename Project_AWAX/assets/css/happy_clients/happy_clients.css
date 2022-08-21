@@ -172,7 +172,7 @@
 
 @media (min-width: 1024px){
 .happy-clients .slider-area__slide{
-	margin-top: 5vh;
+	margin-top: 4vh;
 	margin-bottom: 1.2%;
 }
 
@@ -182,7 +182,7 @@
 
 .slide__clients-content h4{
 	font-size: 2vw;
-	margin-bottom: 0.8vh;
+	margin-bottom: 0.5vh;
 }
 
 .slide__clients-content h5{
