@@ -195,10 +195,10 @@
 }
 
 .card-icons__icon{
-	width: 4vh;
-	height: 4vh;
-	margin-left: 0.5vh;
-	margin-right: 0.5vh;
+	width: 3vh;
+	height: 3vh;
+	margin-left: 0.4vh;
+	margin-right: 0.4vh;
 }
 
 .card-icons__icon img{
@@ -208,6 +208,7 @@
 
 .our-team h4{
 	font-size: 1.5vw;
+	margin-bottom: 1vh;
 }
 
 .our-team h5{
