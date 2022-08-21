@@ -172,8 +172,8 @@
 
 @media (min-width: 1024px){
 .happy-clients .slider-area__slide{
-	padding-top: 3vh;
-	padding-bottom: 1.2%;
+	margin-top: 3vh;
+	margin-bottom: 1.2%;
 }
 
 .slide__clients-content{
