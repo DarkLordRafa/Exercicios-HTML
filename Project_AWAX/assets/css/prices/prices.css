@@ -132,7 +132,7 @@
 
 .prices h5{
 	font-size: 1.2vw;
-	margin-bottom: 5vh;
+	margin-bottom: 3vh;
 }
 
 .prices h6{
@@ -141,8 +141,8 @@
 
 .prices__line{
 	height: 1px;
-	width: 20%;
-	margin-top: 0.5vh;
-	margin-bottom: 0.5vh;
+	width: 10%;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
 	}
 }
