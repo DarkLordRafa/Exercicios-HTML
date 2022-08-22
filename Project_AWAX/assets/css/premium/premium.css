@@ -240,7 +240,7 @@
 	margin-bottom: 4vh;
 }
 	
-.premium .premium__box2 p:first-child{
+.premium__box2 p:nth-of-type(1){
 	margin-bottom: 1vh;
 	}
 }
