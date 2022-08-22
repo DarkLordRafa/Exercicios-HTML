@@ -205,15 +205,15 @@
 }
 
 .premium__box2 img{
-	width: 5vh;
-	height: 5vh;
+	width: 3vh;
+	height: 3vh;
 	object-fit: contain;
-	margin-left: -8vh;
+	margin-left: -6vh;
 }
 
 .premium__feature-heading{
 	display: flex;
-	align-items: center;
+	margin-bottom: 0.5vh;
 }
 
 .premium__feature-headings{
@@ -234,6 +234,9 @@
 
 .premium h5{
 	font-size: 1.2vw;
-	margin-bottom: 0.5vh;
+	}
+	
+.premium__box2 p:first-child{
+	margin-bottom: 1vh;
 	}
 }
