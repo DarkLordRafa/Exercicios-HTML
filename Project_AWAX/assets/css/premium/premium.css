@@ -236,6 +236,10 @@
 	font-size: 1.2vw;
 	}
 	
+.premium__box2 p{
+	margin-bottom: 4vh;
+}
+	
 .premium__box2 p:first-child{
 	margin-bottom: 1vh;
 	}
