@@ -113,13 +113,13 @@
 }
 
 .prices__card{
-	padding: 10vh;
+	padding: 5vh;
 	margin-bottom: 0;
-	width: 20%;
+	width: 30%;
 }
 
 .prices .section-button{
-	margin-top: 5vh;
+	margin-top: 3vh;
 }
 
 .prices h4{
@@ -132,7 +132,7 @@
 
 .prices h5{
 	font-size: 1.2vw;
-	margin-bottom: 10vh;
+	margin-bottom: 5vh;
 }
 
 .prices h6{
@@ -141,8 +141,8 @@
 
 .prices__line{
 	height: 1px;
-	width: 10%;
-	margin-top: 2vh;
-	margin-bottom: 2vh;
+	width: 20%;
+	margin-top: 0.5vh;
+	margin-bottom: 0.5vh;
 	}
 }
