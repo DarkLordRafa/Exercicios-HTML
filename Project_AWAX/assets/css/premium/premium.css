@@ -208,7 +208,7 @@
 	width: 4vh;
 	height: 4vh;
 	object-fit: contain;
-	margin-left: -7vh;
+	margin-left: -8vh;
 }
 
 .premium__feature-heading{
@@ -241,6 +241,6 @@
 }
 	
 .premium__box2 p:nth-of-type(1){
-	margin-bottom: 1vh;
+	margin-bottom: 2vh;
 	}
 }
