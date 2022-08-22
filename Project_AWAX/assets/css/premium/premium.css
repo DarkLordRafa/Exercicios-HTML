@@ -205,10 +205,10 @@
 }
 
 .premium__box2 img{
-	width: 3vh;
-	height: 3vh;
+	width: 4vh;
+	height: 4vh;
 	object-fit: contain;
-	margin-left: -8vh;
+	margin-left: -7vh;
 }
 
 .premium__feature-heading{
@@ -240,7 +240,7 @@
 	margin-bottom: 4vh;
 }
 	
-.premium__box2 p:first-child{
+.premium .premium__box2 p:first-child{
 	margin-bottom: 1vh;
 	}
 }
