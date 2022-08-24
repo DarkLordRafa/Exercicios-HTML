@@ -1,0 +1,21 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	box-sizing:  border-box;
+	text-size-adjust: none;
+	-webkit-tap-highlight-color: transparent;
+	scroll-behavior: smooth;
+	}
+
+#users__registered-users{
+	height: 40vw;
+	overflow-y: auto;
+}
+
+#users__registered-users li{
+	border: 1px solid black;
+	padding: 2vw;
+	margin: 4vw;
+}
