@@ -114,14 +114,12 @@
 
 
 @media (min-width: 1024px){
-.some-facts{
-	padding-bottom: 7vh;
-}
 
 .some-facts__content{
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-start;
+	margin-bottom: 7vh;
 }
 
 .some-facts__box{
