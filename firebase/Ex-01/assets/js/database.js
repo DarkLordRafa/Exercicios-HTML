@@ -4,6 +4,14 @@ var colorImput = document.querySelector("#color");
 var submitButton = document.querySelector("#submit");
 var registeredUsers = document.querySelector("#users__registered-users");
 
+function scrollToBottom(){
+	registeredUsers.scrollTop = registeredUsers.scrollHeight;
+}
+window.addEventListener("load", function(){
+	setTimeout(scrollToBottom, 1000);
+});
+
+
 submitButton.addEventListener("click", function(){
 		if (nameImput.value != "" || colorImput.value != ""){
 		create(nameImput.value, colorImput.value);
