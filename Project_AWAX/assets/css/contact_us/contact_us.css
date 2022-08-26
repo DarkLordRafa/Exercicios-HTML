@@ -4,7 +4,7 @@
 	padding-bottom: 10vw;
 }
 
-.contact-us input:not(:last-child){
+.contact-us input:not(:last-child), .contact-us input[type="email"]{
 	padding-top: 2vw;
 	padding-bottom: 2vw;
 	border: 0;
@@ -16,7 +16,7 @@
 	background-color: transparent;
 }
 
-.contact-us input::placeholder{
+.contact-us input::placeholder, .contact-us input[type="email"]{
 	color: #A9A9A9;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -50,4 +50,37 @@
 .contact-us h3{
 	margin-bottom: 10vw;
 	}
+}
+
+
+
+@media (min-width: 1024px){
+.contact-us{
+	padding-bottom: 7vh;
+}
+
+.contact-us input:not(:last-child), .contact-us input[type="email"]{
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	border: 0;
+	outline: none;
+	border-bottom: 2px solid #A9A9A9;
+	width: 100%;
+	margin-bottom: 10vw;
+	font-size: 4vw;
+	background-color: transparent;
+}
+
+.contact-us .user-area{
+	display: flex;
+}
+
+.contact-us .section-button{
+	border: 0;
+	outline: none;
+}
+
+.contact-us h3{
+	margin-bottom: 14vw;
+}
 }
