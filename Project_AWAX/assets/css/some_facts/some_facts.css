@@ -157,6 +157,11 @@
 	align-items: center;
 }
 
+.some-facts__share-icon{
+	display: block;
+	height: 3.5vh;
+}
+
 .some-facts__social-box{
 	margin-left: 2vh;
 	margin-right: 2vh;
