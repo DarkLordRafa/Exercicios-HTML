@@ -59,20 +59,30 @@
 	padding-bottom: 7vh;
 }
 
+.contact-us form{
+	width: 40vw;
+}
+
 .contact-us input:not(:last-child), .contact-us input[type="email"]{
-	padding-top: 2vw;
-	padding-bottom: 2vw;
-	border: 0;
-	outline: none;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
 	border-bottom: 2px solid #A9A9A9;
-	width: 100%;
-	margin-bottom: 10vw;
-	font-size: 4vw;
-	background-color: transparent;
+	margin-bottom: 0;
+	font-size: 1vw;
+}
+
+.contact-us input[name="subject"]{
+	margin-bottom: 5vh;
 }
 
 .contact-us .user-area{
 	display: flex;
+}
+
+.contact-us .user-area input{
+	width: 45%;
+	justify-content: space-between;
+	margin-bottom: 2vh;
 }
 
 .contact-us .section-button{
