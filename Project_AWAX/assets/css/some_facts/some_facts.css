@@ -153,6 +153,7 @@
 .some-facts__social .container{
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 	align-items: center;
 }
 
