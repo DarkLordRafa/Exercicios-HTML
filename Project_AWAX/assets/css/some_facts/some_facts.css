@@ -150,17 +150,22 @@
 	border-bottom: 2px solid #D3D3D3;
 }
 
+.some-facts__social .container{
+	display: flex;
+	align-items: center;
+}
+
 .some-facts__social-box{
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 2vh;
+	margin-right: 2vh;
 	display: flex;
 	align-items: center;
 }
 
 .some-facts__social-box img{
-	height: 3vh;
+	height: 4vh;
 	margin-bottom: 0;
-	margin-right: 1vh;
+	margin-right: 0.5vh;
 }
 
 .some-facts__social h3{
