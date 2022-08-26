@@ -243,6 +243,10 @@
 
 
 @media (min-width: 1024px){
+.mobile-footer{
+	display: none;
+}
+	
 .desktop-footer{
 	display: flex;
 	flex-direction: column;
@@ -252,6 +256,7 @@
 .desktop-footer-map{
 	height: 40vh;
 	width: 100%;
+	position: relative;
 }
 
 .desktop-footer-map__info{
