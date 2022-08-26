@@ -254,7 +254,7 @@
 	}
 	
 .desktop-footer-map{
-	height: 40vh;
+	height: 60vh;
 	width: 100%;
 	position: relative;
 }
@@ -263,6 +263,7 @@
 	padding: 5vh 3vh;
 	position: absolute;
 	margin-left: 15vw;
+	background-color: white;
 }
 
 .desktop-footer-map__info ul{
