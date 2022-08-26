@@ -76,7 +76,7 @@
 }
 
 .contact-us input[name="message"]{
-	margin-bottom: 4vh;
+	margin-bottom: 6vh;
 }
 
 .contact-us .user-area{
@@ -86,10 +86,10 @@
 
 .contact-us .user-area input{
 	width: 45%;
-	margin-bottom: 2vh;
+	margin-bottom: 4vh;
 }
 
 .contact-us h3{
-	margin-bottom: 20vh;
+	margin-bottom: 15vh;
 	}
 }
