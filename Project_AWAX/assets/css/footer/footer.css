@@ -351,27 +351,31 @@
 .desktop-footer__box{
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 }
 
 .desktop-footer__box1{
 	justify-content: space-between;
 	min-height: 25vh;
 	text-align: left;
-	width: 30%;
+	width: 35%;
 }
 
 .desktop-footer__box2{
-	width: 20%;
+	width: 25%;
 }
 
 .desktop-footer__box3{
-	width: 40%;
+	width: 35%;
 }
 
 .desktop-footer__footer-icons{
 	display: flex;
 	margin-bottom: 0;
+}
+
+.desktop-footer__footer-icons .card-icons__icon{
+	background-color: #3c3c3c;
 }
 
 .desktop-footer__Awax{
