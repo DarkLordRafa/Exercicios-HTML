@@ -317,21 +317,23 @@
 	color: white;
 	width: 100%;
 	position: relative;
-	padding-top: 4vw;
-	padding-bottom: 10vw;
+	padding-top: 5vh;
+	padding-bottom: 7vh;
+	display: flex;
+	align-items: flex-start;
 }
 
 .footer__top-icon{
 	position: absolute;
-	top: -3vw;
-	right: 7vw;
+	top: 2.5vh;
+	right: 8vw;
 	background-color: #B28756;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 9vw;
-	width: 9vw;
+	height: 5vh;
+	width: 5vh;
 }
 
 .footer__top-icon img{
@@ -340,14 +342,54 @@
 	object-fit: contain;
 }
 
+.desktop-footer__box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.desktop-footer__box1{
+	justify-content: space-between;
+}
+
+.desktop-footer__footer-icons{
+	display: flex;
+	margin-bottom: 0;
+}
+
+.desktop-footer__footer-icons .card-icons__icons{
+	background-color: #353935;
+}
+
+.desktop-footer__Awax{
+	font-size: 1vw;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.desktop-footer strong{
+	font-size: 1vw;
+	font-weight: 600;
+	color: white;
+}
+
+.desktop-footer strong a{
+	display: inline-block;
+	color: gold;
+	text-decoration: underline;
+	}
+	
+.desktop-footer__footer-text{
+	text-align: left;
+}
+
 .desktop-footer__email-form{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	background-color: #353935;
 	width: 100%;
-	padding: 10vw 0;
-	margin-bottom: 10vw;
+	padding: 8vh 2vh;
 }
 
 .desktop-footer__email-form input{
@@ -357,11 +399,11 @@
 
 .desktop-footer__email-form input[type="email"]{
 	background-color: transparent;
-	padding: 3vw 0;
-	margin-bottom: 8vw;
-	border-bottom: 1px solid white;
-	width: 60%;
-	font-size: 4vw;
+	padding: 2vh 0;
+	margin-bottom: 4vh;
+	border-bottom: 2px solid white;
+	width: 70%;
+	font-size: 1vw;
 	color: white;
 }
 
@@ -373,39 +415,6 @@
 }
 
 .desktop-footer__email-form input[type="submit"]{
-	padding: 4vw 15vw;
-}
-
-.desktop-footer__footer-icons{
-	display: flex;
-	margin-bottom: 10vw;
-}
-
-.desktop-footer__footer-icons .card-icons__icons{
-	background-color: #353935;
-}
-
-.desktop-footer__footer-text{
-	text-align: left;
-	margin-bottom: 8vw;
-}
-
-.desktop-footer__Awax{
-	font-size: 4vw;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin-bottom: 2vw;
-}
-
-.desktop-footer strong{
-	font-size: 4vw;
-	font-weight: 600;
-	color: white;
-}
-
-.desktop-footer strong a{
-	display: inline-block;
-	color: gold;
-	text-decoration: underline;
+	padding: 2vh 5vh;
 	}
 }
