@@ -45,6 +45,7 @@
 .about-us__text{
 	text-align: left;
 	padding-right: 2vw;
+	width: calc(100% - 50vh);
 }
 
 .about-us__video{
