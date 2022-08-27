@@ -263,9 +263,9 @@
 }
 
 .desktop-footer-map__info{
-	padding: 5vh 3vh;
+	padding: 5vh 4vh;
 	position: absolute;
-	margin-left: 15vw;
+	margin-right: 15vw;
 	background-color: white;
 }
 
@@ -290,8 +290,8 @@
 }
 
 .desktop-footer-map__icon{
-	width: 5.5vh;
-	height: 5.5vh;
+	width: 4.5vh;
+	height: 4.5vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -302,8 +302,8 @@
 }
 
 .desktop-footer-map__icon img{
-	height: 4vh;
-	width: 4vh;
+	height: 3vh;
+	width: 3vh;
 	object-fit: contain;
 }
 
