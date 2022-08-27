@@ -319,6 +319,9 @@
 	position: relative;
 	padding-top: 5vh;
 	padding-bottom: 7vh;
+}
+
+.desktop-footer__footer .container{
 	display: flex;
 	align-items: flex-start;
 }
@@ -337,8 +340,8 @@
 }
 
 .footer__top-icon img{
-	height: 5vw;
-	width: 5vw;
+	height: 3.5vh;
+	width: 3.5vh;
 	object-fit: contain;
 }
 
