@@ -254,7 +254,7 @@
 	}
 	
 .desktop-footer-map{
-	height: 60vh;
+	height: 50vh;
 	width: 100%;
 	position: relative;
 	display: flex;
@@ -297,6 +297,7 @@
 	align-items: center;
 	margin-right: 2vh;
 	flex-shrink: 0;
+	border: 2px solid black;
 }
 
 .desktop-footer-map__icon img{
