@@ -265,7 +265,7 @@
 .desktop-footer-map__info{
 	padding: 5vh 4vh;
 	position: absolute;
-	right: 15vw;
+	right: 5vw;
 	background-color: white;
 }
 
@@ -302,8 +302,8 @@
 }
 
 .desktop-footer-map__icon img{
-	height: 2vh;
-	width: 2vh;
+	height: 2.5vh;
+	width: 2.5vh;
 	object-fit: contain;
 }
 
