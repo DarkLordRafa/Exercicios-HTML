@@ -257,6 +257,9 @@
 	height: 60vh;
 	width: 100%;
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .desktop-footer-map__info{
