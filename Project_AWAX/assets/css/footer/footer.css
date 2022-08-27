@@ -330,20 +330,20 @@
 
 .footer__top-icon{
 	position: absolute;
-	top: -3vh;
+	top: -4vh;
 	left: 6vw;
 	background-color: #B28756;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 6vh;
-	width: 6vh;
+	height: 8vh;
+	width: 8vh;
 }
 
 .footer__top-icon img{
-	height: 3.5vh;
-	width: 3.5vh;
+	height: 5vh;
+	width: 5vh;
 	object-fit: contain;
 }
 
@@ -351,12 +351,12 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 0 5vh;
+	margin: 0 2vh;
 }
 
 .desktop-footer__box1{
 	justify-content: space-between;
-	height: 100%;
+	min-height: 40vh;
 }
 
 .desktop-footer__footer-icons{
@@ -393,7 +393,7 @@
 	align-items: center;
 	background-color: #353935;
 	width: 100%;
-	padding: 8vh 2vh;
+	padding: 5vh 2vh;
 }
 
 .desktop-footer__email-form input{
@@ -404,9 +404,9 @@
 .desktop-footer__email-form input[type="email"]{
 	background-color: transparent;
 	padding: 2vh 0;
-	margin-bottom: 4vh;
-	border-bottom: 2px solid white;
-	width: 70%;
+	margin-bottom: 3vh;
+	border-bottom: 1px solid white;
+	width: 80%;
 	font-size: 1vw;
 	color: white;
 }
@@ -419,6 +419,6 @@
 }
 
 .desktop-footer__email-form input[type="submit"]{
-	padding: 2vh 8vh;
+	padding: 2vh 7vh;
 	}
 }
