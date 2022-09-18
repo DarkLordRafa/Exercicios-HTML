@@ -16,7 +16,7 @@ div{
 	border: 1px solid black;
 }
 
-/*O seletor nth seleciona um elemento específico:*/
+/*O seletor nth seleciona um elemento específico de acordo com sua posição em um grupo de elementos de um bloco pai, levando em conta todos os outros elementos:*/
 div:nth-child(4){
 	background-color: blue;
 }
@@ -26,3 +26,6 @@ div:nth-child(4){
 div:nth-last-child(1){
 	background-color: green;
 }
+
+/*O seletor nth-child não diferencia os tipos (tags) dos elementos dentro do pai, sendo assim ele passa por cada elemento independente da tag.
+	já o seletor nth-of-type, considera apenas os elementos do mesmo tipo especificado no css, e aplica a lógica apenas neles.*/
