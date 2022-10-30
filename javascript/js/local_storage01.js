@@ -81,6 +81,8 @@ function loadUser(){
 		savedUser = JSON.parse(window.localStorage.getItem("user_key"));
 		displayUserData();
 		formInputs.classList.add("d-none");
+		saveButton.classList.add("d-none");
+		editButton.classList.remove("d-none");
 		alert("Usuário carregado com sucesso 🙂");
 		console.log(savedUser.userNameProp);
 		}
